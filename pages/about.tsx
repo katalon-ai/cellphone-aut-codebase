@@ -1,4 +1,4 @@
-import {GetServerSideProps} from 'next';
+import {GetStaticProps} from 'next';
 import {apiClient} from '../lib/api';
 import {makeAllMenus} from '../lib/menu';
 import {IMenuItem} from '../@types/components';
@@ -19,7 +19,7 @@ export default function ShippingPage({mainMenu, footerMenu}: IPageProps) {
 	);
 }
 
-export const getServerSideProps: GetServerSideProps<IPageProps> = async () => {
+export const getStaticProps: GetStaticProps<IPageProps> = async () => {
 	const categoryTree = await apiClient.catalog.getCategoryTree({menu: 'category'});
 
 	const menus = makeAllMenus({categoryTree});

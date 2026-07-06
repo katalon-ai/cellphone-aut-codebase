@@ -62,15 +62,15 @@ export default function CheckoutPage() {
 				if (button) {
 					// @ts-ignore
 					const handleClick = (event: Event) => {
-						// @ts-ignore
-						const { TrueTest } = globalThis;
+						/*
+						const {TrueTest} = globalThis;
 						const isTrueTestAvailable = !!TrueTest?.setSessionAttributes;
 						if (isTrueTestAvailable) {
-							// @ts-ignore
 							TrueTest.setSessionAttributes({
 								complete_checkout: 'TRUE',
 							});
 						}
+						*/
 					};
 					button.addEventListener('click', handleClick);
 
@@ -97,10 +97,10 @@ export default function CheckoutPage() {
 		<>
 			<Head>
 				<meta name='robots' content='noindex' />
-				<script
-					// @ts-ignore
-					src='https://static.staging.katalon.com/libs/traffic-agent/v1/truetest-sdk.min.js'>
-				</script>
+				{/* TrueTest snippet disabled for this deployment.
+					<script src='https://static.staging.katalon.com/libs/traffic-agent/v1/truetest-sdk.min.js'>
+					</script>
+				*/}
 			</Head>
 			<div>
 				<div ref={checkoutRef}></div>
