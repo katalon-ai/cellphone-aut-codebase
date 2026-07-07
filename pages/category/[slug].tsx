@@ -52,6 +52,32 @@ export default function CategoryPage({data}: InferGetStaticPropsType<typeof getS
 		setProductsQuery(data.productsQuery);
 	}, [data]);
 
+	useEffect(() => {
+		if (!router.isReady) {
+			return;
+		}
+
+		const query = qs.parse(router.asPath.split('?')[1] || '') as TQuery;
+		const filteredQuery = filterProductsQuery(query);
+		if (areQueriesEqual(filteredQuery, productsQuery)) {
+			return;
+		}
+
+		let isCancelled = false;
+		fetchCollection(category.category_id, filteredQuery).then(({collection, filteredQuery}) => {
+			if (isCancelled) {
+				return;
+			}
+
+			setCollection(collection);
+			setProductsQuery(filteredQuery);
+		});
+
+		return () => {
+			isCancelled = true;
+		};
+	}, [router.isReady, router.asPath, category.category_id]); //eslint-disable-line
+
 	const breadcrumbItems = useMemo(() =>
 		makeBreadCrumbsFromCats(category.parents!, ({category_id}) => ({isActive: category_id === category.category_id}))
 		, [category.parents, category.category_id]);
@@ -211,6 +237,11 @@ const changeUrl = (router: NextRouter, query: TQuery) => {
 	const baseUrl = router.asPath.split('?')[0];
 	router.push(`${baseUrl}?${createGetStr(query)}`, undefined, {shallow: true}); //shallow to skip SSR of the page
 };
+
+const areQueriesEqual = (left: TQuery, right: TQuery) =>
+	qs.stringify(left, {sort: alphabeticalSort}) === qs.stringify(right, {sort: alphabeticalSort});
+
+const alphabeticalSort = (a: string, b: string) => a.localeCompare(b);
 
 interface ICategoryPageProps {
 	data: ICategoryPageData;
