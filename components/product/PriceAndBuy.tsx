@@ -10,6 +10,7 @@ import {faMinus} from '@fortawesome/free-solid-svg-icons/faMinus';
 import {faCartPlus} from '@fortawesome/free-solid-svg-icons/faCartPlus';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import useFormatCurrency from '../../hooks/useFormatCurrency';
+import {setTrueTestSessionAttributes} from '../../lib/truetest';
 
 export default function ProductPriceAndBuy({product, selectedVariant, setError, onAddedToCart}: IPriceAndBuyProps) {
 	const dispatch = useAppDispatch();
@@ -41,15 +42,9 @@ export default function ProductPriceAndBuy({product, selectedVariant, setError, 
 
 	const onBuyBtnClicked = (e: MouseEvent<HTMLButtonElement>) => {
 		e.preventDefault();
-		/*
-		const {TrueTest} = globalThis;
-		const isTrueTestAvailable = !!TrueTest?.setSessionAttributes;
-		if (isTrueTestAvailable) {
-			TrueTest.setSessionAttributes({
-				add_to_cart: 'TRUE',
-			});
-		}
-		*/
+		setTrueTestSessionAttributes({
+			add_to_cart: 'TRUE',
+		});
 
 		if (product.has_variants && !selectedVariant) {
 			setError('Please, choose a variant.');

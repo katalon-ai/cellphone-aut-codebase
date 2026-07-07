@@ -14,6 +14,7 @@ import NoImage from '../NoImage';
 import {productImgRatio} from '../../lib/imgs';
 import {TThumbRatio} from 'boundless-api-client';
 import {findSellingPrice} from '../../lib/product';
+import {setTrueTestSessionAttributes} from '../../lib/truetest';
 
 export default function ProductItem({product, query, categoryId, className}: IProductItemProps) {
 	const params = {...query};
@@ -62,15 +63,9 @@ export default function ProductItem({product, query, categoryId, className}: IPr
 function Product2Cart({product}: {product: IProduct}) {
 	const dispatch = useAppDispatch();
 	const onAddToCart = () => {
-		/*
-		const {TrueTest} = globalThis;
-		const isTrueTestAvailable = !!TrueTest?.setSessionAttributes;
-		if (isTrueTestAvailable) {
-			TrueTest.setSessionAttributes({
-				add_to_cart: 'TRUE',
-			});
-		}
-		*/
+		setTrueTestSessionAttributes({
+			add_to_cart: 'TRUE',
+		});
 		dispatch(addItem2Cart(product.item_id, 1));
 	};
 

@@ -8,6 +8,7 @@ import logoImg from '../../assets/logo.png';
 import Head from 'next/head';
 import {useCallback, useEffect, useRef} from 'react';
 import {createGetStr} from 'boundless-api-client/utils';
+import {setTrueTestSessionAttributes} from '../../lib/truetest';
 
 export default function CheckoutPage() {
 	const {id: cartId, cartInited} = useCart();
@@ -60,17 +61,10 @@ export default function CheckoutPage() {
 					(btn) => btn.textContent.trim().startsWith('Complete order')
 				);
 				if (button) {
-					// @ts-ignore
-					const handleClick = (event: Event) => {
-						/*
-						const {TrueTest} = globalThis;
-						const isTrueTestAvailable = !!TrueTest?.setSessionAttributes;
-						if (isTrueTestAvailable) {
-							TrueTest.setSessionAttributes({
-								complete_checkout: 'TRUE',
-							});
-						}
-						*/
+					const handleClick = () => {
+						setTrueTestSessionAttributes({
+							complete_checkout: 'TRUE',
+						});
 					};
 					button.addEventListener('click', handleClick);
 
@@ -97,10 +91,6 @@ export default function CheckoutPage() {
 		<>
 			<Head>
 				<meta name='robots' content='noindex' />
-				{/* TrueTest snippet disabled for this deployment.
-					<script src='https://static.staging.katalon.com/libs/traffic-agent/v1/truetest-sdk.min.js'>
-					</script>
-				*/}
 			</Head>
 			<div>
 				<div ref={checkoutRef}></div>
