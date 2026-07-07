@@ -83,10 +83,6 @@ export default function CheckoutPage() {
 		return () => observer.disconnect();
 	}, []);
 
-	if (cartInited !== TCartInited.yes) {
-		return <Loader />;
-	}
-
 	return (
 		<>
 			<Head>
@@ -98,8 +94,9 @@ export default function CheckoutPage() {
 					src='https://static.staging.katalon.com/libs/traffic-agent/v1/traffic-agent.min.js'>
 				</script>
 			</Head>
+			{cartInited !== TCartInited.yes ? <Loader /> : null}
 			<div>
-				<div ref={checkoutRef}></div>
+				{cartInited === TCartInited.yes ? <div ref={checkoutRef}></div> : null}
 			</div>
 		</>
 	);
