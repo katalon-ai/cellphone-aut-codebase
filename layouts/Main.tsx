@@ -55,16 +55,12 @@ export default function MainLayout({children, title, metaData, mainMenu, footerM
 
 				<link rel='preconnect' href={process.env.BOUNDLESS_API_BASE_URL || 'https://api.boundless-commerce.com'} crossOrigin={'use-credentials'} />
 				{noIndex && <meta name='robots' content='noindex' />}
-				{/* TrueTest snippet disabled for this deployment.
-					<script
-						defer
-						async
-						src='https://static.staging.katalon.com/libs/traffic-agent/v1/traffic-agent.min.js?t=2'
-						client-code='KA-1940145-025'>
-					</script>
-					<script src='https://static.staging.katalon.com/libs/traffic-agent/v1/truetest-sdk.js'>
-					</script>
-				*/}
+				<script
+					defer
+					async
+					client-code='KA-1941846-067'
+					src='https://static.staging.katalon.com/libs/traffic-agent/v1/traffic-agent.min.js'>
+				</script>
 			</Head>
 			<AlertWidget />
 			<div className={clsx('page-layout page-layout_main mars-full-theme', {'page-layout_aside-opened': asideIsOpened})}>

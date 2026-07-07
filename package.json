@@ -24,7 +24,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "npx eslint --ext .ts --ext .tsx . && npx stylelint ./styles"
+    "lint": "npx eslint --ext .ts --ext .tsx . && npx stylelint ./styles",
+    "test:e2e": "playwright test",
+    "test:e2e:headed": "playwright test --headed",
+    "test:e2e:install": "playwright install chromium",
+    "test:e2e:staging": "cross-env TARGET_ENV=staging playwright test",
+    "test:e2e:production": "cross-env TARGET_ENV=production playwright test",
+    "test:e2e:chrome:staging": "cross-env TARGET_ENV=staging BROWSER_CHANNEL=chrome playwright test",
+    "test:e2e:chrome:production": "cross-env TARGET_ENV=production BROWSER_CHANNEL=chrome playwright test"
   },
   "dependencies": {
     "@fontsource/fira-sans": "^4.5.8",
@@ -74,6 +81,7 @@
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.0.10",
+    "@playwright/test": "^1.61.1",
     "@types/body-scroll-lock": "^3.1.0",
     "@types/lodash": "^4.14.178",
     "@types/node": "^18",
