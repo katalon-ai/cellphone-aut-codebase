@@ -49,7 +49,7 @@ export default function ThankYouPage({mainMenu, footerMenu}: IProps) {
 
 export const getStaticPaths: GetStaticPaths = async () => ({
 	paths: [{params: {id: 'demo'}}],
-	fallback: false
+	fallback: 'blocking'
 });
 
 export const getStaticProps: GetStaticProps<IProps> = async () => {
