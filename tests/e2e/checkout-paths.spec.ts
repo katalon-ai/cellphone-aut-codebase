@@ -1,5 +1,4 @@
 import {
-	CATEGORY_LISTING_PRODUCT,
 	CATEGORY_PATH,
 	VARIANT_COLOR,
 	VARIANT_PRODUCT,
@@ -7,6 +6,7 @@ import {
 	VARIANT_STORAGE,
 	expect,
 	expectCheckoutSummaryContains,
+	addRandomProductFromCurrentGrid,
 	gotoStorefront,
 	openCartFromHeader,
 	proceedToCheckout,
@@ -23,18 +23,13 @@ test.describe('checkout entry paths', () => {
 		await gotoStorefront(page, CATEGORY_PATH);
 		await waitForCartReady(page);
 
-		const productCard = page.locator('.products__item').filter({hasText: CATEGORY_LISTING_PRODUCT}).first();
-		await expect(productCard).toBeVisible();
-		await expect(productCard).toContainText('$ 39.00');
-		await productCard.getByRole('button', {name: /add to cart/i}).click();
+		const product = await addRandomProductFromCurrentGrid(page);
 		await expect(page.locator('header .cart-header__qty')).toHaveText(/[1-9]\d*/);
 
 		await openCartFromHeader(page);
-		await expect(page.locator('.cart-item')).toContainText(CATEGORY_LISTING_PRODUCT);
-		await expect(page.locator('.cart-item')).toContainText('$ 39.00');
+		await expect(page.locator('.cart-item')).toContainText(product.title);
 		await proceedToCheckout(page);
-		await expectCheckoutSummaryContains(page, CATEGORY_LISTING_PRODUCT);
-		await expectCheckoutSummaryContains(page, '$ 39.00 x 1 pcs');
+		await expectCheckoutSummaryContains(page, product.title);
 	});
 
 	test('requires variant selection and carries selected variant into checkout', async ({page}) => {

@@ -19,11 +19,11 @@ test.describe('cart and checkout', () => {
 	});
 
 	test('adds a product to cart, updates quantity, and removes it', async ({page}) => {
-		await addKnownProductFromHome(page);
+		const product = await addKnownProductFromHome(page);
 		await gotoStorefront(page, '/cart');
 
 		await expect(page.getByRole('heading', {name: 'Shopping cart'})).toBeVisible();
-		const row = page.locator('.cart-item').filter({hasText: PRODUCT_WITHOUT_VARIANTS}).first();
+		const row = page.locator('.cart-item').filter({hasText: product.title}).first();
 		await expect(row).toBeVisible();
 
 		await row.getByTitle('Increased').click();
@@ -37,16 +37,16 @@ test.describe('cart and checkout', () => {
 	});
 
 	test('loads checkout from a populated cart without placing an order', async ({page}) => {
-		await addKnownProductFromHome(page);
+		const product = await addKnownProductFromHome(page);
 		await gotoStorefront(page, '/cart');
 
 		await proceedToCheckout(page);
-		await expectCheckoutSummaryContains(page, PRODUCT_WITHOUT_VARIANTS);
+		await expectCheckoutSummaryContains(page, product.title);
 		await expectTrueTestSnippet(page);
 	});
 
 	test('validates checkout contact email before shipping', async ({page}) => {
-		await addKnownProductFromHome(page);
+		const product = await addKnownProductFromHome(page);
 		await gotoStorefront(page, '/cart');
 		await proceedToCheckout(page);
 
@@ -62,15 +62,15 @@ test.describe('cart and checkout', () => {
 
 		await email.fill(CHECKOUT_EMAIL);
 		await expect(email).toHaveValue(CHECKOUT_EMAIL);
-		await expectCheckoutSummaryContains(page, PRODUCT_WITHOUT_VARIANTS);
+		await expectCheckoutSummaryContains(page, product.title);
 	});
 
 	test('enters checkout from homepage add-to-cart quick action', async ({page}) => {
-		await addKnownProductFromHome(page);
+		const product = await addKnownProductFromHome(page);
 		await openCartFromQuickAction(page);
-		await expect(page.locator('.cart-item')).toContainText(PRODUCT_WITHOUT_VARIANTS);
+		await expect(page.locator('.cart-item')).toContainText(product.title);
 		await proceedToCheckout(page);
-		await expectCheckoutSummaryContains(page, PRODUCT_WITHOUT_VARIANTS);
+		await expectCheckoutSummaryContains(page, product.title);
 	});
 
 	test('enters checkout from product detail add-to-cart quick action', async ({page}) => {
@@ -82,10 +82,10 @@ test.describe('cart and checkout', () => {
 	});
 
 	test('enters checkout through the persistent header cart icon', async ({page}) => {
-		await addKnownProductFromHome(page);
+		const product = await addKnownProductFromHome(page);
 		await openCartFromHeader(page);
-		await expect(page.locator('.cart-item')).toContainText(PRODUCT_WITHOUT_VARIANTS);
+		await expect(page.locator('.cart-item')).toContainText(product.title);
 		await proceedToCheckout(page);
-		await expectCheckoutSummaryContains(page, PRODUCT_WITHOUT_VARIANTS);
+		await expectCheckoutSummaryContains(page, product.title);
 	});
 });

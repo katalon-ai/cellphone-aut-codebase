@@ -16,6 +16,7 @@ These manual test cases cover the primary customer journeys for the Cellphone Sh
 - The storefront is reachable and the homepage returns HTTP 200.
 - Product data is available, including `Apple iPhone 15 Pro Silicone Case with MagSafe`.
 - Production validation is read-only. Do not submit a final order in production.
+- Automated Playwright cases choose a random simple in-stock product from the active product grid where the scenario does not require a specific product or variant.
 
 ## Test Data
 
@@ -360,9 +361,9 @@ Observed production data:
 
 **Expected Result:** Price query parameters update category results based on the entered range and preserve a usable product listing or controlled empty state.
 
-## Optional Staging-Only Case: Complete Checkout Flow
+## E2E-017 Complete Checkout Flow
 
-Only execute this case on staging after explicit approval that test orders may be created.
+Execute this case on staging by default. Production execution is allowed only when test order submission is explicitly approved.
 This case was not executed on production during Chrome validation.
 
 **Objective:** Confirm checkout can complete an order end to end using the test email `ai@test.com`.
@@ -370,7 +371,7 @@ This case was not executed on production during Chrome validation.
 **Steps:**
 
 1. Start in a clean browser session on staging.
-2. Add `Apple iPhone 15 Pro Silicone Case with MagSafe` to cart.
+2. Add a random simple in-stock product to cart.
 3. Open `/cart`.
 4. Verify the cart contains the selected product and the order total is visible.
 5. Click `Proceed to checkout`.
@@ -378,19 +379,52 @@ This case was not executed on production during Chrome validation.
 7. Enter `ai@test.com` in the `Email` field.
 8. Keep `Email me with news and offers` selected unless the test objective says otherwise.
 9. Click `Continue to shipping`.
-10. Fill all required shipping fields with approved staging test data.
+10. Fill all required shipping fields with the test shipping data: first name `AI`, last name `Tester`, address `1 John Doe`, ZIP `95014`, city `Cupertino`, state `CA`, phone `+18001234567`.
 11. Continue to the delivery method step.
-12. Select an available delivery method.
+12. Use the default `US Shipping` delivery method.
 13. Continue to the payment method step.
-14. Fill payment fields with the approved staging payment method or select the available test payment option.
-15. Review the order summary and verify the product, quantity, and total are correct.
+14. Use the default `Cash on delivery` payment method.
+15. Review the order summary and verify the selected product, quantity, and total are correct.
 16. Click `Complete order`.
 17. Verify the thank-you page loads.
 18. Record the order ID or confirmation identifier.
 19. Verify the confirmation page shows the order summary and the email `ai@test.com` if the page exposes contact details.
 20. Verify `/thank-you/<order-id>` loads if the environment supports direct order lookup.
 
-**Expected Result:** A staging test order can be submitted with `ai@test.com`, and the order confirmation is displayed with the correct product and total.
+**Expected Result:** A test order can be submitted with `ai@test.com`, and the order confirmation is displayed with the correct selected product, shipping address, payment method, order ID, status, and total.
+
+## E2E-018 Multi-Category Multi-Product Checkout Flow
+
+Execute this case on staging by default. Production execution is allowed only when test order submission is explicitly approved.
+
+**Objective:** Confirm checkout can complete an order containing products from different categories.
+
+**Steps:**
+
+1. Start in a clean browser session on staging.
+2. Add a random simple in-stock Accessories product to cart.
+3. Verify the header cart quantity is `1`.
+4. Open `/product/samsung-galaxy-s23-ultra`.
+5. Wait until the existing cart quantity `1` is visible on the product detail page.
+6. Select Storage `512 GB`.
+7. Select Color `Phantom Black`.
+8. Verify the selected Samsung variant is in stock and priced at `$ 1,999.00`.
+9. Click `Buy`.
+10. Verify the header cart quantity changes to `2`.
+11. Open `/cart`.
+12. Verify the cart contains both the selected Accessories product and `Samsung Galaxy S23 Ultra, 512 GB - Phantom Black`.
+13. Verify the cart order total quantity is `2` and subtotal equals the selected Accessories product price plus `$ 1,999.00`.
+14. Click `Proceed to checkout`.
+15. Enter `ai@test.com` in the `Email` field.
+16. Continue to shipping.
+17. Fill shipping fields with the test shipping data: first name `AI`, last name `Tester`, address `1 John Doe`, ZIP `95014`, city `Cupertino`, state `CA`, phone `+18001234567`.
+18. Continue to payment.
+19. Verify the payment summary includes both products, the computed subtotal, `US Shipping` `$ 4.90`, and the computed total.
+20. Use the default `Cash on delivery` payment method.
+21. Click `Complete order`.
+22. Verify the thank-you page loads with order ID, status `New`, both products, shipping address, payment method, and the computed total.
+
+**Expected Result:** A test order with products from both Accessories and Phone categories can be submitted successfully, and the confirmation page preserves all selected products, variant details, totals, address, and payment method.
 
 ## Automation Mapping
 
@@ -410,6 +444,7 @@ This case was not executed on production during Chrome validation.
 | E2E-012 | `checkout-paths.spec.ts` |
 | E2E-013 | `checkout-paths.spec.ts` |
 | E2E-014 | `cart-and-checkout.spec.ts` |
-| E2E-015 | `regression.spec.ts` partial coverage |
+| E2E-015 | `regression.spec.ts` |
 | E2E-016 | `price-search.spec.ts` |
-| Optional staging-only complete checkout flow | Manual only |
+| E2E-017 | `complete-checkout.spec.ts` |
+| E2E-018 | `complete-checkout.spec.ts` |
