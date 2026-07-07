@@ -2,26 +2,34 @@ import {useRouter} from 'next/router';
 import {StarterWrapper, startOrderInfo} from 'boundless-checkout-react';
 import {apiClient} from '../../lib/api';
 import MainLayout from '../../layouts/Main';
-import {GetServerSideProps} from 'next';
+import {GetStaticPaths, GetStaticProps} from 'next';
 import {makeAllMenus} from '../../lib/menu';
 import {IMenuItem} from '../../@types/components';
-import {useCallback, useRef} from 'react';
+import {useCallback, useMemo, useRef} from 'react';
 
 export default function ThankYouPage({mainMenu, footerMenu}: IProps) {
 	const router = useRouter();
 	const checkoutStarter = useRef<StarterWrapper>();
+	const orderId = useMemo(() => {
+		if (typeof router.query.id === 'string' && router.query.id !== 'demo') {
+			return router.query.id;
+		}
+
+		const pathOrderId = router.asPath.split('?')[0].split('/').filter(Boolean).pop();
+		return pathOrderId && pathOrderId !== 'thank-you' ? pathOrderId : null;
+	}, [router.asPath, router.query.id]);
 
 	const checkoutRef = useCallback((node: HTMLDivElement) => {
-		if (node && router.query.id) {
+		if (node && orderId) {
 			checkoutStarter.current = startOrderInfo(node, {
-				orderId: router.query.id as unknown as string,
+				orderId,
 				api: apiClient,
 				onError: (error) => console.error('order info error:', error)
 			});
 		}
-	}, [router.query.id]);
+	}, [orderId]);
 
-	if (!router.query.id) {
+	if (!orderId) {
 		return null;
 	}
 
@@ -39,7 +47,12 @@ export default function ThankYouPage({mainMenu, footerMenu}: IProps) {
 	);
 }
 
-export const getServerSideProps: GetServerSideProps<IProps> = async () => {
+export const getStaticPaths: GetStaticPaths = async () => ({
+	paths: [{params: {id: 'demo'}}],
+	fallback: false
+});
+
+export const getStaticProps: GetStaticProps<IProps> = async () => {
 	const categoryTree = await apiClient.catalog.getCategoryTree({menu: 'category'});
 	const {mainMenu, footerMenu} = makeAllMenus({categoryTree});
 

@@ -1,5 +1,5 @@
 import {useEffect, useMemo, useState} from 'react';
-import {GetServerSideProps, InferGetServerSidePropsType} from 'next';
+import {GetStaticPaths, GetStaticProps, InferGetStaticPropsType} from 'next';
 import {NextRouter, useRouter} from 'next/router';
 import {useAppSelector} from '../../hooks/redux';
 import dynamic from 'next/dynamic';
@@ -26,7 +26,7 @@ import {RootState} from '../../redux/store';
 import {IBasicSettings} from '../../@types/settings';
 const FilterForm = dynamic(() => import('../../components/FilterForm'), {ssr: false});
 
-export default function CategoryPage({data}: InferGetServerSidePropsType<typeof getServerSideProps>) {
+export default function CategoryPage({data}: InferGetStaticPropsType<typeof getStaticProps>) {
 	const {category, mainMenu, footerMenu, basicSettings} = data;
 	const router = useRouter();
 	const [productsQuery, setProductsQuery] = useState(data.productsQuery);
@@ -117,16 +117,28 @@ export default function CategoryPage({data}: InferGetServerSidePropsType<typeof 
 	);
 }
 
-export const getServerSideProps: GetServerSideProps<ICategoryPageProps> = async ({req, params}) => {
-	const url = new URL(`http://host${req.url!}`);
-	const queryString = url.search.replace(/^\?/, '');
-	const query = qs.parse(queryString);
+export const getStaticPaths: GetStaticPaths = async () => {
+	const categories = await apiClient.catalog.getFlatCategories();
+	const paths = categories
+		.filter(category => !category.custom_link)
+		.map(category => ({
+			params: {
+				slug: category.url_key || String(category.category_id)
+			}
+		}));
 
+	return {
+		paths,
+		fallback: false
+	};
+};
+
+export const getStaticProps: GetStaticProps<ICategoryPageProps> = async ({params}) => {
 	const {slug} = params || {};
 
 	let data = null;
 	try {
-		data = await fetchData(slug as string, query);
+		data = await fetchData(slug as string, {});
 	} catch (error: any) {
 		if (error.response?.status === 404) {
 			return {
@@ -142,7 +154,7 @@ export const getServerSideProps: GetServerSideProps<ICategoryPageProps> = async 
 	if (redirectUrl !== `/category/${slug}`) {
 		return {
 			redirect: {
-				destination: `${redirectUrl}?${queryString}`,
+				destination: redirectUrl,
 				permanent: true,
 			}
 		};

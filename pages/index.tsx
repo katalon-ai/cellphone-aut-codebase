@@ -1,5 +1,5 @@
 import {IProduct} from 'boundless-api-client';
-import {GetServerSideProps, InferGetServerSidePropsType} from 'next';
+import {GetStaticProps, InferGetStaticPropsType} from 'next';
 import ProductsList from '../components/ProductsList';
 import MainLayout from '../layouts/Main';
 import {apiClient} from '../lib/api';
@@ -25,7 +25,7 @@ import reviewWoman1 from '../assets/review-woman-1.jpg';
 import reviewMan1 from '../assets/review-man-1.jpg';
 import reviewMan2 from '../assets/review-man-2.jpg';
 
-export default function IndexPage({products, mainMenu, footerMenu, basicSettings}: InferGetServerSidePropsType<typeof getServerSideProps>) {
+export default function IndexPage({products, mainMenu, footerMenu, basicSettings}: InferGetStaticPropsType<typeof getStaticProps>) {
 	return (
 		<MainLayout mainMenu={mainMenu} footerMenu={footerMenu} basicSettings={basicSettings}>
 			<div className='container-xxl'>
@@ -94,7 +94,7 @@ export default function IndexPage({products, mainMenu, footerMenu, basicSettings
 	);
 }
 
-export const getServerSideProps: GetServerSideProps<IIndexPageProps> = async () => {
+export const getStaticProps: GetStaticProps<IIndexPageProps> = async () => {
 	const categoryTree = await apiClient.catalog.getCategoryTree({menu: 'category'});
 	const {products} = await apiClient.catalog.getProducts({collection: ['main-page'], sort: 'in_collection'});
 	const basicSettings = await apiClient.system.fetchSettings(['system.locale', 'system.currency']) as IBasicSettings;

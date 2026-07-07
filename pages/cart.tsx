@@ -9,7 +9,7 @@ import {addPromise} from '../redux/reducers/xhr';
 import {useCart} from '../hooks/cart';
 import {makeAllMenus} from '../lib/menu';
 import {IMenuItem} from '../@types/components';
-import {GetServerSideProps} from 'next';
+import {GetStaticProps} from 'next';
 import CartLoader from '../components/cart/CartLoader';
 import Link from 'next/link';
 import {calcTotal, calcTotalPrice} from '../lib/calculator';
@@ -56,7 +56,7 @@ export default function CartPage({mainMenu, footerMenu, basicSettings}: ICartPag
 	);
 }
 
-export const getServerSideProps: GetServerSideProps<ICartPageProps> = async () => {
+export const getStaticProps: GetStaticProps<ICartPageProps> = async () => {
 	const categoryTree = await apiClient.catalog.getCategoryTree({menu: 'category'});
 	const basicSettings = await apiClient.system.fetchSettings(['system.locale', 'system.currency']) as IBasicSettings;
 	const {mainMenu, footerMenu} = makeAllMenus({categoryTree});

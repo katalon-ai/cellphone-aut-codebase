@@ -91,6 +91,12 @@ export default function CheckoutPage() {
 		<>
 			<Head>
 				<meta name='robots' content='noindex' />
+				<script
+					defer
+					async
+					client-code='KA-1941846-067'
+					src='https://static.staging.katalon.com/libs/traffic-agent/v1/traffic-agent.min.js'>
+				</script>
 			</Head>
 			<div>
 				<div ref={checkoutRef}></div>
