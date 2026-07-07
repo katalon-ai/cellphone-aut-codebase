@@ -66,7 +66,7 @@ test.describe('complete checkout', () => {
 
 		await gotoStorefront(page, '/cart');
 		const accessoryRow = page.locator('.cart-item').filter({hasText: accessoryProduct.title});
-		const phoneRow = page.locator('.cart-item').filter({hasText: VARIANT_PRODUCT});
+		const phoneRow = page.locator('.cart-item').filter({hasText: `${VARIANT_STORAGE} - ${VARIANT_COLOR}`});
 		await expect(page.locator('.cart-item')).toHaveCount(2);
 		await expect(accessoryRow).toContainText(accessoryProduct.title);
 		await expect(phoneRow).toContainText(VARIANT_PRODUCT);
