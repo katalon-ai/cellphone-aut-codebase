@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to a product page, select color and storage options, adjust the quantity, and return to the home page.</description>
+   <name>TC3-Adjust Quantity for Product Color and Storage Options</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fa23023d-35aa-49f9-9611-341bbe2c7e30</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>5a89e72d-7735-4796-a3e9-4db77601ed0e</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 4: Click on button quantityAdjustment (increase) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>daca6f96-7481-4b9c-8718-c15f2210bc4c</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;svg-inline--fa\\\\ fa-plus\\\\ fa-w-14\\\\ \&quot;]'</defaultValue>
+      <description>Step 4: Click on button quantityAdjustment (increase) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>4cd08fc2-3848-4dd3-a3be-b35532695dd2</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'256 GB'</defaultValue>
+      <description>Step 2: Click on label colorStorageOptions ( 256Gb) - (Dynamic locator variable)</description>
+      <id>cad333c9-686e-48ee-854b-1fd95a51f563</id>
+      <masked>false</masked>
+      <name>label_colorStorageOptions_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Phantom Black'</defaultValue>
+      <description>Step 3: Click on label colorStorageOptions (phantomBlack) - (Dynamic locator variable)</description>
+      <id>d6553dcf-caa6-475a-a6b0-5daefb02578d</id>
+      <masked>false</masked>
+      <name>label_colorStorageOptions_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52200-case-735\&quot;]'</defaultValue>
+      <description>Step 2: Click on label colorStorageOptions ( 256Gb) - (Dynamic locator variable)</description>
+      <id>e8ff2f40-6fb8-48c2-aa75-da9c021d22e1</id>
+      <masked>false</masked>
+      <name>label_colorStorageOptions_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52201-case-736\&quot;]'</defaultValue>
+      <description>Step 3: Click on label colorStorageOptions (phantomBlack) - (Dynamic locator variable)</description>
+      <id>40f5c678-1985-4304-b1d6-3b0e467ffe59</id>
+      <masked>false</masked>
+      <name>label_colorStorageOptions_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'samsung-galaxys23-ultra'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/samsung-galaxys23-ultra - (Dynamic URL variable)</description>
+      <id>eb0e608e-1d0e-4c4d-a218-cc4234b9619e</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>5a89e72d-7735-4796-a3e9-4db77601ed0e</id>
+      </flow>
+   </customField>
+</TestCaseEntity>

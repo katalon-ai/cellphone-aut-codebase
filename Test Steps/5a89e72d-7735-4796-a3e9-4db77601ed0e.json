@@ -10,19 +10,19 @@
     },
     {
       "id": "ffcd682f-d3db-40ae-875e-c3eeab0dc003",
-      "name": "Click on label colorStorageOption ( 256Gb)",
+      "name": "Click on label colorStorageOptions ( 256Gb)",
       "action_id": "f6e62116-9e61-409e-93a6-3b04bcc716e6",
       "timestamp": 1784828323329,
-      "target_name": "label_colorStorageOption",
+      "target_name": "label_colorStorageOptions",
       "target_test_object_id": "12bce53f-795b-4641-b0c5-da15372ac3c0",
       "sub_steps": []
     },
     {
       "id": "1ef776a2-e052-4bc7-82dc-029010788bb9",
-      "name": "Click on label colorStorageOption (phantomBlack)",
+      "name": "Click on label colorStorageOptions (phantomBlack)",
       "action_id": "8a7fa2e7-3364-4f53-af98-94a42aa5630c",
       "timestamp": 1784828324515,
-      "target_name": "label_colorStorageOption",
+      "target_name": "label_colorStorageOptions",
       "target_test_object_id": "a55888e2-9143-4919-95c3-ad5c838e5eac",
       "sub_steps": []
     },
