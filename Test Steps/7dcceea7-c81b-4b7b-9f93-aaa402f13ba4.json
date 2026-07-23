@@ -55,19 +55,19 @@
     },
     {
       "id": "b5f666c0-5e1e-477a-8459-4c1db6cb54a5",
-      "name": "Click on label colorStorageOption ( 512Gb)",
+      "name": "Click on label colorStorageOptions ( 512Gb)",
       "action_id": "1130b667-707f-4fc6-ae79-e841c4405a87",
       "timestamp": 1784828345012,
-      "target_name": "label_colorStorageOption",
+      "target_name": "label_colorStorageOptions",
       "target_test_object_id": "4833e498-a680-45e2-8a73-027b0bb924f6",
       "sub_steps": []
     },
     {
       "id": "d16377da-35c4-4708-b891-2a5dfa40d696",
-      "name": "Click on label colorStorageOption (storageCream)",
+      "name": "Click on label colorStorageOptions (storageCream)",
       "action_id": "efdac598-639c-4dd2-bcb4-b54544791ec8",
       "timestamp": 1784828346168,
-      "target_name": "label_colorStorageOption",
+      "target_name": "label_colorStorageOptions",
       "target_test_object_id": "16f5170c-d491-4a7d-8a17-297ec8d83f11",
       "sub_steps": []
     },
@@ -136,19 +136,19 @@
     },
     {
       "id": "3545250e-c81e-45a2-b297-ef8ff124726d",
-      "name": "Click on label colorStorageOption (colorTeal)",
+      "name": "Click on label colorStorageOptions (colorTeal)",
       "action_id": "29556c13-ddec-4b3c-8685-6f3e66ae5db4",
       "timestamp": 1784828354927,
-      "target_name": "label_colorStorageOption",
+      "target_name": "label_colorStorageOptions",
       "target_test_object_id": "bf9b2a3e-77e6-488f-bdcd-98676fd983bc",
       "sub_steps": []
     },
     {
       "id": "94a15d94-1238-4785-923d-e400ec3cba7a",
-      "name": "Click on label colorStorageOption (storage512Gb)",
+      "name": "Click on label colorStorageOptions (storage512Gb)",
       "action_id": "5f7e1afc-bac5-4da3-bdb4-c699d9711608",
       "timestamp": 1784828355898,
-      "target_name": "label_colorStorageOption",
+      "target_name": "label_colorStorageOptions",
       "target_test_object_id": "394e84da-a0b8-4f2c-9071-c170210c81f7",
       "sub_steps": []
     },
