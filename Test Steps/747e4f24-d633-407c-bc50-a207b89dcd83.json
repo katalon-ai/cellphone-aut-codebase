@@ -1,0 +1,91 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "e5298616-c7d6-401e-91ce-7359a9b08b0e",
+      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "0d2431ca-b06b-455f-b444-1ff0ad2a807d",
+      "name": "Click on link about -> Navigate to page '/about'",
+      "action_id": "a05a008a-76d5-4def-827a-f39d5de35610",
+      "timestamp": 1784828282099,
+      "target_name": "link_about",
+      "target_test_object_id": "2367c7f7-e689-4843-a6a2-eef4252097ca",
+      "sub_steps": []
+    },
+    {
+      "id": "f4cd5115-4ae4-4783-ab95-8c730b127d79",
+      "name": "Click on link phone -> Navigate to page '/category/phone'",
+      "action_id": "39433e7d-9dd6-485c-a126-af647920c4a8",
+      "timestamp": 1784828283364,
+      "target_name": "link_phone",
+      "target_test_object_id": "3cfefab5-80ba-4841-937b-0b0de9c53e1c",
+      "sub_steps": []
+    },
+    {
+      "id": "94946ed4-e92c-4afe-aeed-51e54c950f35",
+      "name": "Click on link apple -> Navigate to page '/category/phone-apple'",
+      "action_id": "a4bf656c-50bc-4977-a148-f8ddc842c754",
+      "timestamp": 1784828284447,
+      "target_name": "link_apple",
+      "target_test_object_id": "36f05f0e-54b7-4e60-b18c-9bfc8f804aa0",
+      "sub_steps": []
+    },
+    {
+      "id": "5d93a83d-8eef-4e9c-8aaa-a8179fa4f7cb",
+      "name": "Click on link iphone16e -> Navigate to page '/product/*'",
+      "action_id": "d567672d-1aae-40f8-8b9c-76036405b7fe",
+      "timestamp": 1784828285565,
+      "target_name": "link_iphone16e",
+      "target_test_object_id": "113616e0-08e8-436c-9c9e-5c83723e1eed",
+      "sub_steps": []
+    },
+    {
+      "id": "9d99e3ab-70de-417f-8cff-1882a3cb4d48",
+      "name": "Click on label colorStorageOption (colorWhite)",
+      "action_id": "72ccd108-94fc-49cf-9a92-1ca93db5476b",
+      "timestamp": 1784828287014,
+      "target_name": "label_colorStorageOption",
+      "target_test_object_id": "11b5703b-cb8c-4585-b857-0576d21ed3d4",
+      "sub_steps": []
+    },
+    {
+      "id": "c6661eb0-37f7-4a4d-82ea-665bba3584e5",
+      "name": "Click on label colorStorageOption (storage256Gb)",
+      "action_id": "a0983282-1ce8-4a02-a209-8cd790bb8027",
+      "timestamp": 1784828288216,
+      "target_name": "label_colorStorageOption",
+      "target_test_object_id": "1ea94f48-656a-49de-ac3f-9547c63be427",
+      "sub_steps": []
+    },
+    {
+      "id": "ebd46ecd-cddb-436f-9429-bef35e5c297e",
+      "name": "Click on button quantityAdjustment (increase)",
+      "action_id": "b0b15292-5a4a-4e3e-97c0-b16213bb9939",
+      "timestamp": 1784828289415,
+      "target_name": "button_quantityAdjustment",
+      "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
+      "sub_steps": []
+    },
+    {
+      "id": "e651d661-b2d3-493f-b4dc-bc928faa6d7a",
+      "name": "Click on button quantityAdjustment (decrease) -> Navigate to page ''",
+      "action_id": "0273fd8f-94dc-49de-b47f-639dc7dd8a7f",
+      "timestamp": 1784828290199,
+      "target_name": "button_quantityAdjustment",
+      "target_test_object_id": "f1a9e6ba-56b2-40ae-9830-b597f7b1bf23",
+      "sub_steps": []
+    },
+    {
+      "id": "e7f78a80-2cc3-4672-bf06-e1d06135fb8d",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}
