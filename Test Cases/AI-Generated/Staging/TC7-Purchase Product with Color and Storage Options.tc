@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to a product page, select color and storage options, buy the item, fill in shipping details, and complete the checkout process to verify the thank you page.</description>
+   <name>TC7-Purchase Product with Color and Storage Options</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>35d59f5d-dc9d-4a3a-83da-d99b238ef57e</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>a7e7255b-03e4-4512-b037-85cb07b8a776</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'1 Smoke Test Way'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>c1c6a1ee-b1c1-49ee-ae60-6e2fb21435fa</id>
+      <masked>false</masked>
+      <name>input_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cupertino'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>9c16113d-e84c-46d7-8bf9-561d5e65d79f</id>
+      <masked>false</masked>
+      <name>input_city</name>
+   </variable>
+   <variable>
+      <defaultValue>'qa@test.com'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>a3fcd734-a528-4b13-9f47-8ba12501a27b</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'SmokeTest'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>67d4e2be-0492-40bc-a62f-7a218abe4be3</id>
+      <masked>false</masked>
+      <name>input_firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Traffic'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>8f2a001f-9026-4a25-b6f4-0e531e61da21</id>
+      <masked>false</masked>
+      <name>input_lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'18005550123'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>35331174-3ca6-4404-a27f-9caf65705e60</id>
+      <masked>false</masked>
+      <name>input_phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'CA'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>a848fcef-79a6-47e8-9c44-3f9bc68c63f0</id>
+      <masked>false</masked>
+      <name>input_state</name>
+   </variable>
+   <variable>
+      <defaultValue>'95014'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>82c86593-53b4-44fa-9fda-2b9f52aaa287</id>
+      <masked>false</masked>
+      <name>input_zipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Teal'</defaultValue>
+      <description>Step 3: Click on label colorStorageOption (colorTeal) - (Dynamic locator variable)</description>
+      <id>7ce21537-4844-4ec8-b770-f62ff9c891f5</id>
+      <masked>false</masked>
+      <name>label_colorStorageOption_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'128 GB'</defaultValue>
+      <description>Step 4: Click on label colorStorageOption (storage128Gb) - (Dynamic locator variable)</description>
+      <id>147ad681-acf6-4e9d-bd74-ddf1929bdeb7</id>
+      <masked>false</masked>
+      <name>label_colorStorageOption_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52208-case-757\&quot;]'</defaultValue>
+      <description>Step 3: Click on label colorStorageOption (colorTeal) - (Dynamic locator variable)</description>
+      <id>1029aa0f-24aa-434d-8ae2-7256ec3c37de</id>
+      <masked>false</masked>
+      <name>label_colorStorageOption_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52209-case-761\&quot;]'</defaultValue>
+      <description>Step 4: Click on label colorStorageOption (storage128Gb) - (Dynamic locator variable)</description>
+      <id>7dc034a3-4316-484c-8492-e1a0b051f92b</id>
+      <masked>false</masked>
+      <name>label_colorStorageOption_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'iphone-15-clear-case-with-magsafe'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/iphone-15-clear-case-with-magsafe - (Dynamic URL variable)</description>
+      <id>24f7d450-1f47-48cc-81f5-b0f41a205f31</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>a7e7255b-03e4-4512-b037-85cb07b8a776</id>
+      </flow>
+   </customField>
+</TestCaseEntity>

@@ -20,7 +20,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'btn btn-action btn-anim btn-lg' and @title = 'Buy' and @type = 'button' and (text() = ' Buy' or . = ' Buy')]</value>
+         <value>//*[@class = 'btn btn-action btn-anim btn-lg' and @title = 'Buy' and @type = 'button' and (text() = 'Buy' or . = 'Buy')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -45,8 +45,8 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Buy</value>
-      <webElementGuid>967aee72-be40-4443-a85c-1a27db5ebc03</webElementGuid>
+      <value>Buy</value>
+      <webElementGuid>3fe7879a-0bcf-4f16-8121-da8568abf0ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

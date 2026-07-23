@@ -20,7 +20,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'btn btn-action btn-lg btn-anim' and (text() = 'Proceed to checkout ' or . = 'Proceed to checkout ')]</value>
+         <value>//*[@class = 'btn btn-action btn-lg btn-anim' and (text() = 'Proceed to checkout' or . = 'Proceed to checkout')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>CSS</selectorMethod>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Proceed to checkout </value>
-      <webElementGuid>aaa32627-24de-4bcb-a3e8-df794e6b236c</webElementGuid>
+      <value>Proceed to checkout</value>
+      <webElementGuid>33415a5f-3c96-4857-9321-5f4fc94ab290</webElementGuid>
    </webElementProperties>
 </WebElementEntity>
