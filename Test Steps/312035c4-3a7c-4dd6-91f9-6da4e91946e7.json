@@ -1,0 +1,73 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "99b20168-c89d-44b8-af09-0a2902a62065",
+      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/accessories-apple",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "4e2e38b7-3c21-43c4-a0c5-f484857de78d",
+      "name": "Enter input value in input priceMin",
+      "action_id": "f02fa246-e2fb-4af4-85ec-6f76e0bff4fb",
+      "timestamp": 1784828305927,
+      "target_name": "input_priceMin",
+      "target_test_object_id": "2386a8aa-97d4-442a-8189-b700e510c5fc",
+      "sub_steps": []
+    },
+    {
+      "id": "e0133bea-eadb-4ea3-84c1-9a1236ff2494",
+      "name": "Enter input value in input priceMax",
+      "action_id": "3644e919-c2aa-4a79-8083-d3d39b9a7b5f",
+      "timestamp": 1784828305939,
+      "target_name": "input_priceMax",
+      "target_test_object_id": "61923eb7-96c2-4f74-a7ba-951276af853c",
+      "sub_steps": []
+    },
+    {
+      "id": "7d90225a-3ee0-4792-ae77-c2caa355b0fd",
+      "name": "Click on input inStock",
+      "action_id": "02b93d38-e602-4f61-a715-09d3ef9d3185",
+      "timestamp": 1784828305980,
+      "target_name": "input_inStock",
+      "target_test_object_id": "1e7e5ddf-253b-41c4-827a-275f8874ad7b",
+      "sub_steps": []
+    },
+    {
+      "id": "2d5b75a2-455f-42cd-b037-b12e24fba358",
+      "name": "Click on button search",
+      "action_id": "82ba7fa8-a1d9-4246-bb79-c3fec0dd980e",
+      "timestamp": 1784828306014,
+      "target_name": "button_search",
+      "target_test_object_id": "7a0e1367-8187-450f-97ad-33a23843dbc2",
+      "sub_steps": []
+    },
+    {
+      "id": "3a897c1d-c2e0-46fd-82ca-93b7f7ce038f",
+      "name": "Click on link byTitle",
+      "action_id": "6794ca91-05f4-4089-97a4-e15bf2d0d1a6",
+      "timestamp": 1784828307180,
+      "target_name": "link_byTitle",
+      "target_test_object_id": "16106fde-1dfa-4e68-ba20-eb39dbe90a47",
+      "sub_steps": []
+    },
+    {
+      "id": "29be7739-7ffc-499d-be78-15726425868a",
+      "name": "Click on button clear -> Navigate to page ''",
+      "action_id": "afed15a4-dfd4-47e7-9283-e20eac89403a",
+      "timestamp": 1784828308162,
+      "target_name": "button_clear",
+      "target_test_object_id": "69a7a776-cc2e-4864-bd12-af0d9954f283",
+      "sub_steps": []
+    },
+    {
+      "id": "d0a5fcb1-9c2e-47fe-9ac2-36fa7778ae97",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}
