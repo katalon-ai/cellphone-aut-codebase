@@ -19,19 +19,19 @@
     },
     {
       "id": "4b42b928-05a2-410d-bd88-2b4e59442c2b",
-      "name": "Click on label colorStorageOption (colorTeal)",
+      "name": "Click on label colorStorageOptions (colorTeal)",
       "action_id": "7ad6a3c5-3031-4441-9f85-71b0c6b534cc",
       "timestamp": 1784828458331,
-      "target_name": "label_colorStorageOption",
+      "target_name": "label_colorStorageOptions",
       "target_test_object_id": "bf9b2a3e-77e6-488f-bdcd-98676fd983bc",
       "sub_steps": []
     },
     {
       "id": "88a15d2c-84ab-453e-b08c-4505106b30aa",
-      "name": "Click on label colorStorageOption (storage128Gb)",
+      "name": "Click on label colorStorageOptions (storage128Gb)",
       "action_id": "def41c87-57f6-45b0-a91a-b71d2d6c53c9",
       "timestamp": 1784828459302,
-      "target_name": "label_colorStorageOption",
+      "target_name": "label_colorStorageOptions",
       "target_test_object_id": "8030d2b3-5b34-4f77-ac1c-1e13ef5f4388",
       "sub_steps": []
     },
@@ -46,7 +46,7 @@
     },
     {
       "id": "6fb685a2-15c4-47a2-9ea0-c0d9e1eeb4aa",
-      "name": "Fill in shipping details and complete the checkout process",
+      "name": "Fill in shipping information and complete the checkout process",
       "action_id": "",
       "timestamp": 1784828463548,
       "target_name": "",
