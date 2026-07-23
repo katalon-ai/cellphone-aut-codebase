@@ -1,0 +1,46 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "253336ae-b97d-4e30-94cf-d908e6dce5ea",
+      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/samsung-galaxys23-ultra",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "ffcd682f-d3db-40ae-875e-c3eeab0dc003",
+      "name": "Click on label colorStorageOption ( 256Gb)",
+      "action_id": "f6e62116-9e61-409e-93a6-3b04bcc716e6",
+      "timestamp": 1784828323329,
+      "target_name": "label_colorStorageOption",
+      "target_test_object_id": "12bce53f-795b-4641-b0c5-da15372ac3c0",
+      "sub_steps": []
+    },
+    {
+      "id": "1ef776a2-e052-4bc7-82dc-029010788bb9",
+      "name": "Click on label colorStorageOption (phantomBlack)",
+      "action_id": "8a7fa2e7-3364-4f53-af98-94a42aa5630c",
+      "timestamp": 1784828324515,
+      "target_name": "label_colorStorageOption",
+      "target_test_object_id": "a55888e2-9143-4919-95c3-ad5c838e5eac",
+      "sub_steps": []
+    },
+    {
+      "id": "427a0cc5-4c9d-4b98-86e5-2b890d5ca6bf",
+      "name": "Click on button quantityAdjustment (increase) -> Navigate to page ''",
+      "action_id": "0191cf13-5183-48ea-838c-9565b00d92e4",
+      "timestamp": 1784828325487,
+      "target_name": "button_quantityAdjustment",
+      "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
+      "sub_steps": []
+    },
+    {
+      "id": "7f5b3336-cd5e-4564-943c-99128de90770",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}
