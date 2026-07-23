@@ -1,0 +1,181 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "9a9c4e3c-0baf-4918-ba52-2e1e682bb6e4",
+      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/phone-samsung",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "df9d117a-5341-434b-bd60-4170f454bfdf",
+      "name": "Enter input value in input priceMin",
+      "action_id": "05fdcf77-4922-4ffe-97bb-c3c367a61c65",
+      "timestamp": 1784828340509,
+      "target_name": "input_priceMin",
+      "target_test_object_id": "48775620-b052-4a62-b329-e3fda7c4a83d",
+      "sub_steps": []
+    },
+    {
+      "id": "4445c59f-2924-473b-a1b1-7121c0f95da9",
+      "name": "Enter input value in input priceMax",
+      "action_id": "cb3c29dd-1ba7-4ed4-9a50-c9efb5948fb1",
+      "timestamp": 1784828340521,
+      "target_name": "input_priceMax",
+      "target_test_object_id": "78d445cf-ed69-4ad0-8175-3d45298173b3",
+      "sub_steps": []
+    },
+    {
+      "id": "a18e61be-efa0-4091-be50-d41d04dc75d3",
+      "name": "Click on input inStock",
+      "action_id": "14efcdfa-aee2-44ac-867b-fa30378db88e",
+      "timestamp": 1784828340544,
+      "target_name": "input_inStock",
+      "target_test_object_id": "c955ccf9-1f13-4c03-ba26-b6f084476cfe",
+      "sub_steps": []
+    },
+    {
+      "id": "c7621beb-a7e2-4dba-a672-cd5a7fd91874",
+      "name": "Click on button search",
+      "action_id": "9733e98b-27de-4983-ba9c-cf396f0f4411",
+      "timestamp": 1784828340568,
+      "target_name": "button_search",
+      "target_test_object_id": "7a7335ef-1131-413f-b17c-5335447abf40",
+      "sub_steps": []
+    },
+    {
+      "id": "593293c1-1f20-46a5-84dc-552040cfb1e6",
+      "name": "Click on link byPrice -> Navigate to page '/product/*'",
+      "action_id": "b8b7620b-257b-4591-8e4d-4dda337115d4",
+      "timestamp": 1784828341721,
+      "target_name": "link_byPrice",
+      "target_test_object_id": "7f1e6385-8b2d-4ace-a588-b0ac22161502",
+      "sub_steps": []
+    },
+    {
+      "id": "b5f666c0-5e1e-477a-8459-4c1db6cb54a5",
+      "name": "Click on label colorStorageOption ( 512Gb)",
+      "action_id": "1130b667-707f-4fc6-ae79-e841c4405a87",
+      "timestamp": 1784828345012,
+      "target_name": "label_colorStorageOption",
+      "target_test_object_id": "4833e498-a680-45e2-8a73-027b0bb924f6",
+      "sub_steps": []
+    },
+    {
+      "id": "d16377da-35c4-4708-b891-2a5dfa40d696",
+      "name": "Click on label colorStorageOption (storageCream)",
+      "action_id": "efdac598-639c-4dd2-bcb4-b54544791ec8",
+      "timestamp": 1784828346168,
+      "target_name": "label_colorStorageOption",
+      "target_test_object_id": "16f5170c-d491-4a7d-8a17-297ec8d83f11",
+      "sub_steps": []
+    },
+    {
+      "id": "51b611ed-cdb5-47a7-9391-86d08ca8373a",
+      "name": "Click on button quantityAdjustment (increase)",
+      "action_id": "b931f39f-15b8-4628-bd1d-712bd6a009a9",
+      "timestamp": 1784828347138,
+      "target_name": "button_quantityAdjustment",
+      "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
+      "sub_steps": []
+    },
+    {
+      "id": "616b98c2-3368-452c-bb70-ecdda6f42c86",
+      "name": "Click on button quantityAdjustment (decrease) -> Navigate to page '/category/phone-apple'",
+      "action_id": "961696a9-4c26-4990-ab29-0d2557219b65",
+      "timestamp": 1784828348148,
+      "target_name": "button_quantityAdjustment",
+      "target_test_object_id": "f1a9e6ba-56b2-40ae-9830-b597f7b1bf23",
+      "sub_steps": []
+    },
+    {
+      "id": "80a3b7ef-a44a-4fc8-8952-79c73d2b3d2c",
+      "name": "Enter input value in input priceMin",
+      "action_id": "bc04e3b6-79f5-4142-a9fe-26db72f9ae04",
+      "timestamp": 1784828351260,
+      "target_name": "input_priceMin",
+      "target_test_object_id": "cbf0f41a-8847-40c3-8069-a8da6f1f3eb1",
+      "sub_steps": []
+    },
+    {
+      "id": "815ec4f8-7a33-4886-a74b-67c0e7142fd4",
+      "name": "Enter input value in input priceMax",
+      "action_id": "ed536a75-d6b9-4a5f-8d92-f0dab07a9884",
+      "timestamp": 1784828351273,
+      "target_name": "input_priceMax",
+      "target_test_object_id": "a3303a51-61b8-4aaa-8fcd-c4e79080458c",
+      "sub_steps": []
+    },
+    {
+      "id": "a7e079c6-4efd-4ec7-9598-3578c4508525",
+      "name": "Click on input inStock",
+      "action_id": "95ce5730-5929-423b-bd44-54d3d0b3613c",
+      "timestamp": 1784828351295,
+      "target_name": "input_inStock",
+      "target_test_object_id": "a8d420ab-23a6-4233-a5f2-c6fd45a3f277",
+      "sub_steps": []
+    },
+    {
+      "id": "6ed23261-a7fd-427c-a633-e0534d0ddada",
+      "name": "Click on button search",
+      "action_id": "822db9d3-9a32-428a-93b8-297fad621736",
+      "timestamp": 1784828351318,
+      "target_name": "button_search",
+      "target_test_object_id": "be22495e-686c-4ee0-9978-68b1f622c152",
+      "sub_steps": []
+    },
+    {
+      "id": "4966065d-da2b-40e8-b905-d0814581a453",
+      "name": "Click on link byTitle -> Navigate to page '/product/*'",
+      "action_id": "ce0caad5-c036-4563-b97c-0f6507ee52d4",
+      "timestamp": 1784828352271,
+      "target_name": "link_byTitle",
+      "target_test_object_id": "7888a701-ec8d-4d83-93af-0293b3e2c530",
+      "sub_steps": []
+    },
+    {
+      "id": "3545250e-c81e-45a2-b297-ef8ff124726d",
+      "name": "Click on label colorStorageOption (colorTeal)",
+      "action_id": "29556c13-ddec-4b3c-8685-6f3e66ae5db4",
+      "timestamp": 1784828354927,
+      "target_name": "label_colorStorageOption",
+      "target_test_object_id": "bf9b2a3e-77e6-488f-bdcd-98676fd983bc",
+      "sub_steps": []
+    },
+    {
+      "id": "94a15d94-1238-4785-923d-e400ec3cba7a",
+      "name": "Click on label colorStorageOption (storage512Gb)",
+      "action_id": "5f7e1afc-bac5-4da3-bdb4-c699d9711608",
+      "timestamp": 1784828355898,
+      "target_name": "label_colorStorageOption",
+      "target_test_object_id": "394e84da-a0b8-4f2c-9071-c170210c81f7",
+      "sub_steps": []
+    },
+    {
+      "id": "221f0ada-751c-4f5c-9da4-ae352543bf5f",
+      "name": "Click on button quantityAdjustment (increase)",
+      "action_id": "64621947-3368-41be-8875-5663840f290d",
+      "timestamp": 1784828356872,
+      "target_name": "button_quantityAdjustment",
+      "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
+      "sub_steps": []
+    },
+    {
+      "id": "71b79812-cba8-45c8-b38a-e726a5046eca",
+      "name": "Click on button quantityAdjustment (decrease) -> Navigate to page ''",
+      "action_id": "c0ef3f3a-83b0-4b15-a499-c4bf50dfdc8b",
+      "timestamp": 1784828358095,
+      "target_name": "button_quantityAdjustment",
+      "target_test_object_id": "f1a9e6ba-56b2-40ae-9830-b597f7b1bf23",
+      "sub_steps": []
+    },
+    {
+      "id": "a9a9616b-e0d4-4229-a16f-c9c98e04741d",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}
