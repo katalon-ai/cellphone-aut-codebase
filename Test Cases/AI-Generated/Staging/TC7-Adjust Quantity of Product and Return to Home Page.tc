@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to the product page, adjust the quantity of the selected item multiple times, and then return to the home page. Verify the home page.</description>
+   <name>TC7-Adjust Quantity of Product and Return to Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4b2735ec-60e6-4420-9b24-7c9aca7e650b</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>ce944d1e-f4c6-4aef-8207-5e6413255455</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 2: Click on button quantityAdjustment (increase2) - (Dynamic locator variable)</description>
+      <id>5c3e3800-23fa-40ba-a92f-5c42c06cbcec</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 3: Click on button quantityAdjustment (decrease2) - (Dynamic locator variable)</description>
+      <id>351d8752-ad00-44bf-a24d-6b6312f78369</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 4: Click on button quantityAdjustment (increase2) - (Dynamic locator variable)</description>
+      <id>b0c9b6cd-f070-4a86-b050-d5c4c1e259b3</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;svg-inline--fa\\\\ fa-plus\\\\ fa-w-14\\\\ \&quot;]'</defaultValue>
+      <description>Step 2: Click on button quantityAdjustment (increase2) - (Dynamic locator variable)</description>
+      <id>ba45b6eb-98ee-4b05-bb5d-62e451e8ccb4</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;svg-inline--fa\\\\ fa-minus\\\\ fa-w-14\\\\ \&quot;]'</defaultValue>
+      <description>Step 3: Click on button quantityAdjustment (decrease2) - (Dynamic locator variable)</description>
+      <id>d919dd36-704b-4ab4-88e7-8d03f2b3cf50</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;svg-inline--fa\\\\ fa-plus\\\\ fa-w-14\\\\ \&quot;]'</defaultValue>
+      <description>Step 4: Click on button quantityAdjustment (increase2) - (Dynamic locator variable)</description>
+      <id>a90699a2-5ce1-4635-b9a9-6e6a315e5237</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'115'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category) - (Dynamic URL variable)</description>
+      <id>2cba6557-c4c5-41c1-b9f9-ef3a157d2f45</id>
+      <masked>false</masked>
+      <name>product_category</name>
+   </variable>
+   <variable>
+      <defaultValue>'apple-airpods-pro-2'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category) - (Dynamic URL variable)</description>
+      <id>5a36e41e-800c-43e5-a3e1-4cd92ba7f6f8</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>ce944d1e-f4c6-4aef-8207-5e6413255455</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
