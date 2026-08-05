@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to a product page, select storage and color options, adjust quantity, add to cart, fill in shipping information, and complete checkout. Verify the thank you page.</description>
+   <name>TC8-Select Storage and Color Options for Checkout Process</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a6a49867-46c1-4096-abec-872735bff635</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>67b0acb1-8e8f-4a85-acb6-2b0b39605588</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 4: Click on button quantityAdjustment (increase) - (Dynamic locator variable)</description>
+      <id>2a0952a0-222d-488f-9c5a-2f8727fcffa7</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;svg-inline--fa\\\\ fa-plus\\\\ fa-w-14\\\\ \&quot;]'</defaultValue>
+      <description>Step 4: Click on button quantityAdjustment (increase) - (Dynamic locator variable)</description>
+      <id>faf0785b-d53d-434e-bedd-08197c7c371c</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'1 Smoke Test Way'</defaultValue>
+      <description>Step 7: Fill in shipping information and complete the checkout process - (Input data variable)</description>
+      <id>c21a13d8-5ccb-47b6-8dc7-c0e43a03332c</id>
+      <masked>false</masked>
+      <name>input_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cupertino'</defaultValue>
+      <description>Step 7: Fill in shipping information and complete the checkout process - (Input data variable)</description>
+      <id>ef2f5b8d-5f72-4f75-9c55-b316205a1867</id>
+      <masked>false</masked>
+      <name>input_city</name>
+   </variable>
+   <variable>
+      <defaultValue>'truetest.smoke+s2608051607ldj5-tc-08-random-mixed-c@example.com'</defaultValue>
+      <description>Step 7: Fill in shipping information and complete the checkout process - (Input data variable)</description>
+      <id>95113ef6-64be-4a6f-9acb-b3a35ef65274</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'SmokeTest'</defaultValue>
+      <description>Step 7: Fill in shipping information and complete the checkout process - (Input data variable)</description>
+      <id>d5a38419-d171-4859-8745-6d3cf8af654d</id>
+      <masked>false</masked>
+      <name>input_firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Traffic'</defaultValue>
+      <description>Step 7: Fill in shipping information and complete the checkout process - (Input data variable)</description>
+      <id>893c3db7-1588-4724-9c66-083055dd721a</id>
+      <masked>false</masked>
+      <name>input_lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'18005550123'</defaultValue>
+      <description>Step 7: Fill in shipping information and complete the checkout process - (Input data variable)</description>
+      <id>8e4316a7-06ca-4cbc-ab0e-34d9fcf28a99</id>
+      <masked>false</masked>
+      <name>input_phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'CA'</defaultValue>
+      <description>Step 7: Fill in shipping information and complete the checkout process - (Input data variable)</description>
+      <id>aa3ecb8a-6d9f-481a-a93b-4f435b82fba6</id>
+      <masked>false</masked>
+      <name>input_state</name>
+   </variable>
+   <variable>
+      <defaultValue>'95014'</defaultValue>
+      <description>Step 7: Fill in shipping information and complete the checkout process - (Input data variable)</description>
+      <id>0626a787-652a-4de5-95bc-d4feb897c103</id>
+      <masked>false</masked>
+      <name>input_zipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Black'</defaultValue>
+      <description>Step 2: Click on label storageColorOptions (colorBlack) - (Dynamic locator variable)</description>
+      <id>0df2abe7-682f-4da3-9365-204f9067cf10</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'128 GB'</defaultValue>
+      <description>Step 3: Click on label storageColorOptions (storage128Gb) - (Dynamic locator variable)</description>
+      <id>03150dbb-0809-4787-a6d8-ba68c1e5553c</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52208-case-760\&quot;]'</defaultValue>
+      <description>Step 2: Click on label storageColorOptions (colorBlack) - (Dynamic locator variable)</description>
+      <id>c73f0b9d-7aa7-4e63-936e-90f2665073de</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52209-case-761\&quot;]'</defaultValue>
+      <description>Step 3: Click on label storageColorOptions (storage128Gb) - (Dynamic locator variable)</description>
+      <id>d920f556-973e-46f5-a629-eac69451bb14</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'apple-iphone-16'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16 - (Dynamic URL variable)</description>
+      <id>dad4d708-233a-4f03-bebe-8ef801b110c7</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>67b0acb1-8e8f-4a85-acb6-2b0b39605588</id>
+      </flow>
+   </customField>
+</TestCaseEntity>

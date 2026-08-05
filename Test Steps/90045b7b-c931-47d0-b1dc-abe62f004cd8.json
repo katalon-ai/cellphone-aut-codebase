@@ -1,0 +1,46 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "779a306e-48bb-42a0-a69e-38a9d6e7cb9b",
+      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category)",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "7b2830d9-c64b-4fb4-a2a4-90a0b21d52ea",
+      "name": "Click on button buy -> Navigate to page '/cart'",
+      "action_id": "70aa32ae-13e2-4458-9eab-5b315131b958",
+      "timestamp": 1785946248126,
+      "target_name": "button_buy",
+      "target_test_object_id": "50fae88a-88f7-4a56-8e30-6c3416e8db33",
+      "sub_steps": []
+    },
+    {
+      "id": "5f33a368-28ca-424e-8c8f-02cf11fc3168",
+      "name": "Click on button quantityAdjustment (increase)",
+      "action_id": "6ce83c6c-e256-4eeb-93ae-a1a7679364c7",
+      "timestamp": 1785946251683,
+      "target_name": "button_quantityAdjustment",
+      "target_test_object_id": "bc7af5e9-b561-4927-835d-554840785a29",
+      "sub_steps": []
+    },
+    {
+      "id": "2ed3d8f2-6bc0-4706-b55b-7ec60c62d65f",
+      "name": "Click on button quantityAdjustment (decrease) -> Navigate to page ''",
+      "action_id": "03be56b5-6d71-479a-b116-2f21e81061f6",
+      "timestamp": 1785946252236,
+      "target_name": "button_quantityAdjustment",
+      "target_test_object_id": "e443a54f-07ba-4308-bf66-0f6407ae668d",
+      "sub_steps": []
+    },
+    {
+      "id": "1affe07f-2f5a-439e-8763-b8911f5c7652",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}

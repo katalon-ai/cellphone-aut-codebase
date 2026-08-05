@@ -11,8 +11,8 @@
     {
       "id": "5fca1453-7431-4055-8b63-2ef56a2929d2",
       "name": "Enter input value in input priceMin",
-      "action_id": "d6cb9e2d-1417-4ae1-8352-51236d166d63",
-      "timestamp": 1785940347003,
+      "action_id": "9eb26c48-cd86-4b32-a6a0-c779075ccf46",
+      "timestamp": 1785946140347,
       "target_name": "input_priceMin",
       "target_test_object_id": "48775620-b052-4a62-b329-e3fda7c4a83d",
       "sub_steps": []
@@ -20,8 +20,8 @@
     {
       "id": "7da06d61-009d-452c-b9f9-160a8f477fbc",
       "name": "Enter input value in input priceMax",
-      "action_id": "dc6fa723-89da-4910-8224-83b0c1af8c6e",
-      "timestamp": 1785940347051,
+      "action_id": "8b8b08e2-e4f6-45b7-95a5-5024f88dc201",
+      "timestamp": 1785946140380,
       "target_name": "input_priceMax",
       "target_test_object_id": "78d445cf-ed69-4ad0-8175-3d45298173b3",
       "sub_steps": []
@@ -29,8 +29,8 @@
     {
       "id": "a7f107fd-0627-475f-a01e-9709310ad06c",
       "name": "Click on input inStock",
-      "action_id": "a09800cd-a57d-4232-aea3-08620d101d14",
-      "timestamp": 1785940347078,
+      "action_id": "271fa9d5-a137-4717-b024-d230cd3eabca",
+      "timestamp": 1785946140415,
       "target_name": "input_inStock",
       "target_test_object_id": "c955ccf9-1f13-4c03-ba26-b6f084476cfe",
       "sub_steps": []
@@ -38,8 +38,8 @@
     {
       "id": "329378c3-19c8-4580-b026-b74a05426492",
       "name": "Click on button search",
-      "action_id": "9e9829f3-3e7b-4067-8b2f-24ead1f9999c",
-      "timestamp": 1785940347112,
+      "action_id": "4e123ad6-72ca-4d23-99c5-66bb2ec715d8",
+      "timestamp": 1785946140480,
       "target_name": "button_search",
       "target_test_object_id": "7a7335ef-1131-413f-b17c-5335447abf40",
       "sub_steps": []
@@ -47,8 +47,8 @@
     {
       "id": "4c2024df-b5d7-4029-8131-49f3effb7e1d",
       "name": "Click on link byPrice",
-      "action_id": "9abaee0f-50e0-4174-8b62-ddeb30960eaf",
-      "timestamp": 1785940347668,
+      "action_id": "7cddfc07-1972-47d8-89b6-dbd89c2c40d1",
+      "timestamp": 1785946141030,
       "target_name": "link_byPrice",
       "target_test_object_id": "7f1e6385-8b2d-4ace-a588-b0ac22161502",
       "sub_steps": []
@@ -56,8 +56,8 @@
     {
       "id": "e477521c-bb47-4d7e-9c23-5e2ede310968",
       "name": "Click on link samsungGalaxyS23Ultra",
-      "action_id": "a8ffd752-cb41-49a5-931d-8c7b652c8938",
-      "timestamp": 1785940348253,
+      "action_id": "cbd56c4f-5be6-4336-b286-b42e21fb5803",
+      "timestamp": 1785946141599,
       "target_name": "link_samsungGalaxyS23Ultra",
       "target_test_object_id": "1db2b07e-2649-4585-b919-085a1091b855",
       "sub_steps": []
@@ -65,8 +65,8 @@
     {
       "id": "ae924107-1dc8-406f-acbb-466030a5da0d",
       "name": "Click on link apple -> Navigate to page '/category/phone-apple'",
-      "action_id": "ee8a765d-a20e-43dd-a6a2-523361fcfe33",
-      "timestamp": 1785940348900,
+      "action_id": "08a9c5da-134a-43c0-adee-584f8e5d4e5c",
+      "timestamp": 1785946142245,
       "target_name": "link_apple",
       "target_test_object_id": "20436905-0230-4982-9be3-51743dfc5a43",
       "sub_steps": []
@@ -74,8 +74,8 @@
     {
       "id": "b1c3ca6b-18b5-44e5-81d1-1568fd3c8e16",
       "name": "Enter input value in input priceMin",
-      "action_id": "a9318bba-6f1c-4edf-b16b-ec627c16a5da",
-      "timestamp": 1785940349495,
+      "action_id": "7e504241-e7eb-4c02-9c9a-1e0c1a5fd3e6",
+      "timestamp": 1785946142817,
       "target_name": "input_priceMin",
       "target_test_object_id": "55d7806f-fe7b-495b-b6e7-9eb800c07419",
       "sub_steps": []
@@ -83,17 +83,17 @@
     {
       "id": "971523b4-76b8-4ce0-b661-b3036bf8a1e2",
       "name": "Enter input value in input priceMax",
-      "action_id": "073e3aba-3bde-4051-ad26-8467fa5860fe",
-      "timestamp": 1785940349518,
+      "action_id": "977e7d26-ee5e-41bd-85d2-5e1fbd0b6016",
+      "timestamp": 1785946142830,
       "target_name": "input_priceMax",
-      "target_test_object_id": "a3303a51-61b8-4aaa-8fcd-c4e79080458c",
+      "target_test_object_id": "64cb4180-bd58-473d-aeca-8b831304e4a6",
       "sub_steps": []
     },
     {
       "id": "48439e7b-3ff1-4e46-9689-7c14b0206e36",
       "name": "Click on input inStock",
-      "action_id": "bb637c8e-e313-45de-a43b-dc720c2b15e4",
-      "timestamp": 1785940349543,
+      "action_id": "227172f4-398e-4f39-b7af-f9f638947b74",
+      "timestamp": 1785946142854,
       "target_name": "input_inStock",
       "target_test_object_id": "a8d420ab-23a6-4233-a5f2-c6fd45a3f277",
       "sub_steps": []
@@ -101,8 +101,8 @@
     {
       "id": "d38d17e5-caf3-4ed2-9d9b-d567c782625d",
       "name": "Click on button search",
-      "action_id": "7d80c067-721a-4c5e-96fc-fec2986a23ae",
-      "timestamp": 1785940349575,
+      "action_id": "0a7ff688-5468-497b-98a3-3088c5d5d1de",
+      "timestamp": 1785946142879,
       "target_name": "button_search",
       "target_test_object_id": "be22495e-686c-4ee0-9978-68b1f622c152",
       "sub_steps": []
@@ -110,43 +110,43 @@
     {
       "id": "fb904cbf-0d9f-49b6-b674-29a8ae591312",
       "name": "Click on link byTitle",
-      "action_id": "36a6c362-a795-45f7-903e-e7d6ccadc36d",
-      "timestamp": 1785940350142,
+      "action_id": "a3f102c2-27d6-416b-a908-2054a3f67b9b",
+      "timestamp": 1785946143430,
       "target_name": "link_byTitle",
       "target_test_object_id": "7888a701-ec8d-4d83-93af-0293b3e2c530",
       "sub_steps": []
     },
     {
       "id": "93764359-bec7-4b01-bb7e-7f4c156ce237",
-      "name": "Select storage options and adjust quantity for Apple iPhones.",
+      "name": "Select storage and color options for Apple iPhone products",
       "action_id": "",
-      "timestamp": 1785940350726,
+      "timestamp": 1785946144007,
       "target_name": "",
       "target_test_object_id": "",
       "sub_steps": [
         {
           "id": "11d8ba78-6114-4861-80a2-b10c12a094d8",
-          "name": "Click on link appleIphones -> Navigate to page '/product/*'",
-          "action_id": "12c6bfb5-6165-42ee-942b-a275f853303e",
-          "timestamp": 1785940350726,
-          "target_name": "link_appleIphones",
+          "name": "Click on link appleIphoneProducts -> Navigate to page '/product/*'",
+          "action_id": "20a89a67-b128-49e2-a3c5-242c91d4940d",
+          "timestamp": 1785946144007,
+          "target_name": "link_appleIphoneProducts",
           "target_test_object_id": "113616e0-08e8-436c-9c9e-5c83723e1eed",
           "sub_steps": []
         },
         {
           "id": "e69c2680-51cf-472b-ace6-4377ca0c5eb8",
           "name": "Click on label storageColorOptions",
-          "action_id": "e033b624-6fe0-41c4-a10f-0452708155ff",
-          "timestamp": 1785940369215,
+          "action_id": "7481bf2c-079f-48b7-a51f-589fa3650be7",
+          "timestamp": 1785946162279,
           "target_name": "label_storageColorOptions",
-          "target_test_object_id": "48b2f2d8-fbac-40a6-9ae1-11bb8e1a231e",
+          "target_test_object_id": "11b5703b-cb8c-4585-b857-0576d21ed3d4",
           "sub_steps": []
         },
         {
           "id": "ac7f487f-d425-4fc5-bd39-898e25838f4c",
           "name": "Click on label storageColorOptions",
-          "action_id": "6135838f-643e-424b-a465-926838ec6b04",
-          "timestamp": 1785940369815,
+          "action_id": "23f3875c-0680-4f4a-8a0e-ca8e480b23c0",
+          "timestamp": 1785946162861,
           "target_name": "label_storageColorOptions",
           "target_test_object_id": "d6c41ad3-5474-433a-9cc2-3c28c6d195cd",
           "sub_steps": []
@@ -154,8 +154,8 @@
         {
           "id": "0c6c06f7-fa11-4dfa-9aa6-a65dac18c0a2",
           "name": "Click on button quantityAdjustment",
-          "action_id": "c486511d-70e0-4680-9772-f06a05949e6b",
-          "timestamp": 1785940370374,
+          "action_id": "19ad5432-eae0-42d9-ae8b-379f85d896a5",
+          "timestamp": 1785946163406,
           "target_name": "button_quantityAdjustment",
           "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
           "sub_steps": []
@@ -163,8 +163,8 @@
         {
           "id": "8c3d2673-8755-4cc6-bd9f-568ac908217d",
           "name": "Click on button quantityAdjustment",
-          "action_id": "b568dd17-3203-4234-8236-ff2482597be7",
-          "timestamp": 1785940370957,
+          "action_id": "5ebe56e3-bf0e-4a98-a024-64347e3c3a16",
+          "timestamp": 1785946163947,
           "target_name": "button_quantityAdjustment",
           "target_test_object_id": "f1a9e6ba-56b2-40ae-9830-b597f7b1bf23",
           "sub_steps": []

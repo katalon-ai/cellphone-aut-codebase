@@ -11,8 +11,8 @@
     {
       "id": "f21f0cf8-ddab-494f-b20f-08d2aacbee76",
       "name": "Enter input value in input priceMin",
-      "action_id": "8ae2f624-19e8-4505-b168-1f0188e56bfe",
-      "timestamp": 1785116915162,
+      "action_id": "d6cc3615-6d4b-41cd-83a7-978f41df44fc",
+      "timestamp": 1785946181179,
       "target_name": "input_priceMin",
       "target_test_object_id": "a2a0013b-458c-4b86-b037-cb60fc9b937b",
       "sub_steps": []
@@ -20,8 +20,8 @@
     {
       "id": "daf64656-1ede-413f-8c7d-79b86760183d",
       "name": "Enter input value in input priceMax",
-      "action_id": "10608dd2-9933-4dc3-855c-8db46c48237d",
-      "timestamp": 1785116915174,
+      "action_id": "b9caf52d-aed8-42c9-9e75-6de1752eb78f",
+      "timestamp": 1785946181209,
       "target_name": "input_priceMax",
       "target_test_object_id": "4b2eafbe-cf42-4057-acd6-784592107815",
       "sub_steps": []
@@ -29,8 +29,8 @@
     {
       "id": "95b0e804-9b26-4faf-a213-43c00dd8d346",
       "name": "Click on input inStock",
-      "action_id": "b3957a53-24ec-4141-b49a-2918fa7d31d0",
-      "timestamp": 1785116915197,
+      "action_id": "7f598358-23bf-4190-9197-f3e5b3304ee3",
+      "timestamp": 1785946181241,
       "target_name": "input_inStock",
       "target_test_object_id": "e4a7df88-8b9f-45ca-921c-7abf43d87375",
       "sub_steps": []
@@ -38,8 +38,8 @@
     {
       "id": "46d573df-5739-4ef6-b443-6a0bbabd0121",
       "name": "Click on button search",
-      "action_id": "1073a2b6-f264-4203-9a1d-14e2af98ed3b",
-      "timestamp": 1785116915220,
+      "action_id": "45d3387f-4095-4d43-b405-8af824710ea8",
+      "timestamp": 1785946181306,
       "target_name": "button_search",
       "target_test_object_id": "f13e6341-b678-4b48-aef5-65165d2f97e4",
       "sub_steps": []
@@ -47,8 +47,8 @@
     {
       "id": "ad847117-4f57-4d34-947e-e313271dee3e",
       "name": "Click on link sortByTitle -> Navigate to page '/product/*'",
-      "action_id": "3d56fd45-9212-4a36-9f0c-1d7e07492b37",
-      "timestamp": 1785116916387,
+      "action_id": "efe895f0-51a6-47cb-b4b4-db06313ad0c2",
+      "timestamp": 1785946181872,
       "target_name": "link_sortByTitle",
       "target_test_object_id": "e147467b-17b6-48b0-9c85-07487d6b735e",
       "sub_steps": []
@@ -56,8 +56,8 @@
     {
       "id": "3d17c07e-f472-4d5b-b730-7862c9356ba9",
       "name": "Take full page screenshot as checkpoint",
-      "action_id": "88eac818-5b55-46f3-a0bb-f0f2f3bb0a9f",
-      "timestamp": 1785116917438,
+      "action_id": "4e4feea5-d9e4-4392-b22f-2f3875628d11",
+      "timestamp": 1785946182605,
       "target_name": "",
       "target_test_object_id": "",
       "sub_steps": []

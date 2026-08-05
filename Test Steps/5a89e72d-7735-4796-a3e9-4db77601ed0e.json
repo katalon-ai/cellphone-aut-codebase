@@ -3,34 +3,34 @@
   "steps": [
     {
       "id": "253336ae-b97d-4e30-94cf-d908e6dce5ea",
-      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16",
+      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/samsung-galaxy-s23-ultra",
       "target_name": "",
       "target_test_object_id": "",
       "sub_steps": []
     },
     {
       "id": "ffcd682f-d3db-40ae-875e-c3eeab0dc003",
-      "name": "Click on label storageColorOptions (colorTeal)",
-      "action_id": "4440513e-cb15-4116-9c40-3f2b8fd51a51",
-      "timestamp": 1785940327162,
+      "name": "Click on label storageColorOptions (storage1Tb)",
+      "action_id": "4854c0c7-e4cc-4b85-9d5f-19e96daae007",
+      "timestamp": 1785946112837,
       "target_name": "label_storageColorOptions",
-      "target_test_object_id": "bf9b2a3e-77e6-488f-bdcd-98676fd983bc",
+      "target_test_object_id": "741f88ab-ed14-47b5-8f3d-015c16987cfd",
       "sub_steps": []
     },
     {
       "id": "1ef776a2-e052-4bc7-82dc-029010788bb9",
-      "name": "Click on label storageColorOptions ( 256Gb)",
-      "action_id": "2e9d2f94-b9a1-49f3-bb9b-e20be6a7255d",
-      "timestamp": 1785940327748,
+      "name": "Click on label storageColorOptions (colorLavender)",
+      "action_id": "27262572-b716-461b-b1a9-b8e73946cea1",
+      "timestamp": 1785946113387,
       "target_name": "label_storageColorOptions",
-      "target_test_object_id": "7383b546-f223-4521-a871-49822a1974e9",
+      "target_test_object_id": "a9668803-3555-4c2e-94d4-092f9f3d1ffd",
       "sub_steps": []
     },
     {
       "id": "427a0cc5-4c9d-4b98-86e5-2b890d5ca6bf",
       "name": "Click on button quantityAdjustment (increase) -> Navigate to page ''",
-      "action_id": "be2f387b-f042-45c1-80f4-34caa9d62a29",
-      "timestamp": 1785940328306,
+      "action_id": "e32a75a6-3248-41ad-86fc-576a1acbf9b6",
+      "timestamp": 1785946113930,
       "target_name": "button_quantityAdjustment",
       "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
       "sub_steps": []

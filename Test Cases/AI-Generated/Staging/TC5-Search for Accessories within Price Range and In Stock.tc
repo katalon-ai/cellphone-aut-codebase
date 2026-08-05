@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to the accessories category, set a price range, filter for in-stock items, and perform a search. Verify the product page.</description>
+   <name>TC5-Search for Accessories within Price Range and In Stock</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4f3579a2-2268-40c3-9f40-0ecbc4cafc95</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>9ef31476-9828-4809-8b9a-49a724761de4</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'142'</defaultValue>
+      <description>Step 3: Enter input value in input priceMax - (Input data variable)</description>
+      <id>a7789bfd-036e-41a0-afae-f250801fd872</id>
+      <masked>false</masked>
+      <name>input_priceMax</name>
+   </variable>
+   <variable>
+      <defaultValue>'46'</defaultValue>
+      <description>Step 2: Enter input value in input priceMin - (Input data variable)</description>
+      <id>8c7a57c6-2558-4742-965a-7f5a50318b2c</id>
+      <masked>false</masked>
+      <name>input_priceMin</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>9ef31476-9828-4809-8b9a-49a724761de4</id>
+      </flow>
+   </customField>
+</TestCaseEntity>

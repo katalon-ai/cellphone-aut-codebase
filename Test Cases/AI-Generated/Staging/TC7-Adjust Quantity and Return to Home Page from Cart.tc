@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to a product page, add the item to the cart, adjust the quantity, and return to the home page. Verify the home page.</description>
+   <name>TC7-Adjust Quantity and Return to Home Page from Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a7feb92e-823a-449a-9025-2b9ae8fbbb7f</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>90045b7b-c931-47d0-b1dc-abe62f004cd8</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 3: Click on button quantityAdjustment (increase) - (Dynamic locator variable)</description>
+      <id>b6920dd5-b488-4433-a605-58019cc84406</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 4: Click on button quantityAdjustment (decrease) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>fe486535-9250-404a-8573-d61563ff8464</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'button:nth-of-type(2)'</defaultValue>
+      <description>Step 3: Click on button quantityAdjustment (increase) - (Dynamic locator variable)</description>
+      <id>1ab26819-bea5-498d-ae6e-1c6a5729f066</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'.input-group > button:nth-of-type(1)'</defaultValue>
+      <description>Step 4: Click on button quantityAdjustment (decrease) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>9b28fb94-245b-4370-ba52-d826c6839951</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'115'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category) - (Dynamic URL variable)</description>
+      <id>60dc599a-05d6-4936-a3dd-75e42fb2655c</id>
+      <masked>false</masked>
+      <name>product_category</name>
+   </variable>
+   <variable>
+      <defaultValue>'apple-airpods-pro-2'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category) - (Dynamic URL variable)</description>
+      <id>c4a1ea43-6435-4c0e-b79d-cfbab820b742</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>90045b7b-c931-47d0-b1dc-abe62f004cd8</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
