@@ -535,8 +535,10 @@ public class TrueTestScripts {
     public static String switchToNewWindow(int timeout = 10) {
 
         WebDriver driver = DriverFactory.getWebDriver()
+        int waitForWindowSwitchTimeout = timeout("waitForWindowSwitchTimeOut", timeout)
+        int waitForPageLoadTimeout = timeout("waitForPageLoadTimeOut", timeout)
 
-        new WebDriverWait(driver, Duration.ofSeconds(timeout))
+        new WebDriverWait(driver, Duration.ofSeconds(waitForWindowSwitchTimeout))
                 .until {
                     driver.getWindowHandles().size() > this.beforeHandles.size()
                 }
@@ -552,6 +554,8 @@ public class TrueTestScripts {
 
         if (!driver.getWindowHandle().equals(newHandle)) {
             driver.switchTo().window(newHandle)
+            WebUI.waitForPageLoad(waitForPageLoadTimeout)
+            WebUI.waitForAngularLoad(waitForPageLoadTimeout)
         }
 
         return newHandle
