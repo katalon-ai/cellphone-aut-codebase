@@ -3,34 +3,34 @@
   "steps": [
     {
       "id": "253336ae-b97d-4e30-94cf-d908e6dce5ea",
-      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/samsung-galaxy-s23-ultra",
+      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16",
       "target_name": "",
       "target_test_object_id": "",
       "sub_steps": []
     },
     {
       "id": "ffcd682f-d3db-40ae-875e-c3eeab0dc003",
-      "name": "Click on label storageColorOption (storage256Gb)",
-      "action_id": "c016de71-30d9-40b2-aa22-cf42ed19c9cb",
-      "timestamp": 1785116863700,
-      "target_name": "label_storageColorOption",
-      "target_test_object_id": "ebeb2ec6-2ecf-4728-bdfa-7ecc793a91bb",
+      "name": "Click on label colorStorageOptions (colorTeal)",
+      "action_id": "4440513e-cb15-4116-9c40-3f2b8fd51a51",
+      "timestamp": 1785940327162,
+      "target_name": "label_colorStorageOptions",
+      "target_test_object_id": "bf9b2a3e-77e6-488f-bdcd-98676fd983bc",
       "sub_steps": []
     },
     {
       "id": "1ef776a2-e052-4bc7-82dc-029010788bb9",
-      "name": "Click on label storageColorOption (colorGreen)",
-      "action_id": "e554b5e1-4d48-41b1-a6e0-4dfe1c679296",
-      "timestamp": 1785116864862,
-      "target_name": "label_storageColorOption",
-      "target_test_object_id": "74792036-d9aa-4464-8d4c-68e997fcc2cc",
+      "name": "Click on label colorStorageOptions ( 256Gb)",
+      "action_id": "2e9d2f94-b9a1-49f3-bb9b-e20be6a7255d",
+      "timestamp": 1785940327748,
+      "target_name": "label_colorStorageOptions",
+      "target_test_object_id": "7383b546-f223-4521-a871-49822a1974e9",
       "sub_steps": []
     },
     {
       "id": "427a0cc5-4c9d-4b98-86e5-2b890d5ca6bf",
       "name": "Click on button quantityAdjustment (increase) -> Navigate to page ''",
-      "action_id": "17594c28-c25e-4580-8118-1c54d032cf64",
-      "timestamp": 1785116866043,
+      "action_id": "be2f387b-f042-45c1-80f4-34caa9d62a29",
+      "timestamp": 1785940328306,
       "target_name": "button_quantityAdjustment",
       "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
       "sub_steps": []
