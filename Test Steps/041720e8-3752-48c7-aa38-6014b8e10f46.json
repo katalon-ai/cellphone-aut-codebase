@@ -1,0 +1,101 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "c2ac6502-294d-4290-811a-8ca25477ddac",
+      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "beea6d71-d164-441e-8515-0a031fdd4232",
+      "name": "Click on link about -> Navigate to page '/about'",
+      "action_id": "23132a51-aeb4-409f-bb9b-5a34557a4757",
+      "timestamp": 1785940280464,
+      "target_name": "link_about",
+      "target_test_object_id": "2367c7f7-e689-4843-a6a2-eef4252097ca",
+      "sub_steps": []
+    },
+    {
+      "id": "825717a1-2741-4798-9e4f-28426bdaeac9",
+      "name": "Click on link phone -> Navigate to page '/category/phone'",
+      "action_id": "f8cf04d8-3932-4634-a627-3544917479fb",
+      "timestamp": 1785940281118,
+      "target_name": "link_phone",
+      "target_test_object_id": "3cfefab5-80ba-4841-937b-0b0de9c53e1c",
+      "sub_steps": []
+    },
+    {
+      "id": "a6a62f10-6471-48d2-b9fa-d0f822082681",
+      "name": "Click on link apple",
+      "action_id": "6b8397e0-dc4a-4978-85ef-f8726364aac8",
+      "timestamp": 1785940281752,
+      "target_name": "link_apple",
+      "target_test_object_id": "36f05f0e-54b7-4e60-b18c-9bfc8f804aa0",
+      "sub_steps": []
+    },
+    {
+      "id": "9a9ecca3-47a7-4d26-80fc-5736d9933afd",
+      "name": "Select storage options and adjust quantity for Apple iPhones.",
+      "action_id": "",
+      "timestamp": 1785940282368,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": [
+        {
+          "id": "11d8ba78-6114-4861-80a2-b10c12a094d8",
+          "name": "Click on link appleIphones -> Navigate to page '/product/*'",
+          "action_id": "11b8b196-d323-4826-bffe-ab47117a86e3",
+          "timestamp": 1785940282368,
+          "target_name": "link_appleIphones",
+          "target_test_object_id": "113616e0-08e8-436c-9c9e-5c83723e1eed",
+          "sub_steps": []
+        },
+        {
+          "id": "e69c2680-51cf-472b-ace6-4377ca0c5eb8",
+          "name": "Click on label storageColorOptions",
+          "action_id": "0d0fc41a-8435-4296-9eb2-58aa2253b1a5",
+          "timestamp": 1785940282966,
+          "target_name": "label_storageColorOptions",
+          "target_test_object_id": "48b2f2d8-fbac-40a6-9ae1-11bb8e1a231e",
+          "sub_steps": []
+        },
+        {
+          "id": "ac7f487f-d425-4fc5-bd39-898e25838f4c",
+          "name": "Click on label storageColorOptions",
+          "action_id": "a9c4de52-c558-4a75-b9d9-9bcf0a7d153e",
+          "timestamp": 1785940283499,
+          "target_name": "label_storageColorOptions",
+          "target_test_object_id": "d6c41ad3-5474-433a-9cc2-3c28c6d195cd",
+          "sub_steps": []
+        },
+        {
+          "id": "0c6c06f7-fa11-4dfa-9aa6-a65dac18c0a2",
+          "name": "Click on button quantityAdjustment",
+          "action_id": "ff445376-53eb-41f7-b07a-77b159539544",
+          "timestamp": 1785940284085,
+          "target_name": "button_quantityAdjustment",
+          "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
+          "sub_steps": []
+        },
+        {
+          "id": "8c3d2673-8755-4cc6-bd9f-568ac908217d",
+          "name": "Click on button quantityAdjustment",
+          "action_id": "2a164215-95e1-4a28-a096-a0778200b9a3",
+          "timestamp": 1785940284634,
+          "target_name": "button_quantityAdjustment",
+          "target_test_object_id": "f1a9e6ba-56b2-40ae-9830-b597f7b1bf23",
+          "sub_steps": []
+        }
+      ]
+    },
+    {
+      "id": "1c816d85-75a4-4231-9231-50a356dfa58f",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}

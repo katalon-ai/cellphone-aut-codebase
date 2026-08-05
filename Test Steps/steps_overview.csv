@@ -1,5 +1,5 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-2,Search for Phones by Price Range and Availability,"Navigate to the phone category, set price filters, check for in-stock items, perform a search, and verify the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/phone
+2,Search and Filter Phones by Price and Availability,"Navigate to the phone category, set price filters, check for in-stock items, perform a search, sort results, and return to the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/phone
 Step 2: Enter input value in input priceMin
 Step 3: Enter input value in input priceMax
 Step 4: Click on input inStock
@@ -8,13 +8,13 @@ Step 6: Click on link sortByTitle
 Step 7: Click on button clear -> Navigate to page ''
 Step 8: Take full page screenshot as checkpoint
 ",High,NEW
-3,Adjust Quantity for Selected Phone Color and Storage Options,"Navigate to a product page, select color and storage options, adjust the quantity, and verify the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16
-Step 2: Click on label colorStorageOptions (colorTeal)
-Step 3: Click on label colorStorageOptions ( 256Gb)
+3,Adjust Storage and Quantity for Selected Product,"Navigate to a product page, select storage and color options, adjust the quantity, and verify the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16
+Step 2: Click on label storageColorOptions (colorTeal)
+Step 3: Click on label storageColorOptions ( 256Gb)
 Step 4: Click on button quantityAdjustment (increase) -> Navigate to page ''
 Step 5: Take full page screenshot as checkpoint
 ",High,NEW
-5,Search for Apple Accessories within Price Range,"Navigate to the Apple accessories category, set a price range, filter for in-stock items, and sort the results by price.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/accessories-apple
+5,Search for Apple Accessories within Price Range and In Stock,"Navigate to the Apple accessories category, set a price range, filter for in-stock items, and verify the product page after sorting by price.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/accessories-apple
 Step 2: Enter input value in input priceMin
 Step 3: Enter input value in input priceMax
 Step 4: Click on input inStock
@@ -22,22 +22,22 @@ Step 5: Click on button search
 Step 6: Click on link sortByPrice -> Navigate to page '/product/*'
 Step 7: Take full page screenshot as checkpoint
 ",High,NEW
-7,Add Product to Cart and Verify Home Page,"Select product options, adjust quantity, add to cart, and navigate back to the home page to verify the changes.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16
-Step 2: Click on label colorStorageOptions (colorWhite)
-Step 3: Click on label colorStorageOptions (storage512Gb)
+7,Add Apple Product to Cart and Verify Home Page,"Select an Apple product, adjust quantity, add to cart, and verify the home page after returning from the cart.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16
+Step 2: Click on label storageColorOptions (colorWhite)
+Step 3: Click on label storageColorOptions (storage512Gb)
 Step 4: Click on button buy -> Navigate to page '/cart'
-Step 5: Click on button quantityAdjustment (increase)
-Step 6: Click on button quantityAdjustment (decrease) -> Navigate to page ''
+Step 5: Click on button cartQuantityAdjustment (increase)
+Step 6: Click on button cartQuantityAdjustment (decrease) -> Navigate to page ''
 Step 7: Take full page screenshot as checkpoint
 ",Medium,NEW
-1,Navigate to About Page and Select iPhone Model for Purchase,"Navigate to the home page, access the About section, select an iPhone model, adjust the quantity, and verify the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app
+1,Navigate to About Page and Explore Apple iPhone Options,"Navigate to the home page, access the About section, explore the phone category, select Apple iPhones, adjust storage and quantity, and verify the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app
 Step 2: Click on link about -> Navigate to page '/about'
 Step 3: Click on link phone -> Navigate to page '/category/phone'
 Step 4: Click on link apple
-Step 5: Select iPhone model and adjust quantity for purchase.
+Step 5: Select storage options and adjust quantity for Apple iPhones.
 Step 6: Take full page screenshot as checkpoint
 ",Low,NEW
-4,Search and Select Samsung and Apple Phones by Price and Title,"Navigate to Samsung phones, filter by price and availability, search, then switch to Apple phones, filter, and select an iPhone model for purchase.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/phone-samsung
+4,Search for Samsung and Apple Phones with Price Filters,"Navigate to Samsung phone category, set price filters, search for in-stock items, select a Samsung model, then switch to Apple, set filters, and adjust options before verifying the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/phone-samsung
 Step 2: Enter input value in input priceMin
 Step 3: Enter input value in input priceMax
 Step 4: Click on input inStock
@@ -50,24 +50,24 @@ Step 10: Enter input value in input priceMax
 Step 11: Click on input inStock
 Step 12: Click on button search
 Step 13: Click on link byTitle
-Step 14: Select iPhone model and adjust quantity for purchase.
+Step 14: Select storage options and adjust quantity for Apple iPhones.
 Step 15: Take full page screenshot as checkpoint
 ",Low,NEW
-6,Complete Checkout for Selected Product with Shipping Details,"Select product options, adjust quantity, add to cart, fill in shipping details, and complete the checkout process.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16
-Step 2: Click on label colorStorageOptions (colorTeal)
-Step 3: Click on label colorStorageOptions ( 256Gb)
+6,Purchase Apple Product with Shipping Details and Verify Thank You Page,"Select an Apple product, adjust quantity, fill in shipping details, complete the checkout process, and verify the thank you page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16
+Step 2: Click on label storageColorOptions (colorTeal)
+Step 3: Click on label storageColorOptions ( 256Gb)
 Step 4: Click on button quantityAdjustment (increase)
 Step 5: Click on button buy -> Navigate to page '/cart'
-Step 6: Click on button quantityAdjustment (increase)
-Step 7: Click on button quantityAdjustment (decrease)
+Step 6: Click on button cartQuantityAdjustment (increase)
+Step 7: Click on button cartQuantityAdjustment (decrease)
 Step 8: Fill in shipping details and complete the checkout process.
 Step 9: Take full page screenshot as checkpoint
 ",Trivial,NEW
-8,Checkout Process for Product with Quantity Adjustment,"Select product options, adjust quantity, add to cart, fill in shipping details, and complete the checkout process.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/iphone-15-clear-case-with-magsafe
+8,Purchase Apple Product with Quantity Adjustment and Verify Thank You Page,"Select an Apple product, adjust quantity, add to cart, fill in shipping details, complete checkout, and verify the thank you page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/iphone-15-clear-case-with-magsafe
 Step 2: Click on button quantityAdjustment (increase2)
 Step 3: Click on button buy2
-Step 4: Click on label colorStorageOptions (colorTeal)
-Step 5: Click on label colorStorageOptions ( 256Gb)
+Step 4: Click on label storageColorOptions (colorTeal)
+Step 5: Click on label storageColorOptions ( 256Gb)
 Step 6: Click on button buy
 Step 7: Fill in shipping details and complete the checkout process.
 Step 8: Take full page screenshot as checkpoint

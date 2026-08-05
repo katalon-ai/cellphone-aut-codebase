@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Select an Apple product, adjust quantity, add to cart, and verify the home page after returning from the cart.</description>
+   <name>TC7-Add Apple Product to Cart and Verify Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e087347-7386-4e1c-9968-a60d32381db9</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>56d4182d-5986-40ac-bb96-46e313a7a32d</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 5: Click on button cartQuantityAdjustment (increase) - (Dynamic locator variable)</description>
+      <id>3208695c-d0c1-4380-8c19-328b03198420</id>
+      <masked>false</masked>
+      <name>button_cartQuantityAdjustment_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 6: Click on button cartQuantityAdjustment (decrease) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>4a59d3c5-6688-4ab4-9140-e6d5bc5fde44</id>
+      <masked>false</masked>
+      <name>button_cartQuantityAdjustment_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'button:nth-of-type(2)'</defaultValue>
+      <description>Step 5: Click on button cartQuantityAdjustment (increase) - (Dynamic locator variable)</description>
+      <id>e008db20-d450-42f9-a482-ac77a1c73250</id>
+      <masked>false</masked>
+      <name>button_cartQuantityAdjustment_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'.input-group > button:nth-of-type(1)'</defaultValue>
+      <description>Step 6: Click on button cartQuantityAdjustment (decrease) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>50b87f5a-af59-4c9f-b812-ea088d104d9f</id>
+      <masked>false</masked>
+      <name>button_cartQuantityAdjustment_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'White'</defaultValue>
+      <description>Step 2: Click on label storageColorOptions (colorWhite) - (Dynamic locator variable)</description>
+      <id>f9818715-85b2-4527-a3cf-e616a8beaff1</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'512 GB'</defaultValue>
+      <description>Step 3: Click on label storageColorOptions (storage512Gb) - (Dynamic locator variable)</description>
+      <id>44a1ad82-5366-4308-928c-388d0cce7666</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52208-case-759\&quot;]'</defaultValue>
+      <description>Step 2: Click on label storageColorOptions (colorWhite) - (Dynamic locator variable)</description>
+      <id>5e5e68e0-56bb-4075-9f1c-12a8ed15f403</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52209-case-763\&quot;]'</defaultValue>
+      <description>Step 3: Click on label storageColorOptions (storage512Gb) - (Dynamic locator variable)</description>
+      <id>11f5a606-b1aa-4c50-accb-421c013044b1</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'apple-iphone-16'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16 - (Dynamic URL variable)</description>
+      <id>07cb9f3c-3e14-4e50-b6a9-328b454b24fb</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>56d4182d-5986-40ac-bb96-46e313a7a32d</id>
+      </flow>
+   </customField>
+</TestCaseEntity>

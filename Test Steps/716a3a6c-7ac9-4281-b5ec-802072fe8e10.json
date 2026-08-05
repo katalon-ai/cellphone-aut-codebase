@@ -1,0 +1,256 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "cc32200e-fa73-410e-b7c9-6802f31e1278",
+      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/iphone-15-clear-case-with-magsafe",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "7519bbd0-5042-4caa-84c3-f112900ab7cb",
+      "name": "Click on button quantityAdjustment (increase2)",
+      "action_id": "3a04f559-4712-47f2-968f-148adf2371b7",
+      "timestamp": 1785940487351,
+      "target_name": "button_quantityAdjustment",
+      "target_test_object_id": "2cd591e3-d990-4adb-b453-73d4958f5659",
+      "sub_steps": []
+    },
+    {
+      "id": "fa536817-3629-4145-8140-1521433cf7d5",
+      "name": "Click on button buy2",
+      "action_id": "7bcd9084-e895-488e-8171-4da2b82f092d",
+      "timestamp": 1785940487958,
+      "target_name": "button_buy2",
+      "target_test_object_id": "50fae88a-88f7-4a56-8e30-6c3416e8db33",
+      "sub_steps": []
+    },
+    {
+      "id": "a519b8bf-1536-416c-9500-bcad354ec913",
+      "name": "Click on label storageColorOptions (colorTeal)",
+      "action_id": "271743b7-3eb0-4965-a329-da068669f2f5",
+      "timestamp": 1785940496580,
+      "target_name": "label_storageColorOptions",
+      "target_test_object_id": "bf9b2a3e-77e6-488f-bdcd-98676fd983bc",
+      "sub_steps": []
+    },
+    {
+      "id": "b9a2e5b1-b069-4a5a-af60-0850402d74dc",
+      "name": "Click on label storageColorOptions ( 256Gb)",
+      "action_id": "5123a773-371c-4746-8973-f9fd931c442f",
+      "timestamp": 1785940497157,
+      "target_name": "label_storageColorOptions",
+      "target_test_object_id": "7383b546-f223-4521-a871-49822a1974e9",
+      "sub_steps": []
+    },
+    {
+      "id": "7ab47e7a-30e5-43ae-96ef-e2e742e984ec",
+      "name": "Click on button buy",
+      "action_id": "e94e317f-b6e5-4c64-99a1-716f9ae3b6bf",
+      "timestamp": 1785940497723,
+      "target_name": "button_buy",
+      "target_test_object_id": "344e93c7-fc99-4a8f-a2d2-56fa9d8f6871",
+      "sub_steps": []
+    },
+    {
+      "id": "4cd47cd3-1c9d-4375-ab53-07d3eae4c307",
+      "name": "Fill in shipping details and complete the checkout process.",
+      "action_id": "",
+      "timestamp": 1785940501393,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": [
+        {
+          "id": "af63f9f6-d659-4e01-9e3d-5ff225863d64",
+          "name": "Click on button proceedToCheckout -> Navigate to page '/checkout/info'",
+          "action_id": "650cd309-da96-4ed0-8aa9-64b4f7849a4b",
+          "timestamp": 1785940501393,
+          "target_name": "button_proceedToCheckout",
+          "target_test_object_id": "791bc899-c6b7-454e-9f9d-718c1e1c5dda",
+          "sub_steps": []
+        },
+        {
+          "id": "f0782d2d-efa1-46bf-aa1f-ee7448cdac0c",
+          "name": "Click on input email",
+          "action_id": "ca836113-f453-4d52-8a58-d0581255297d",
+          "timestamp": 1785940502458,
+          "target_name": "input_email",
+          "target_test_object_id": "51d8b7be-a40c-4a55-9203-5b32f280a81a",
+          "sub_steps": []
+        },
+        {
+          "id": "2ccadd50-6f3c-4c28-a041-31db1333e44d",
+          "name": "Enter input value in input email",
+          "action_id": "aa997c04-39d4-4221-a7a8-1b09b9fceba2",
+          "timestamp": 1785940502500,
+          "target_name": "input_email",
+          "target_test_object_id": "51d8b7be-a40c-4a55-9203-5b32f280a81a",
+          "sub_steps": []
+        },
+        {
+          "id": "0fc44f7c-ff8e-4f42-847c-a696071ad2bd",
+          "name": "Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'",
+          "action_id": "73db9acb-0957-4909-b14f-07270903542e",
+          "timestamp": 1785940505049,
+          "target_name": "button_continueToShipping",
+          "target_test_object_id": "19b64c0c-6d0d-4405-8eea-f1b3bc4a848d",
+          "sub_steps": []
+        },
+        {
+          "id": "529aa253-ab8a-4d4c-9275-fb77faf132b5",
+          "name": "Click on input firstName",
+          "action_id": "6815aa11-955d-414c-bfef-e81c34a79458",
+          "timestamp": 1785940506322,
+          "target_name": "input_firstName",
+          "target_test_object_id": "61bca0f9-9826-46f1-b871-041811317b34",
+          "sub_steps": []
+        },
+        {
+          "id": "93687e84-07bc-4531-98f6-f78b7aa7b785",
+          "name": "Enter input value in input firstName",
+          "action_id": "69a720e2-7c5c-4dfb-8726-b6e8814e54ef",
+          "timestamp": 1785940506345,
+          "target_name": "input_firstName",
+          "target_test_object_id": "61bca0f9-9826-46f1-b871-041811317b34",
+          "sub_steps": []
+        },
+        {
+          "id": "95db732f-c235-4627-b5f7-3605e7cf4215",
+          "name": "Click on input lastName",
+          "action_id": "e25c7606-72f2-4e81-ae15-778802f87ee3",
+          "timestamp": 1785940506727,
+          "target_name": "input_lastName",
+          "target_test_object_id": "9831e00d-05e2-4e5c-bdeb-59e916076b14",
+          "sub_steps": []
+        },
+        {
+          "id": "db36e08f-6e1e-4304-adf5-cf931cd0f700",
+          "name": "Enter input value in input lastName",
+          "action_id": "41e6d24f-bee9-497a-9fcb-ff02722a9fed",
+          "timestamp": 1785940506737,
+          "target_name": "input_lastName",
+          "target_test_object_id": "9831e00d-05e2-4e5c-bdeb-59e916076b14",
+          "sub_steps": []
+        },
+        {
+          "id": "b6565a26-e16d-4760-8f5f-d518c3bdf863",
+          "name": "Click on input address",
+          "action_id": "7a753922-7d03-4070-96f1-b64a784e5228",
+          "timestamp": 1785940507037,
+          "target_name": "input_address",
+          "target_test_object_id": "3d96493a-b811-407d-8d0b-033143ad5e1c",
+          "sub_steps": []
+        },
+        {
+          "id": "623c11cc-a68f-44e4-a244-93442b30ff37",
+          "name": "Enter input value in input address",
+          "action_id": "46e873bf-9323-4458-8566-6adac96979d2",
+          "timestamp": 1785940507054,
+          "target_name": "input_address",
+          "target_test_object_id": "3d96493a-b811-407d-8d0b-033143ad5e1c",
+          "sub_steps": []
+        },
+        {
+          "id": "e15a505a-04ef-43c3-8c0a-b74e8f503958",
+          "name": "Click on input zipCode",
+          "action_id": "92314eca-8c91-453b-90b4-0f42f11467a3",
+          "timestamp": 1785940507720,
+          "target_name": "input_zipCode",
+          "target_test_object_id": "46ac0635-d1e9-40d2-a0e7-26f9dbd3b325",
+          "sub_steps": []
+        },
+        {
+          "id": "7444d812-83bc-4412-b77c-fcbfd9540b45",
+          "name": "Enter input value in input zipCode",
+          "action_id": "ce5d1cfb-f89d-4368-8d79-d7702b42f9b0",
+          "timestamp": 1785940507730,
+          "target_name": "input_zipCode",
+          "target_test_object_id": "46ac0635-d1e9-40d2-a0e7-26f9dbd3b325",
+          "sub_steps": []
+        },
+        {
+          "id": "72392b33-7bbb-4a5b-8eb7-1b4629b24ccb",
+          "name": "Click on input city",
+          "action_id": "3b5cf4bb-1af9-4bb1-87b6-a3926241d4f7",
+          "timestamp": 1785940507953,
+          "target_name": "input_city",
+          "target_test_object_id": "c31f1c49-7342-4a9d-b672-c0aeabea989e",
+          "sub_steps": []
+        },
+        {
+          "id": "bbbe18ee-ee86-413d-b788-b62c415dc55e",
+          "name": "Enter input value in input city",
+          "action_id": "50663262-d138-45d1-94a8-76eb26237f8a",
+          "timestamp": 1785940507961,
+          "target_name": "input_city",
+          "target_test_object_id": "c31f1c49-7342-4a9d-b672-c0aeabea989e",
+          "sub_steps": []
+        },
+        {
+          "id": "756b801d-8a2c-4fb1-a602-25bf28fb103f",
+          "name": "Click on input state",
+          "action_id": "e3841a57-c1f6-4cea-98f0-e4f836beded1",
+          "timestamp": 1785940508344,
+          "target_name": "input_state",
+          "target_test_object_id": "232515f4-c043-4271-973b-cd843e568296",
+          "sub_steps": []
+        },
+        {
+          "id": "be0c767f-9f08-4ba9-a6d5-c925e0b5a0da",
+          "name": "Enter input value in input state",
+          "action_id": "c92c0335-6d59-43fd-bbd1-afe952d9d135",
+          "timestamp": 1785940508354,
+          "target_name": "input_state",
+          "target_test_object_id": "232515f4-c043-4271-973b-cd843e568296",
+          "sub_steps": []
+        },
+        {
+          "id": "111a81c1-3d4b-44b9-b678-5e4639d8aae9",
+          "name": "Click on input phone",
+          "action_id": "079386ae-1dd1-42c7-ba07-ebd9b61e2914",
+          "timestamp": 1785940508455,
+          "target_name": "input_phone",
+          "target_test_object_id": "457e8713-af86-4c5e-8dc5-01116f5703d1",
+          "sub_steps": []
+        },
+        {
+          "id": "d3e99f09-bfdf-4169-844c-5f7bfd21de5b",
+          "name": "Enter input value in input phone",
+          "action_id": "e83802bf-9a59-49c6-8ef8-36aa7ac03b24",
+          "timestamp": 1785940508471,
+          "target_name": "input_phone",
+          "target_test_object_id": "457e8713-af86-4c5e-8dc5-01116f5703d1",
+          "sub_steps": []
+        },
+        {
+          "id": "95505b85-e41c-420b-870d-d5993d574e47",
+          "name": "Click on button continueToPayment -> Navigate to page '/checkout/payment'",
+          "action_id": "bd90aa00-63c6-429a-a9d3-006adee2fd25",
+          "timestamp": 1785940508954,
+          "target_name": "button_continueToPayment",
+          "target_test_object_id": "57cd5f1e-bb9a-426a-92fc-55de8dd4dcd9",
+          "sub_steps": []
+        },
+        {
+          "id": "a5d2b680-c164-4d83-886b-0048c467e171",
+          "name": "Click on button completeOrder",
+          "action_id": "61d5261f-4df7-44e0-ab7a-2453f605f023",
+          "timestamp": 1785940511062,
+          "target_name": "button_completeOrder",
+          "target_test_object_id": "434ce04f-8962-430b-9209-b918c89859f2",
+          "sub_steps": []
+        }
+      ]
+    },
+    {
+      "id": "9db3c9e7-bd45-4c3a-93bd-4d5334ce47fe",
+      "name": "Take full page screenshot as checkpoint",
+      "action_id": "e4da8385-119a-4db1-8199-7a10f202756e",
+      "timestamp": 1785940513064,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}

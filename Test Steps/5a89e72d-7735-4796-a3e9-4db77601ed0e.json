@@ -10,19 +10,19 @@
     },
     {
       "id": "ffcd682f-d3db-40ae-875e-c3eeab0dc003",
-      "name": "Click on label colorStorageOptions (colorTeal)",
+      "name": "Click on label storageColorOptions (colorTeal)",
       "action_id": "4440513e-cb15-4116-9c40-3f2b8fd51a51",
       "timestamp": 1785940327162,
-      "target_name": "label_colorStorageOptions",
+      "target_name": "label_storageColorOptions",
       "target_test_object_id": "bf9b2a3e-77e6-488f-bdcd-98676fd983bc",
       "sub_steps": []
     },
     {
       "id": "1ef776a2-e052-4bc7-82dc-029010788bb9",
-      "name": "Click on label colorStorageOptions ( 256Gb)",
+      "name": "Click on label storageColorOptions ( 256Gb)",
       "action_id": "2e9d2f94-b9a1-49f3-bb9b-e20be6a7255d",
       "timestamp": 1785940327748,
-      "target_name": "label_colorStorageOptions",
+      "target_name": "label_storageColorOptions",
       "target_test_object_id": "7383b546-f223-4521-a871-49822a1974e9",
       "sub_steps": []
     },

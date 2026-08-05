@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to the phone category, set price filters, check for in-stock items, perform a search, sort results, and return to the home page.</description>
+   <name>TC2-Search and Filter Phones by Price and Availability</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b9b672da-9774-488d-9874-77acc73ecf11</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>d2b83318-6b3a-40f7-838b-de62b695d825</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'914'</defaultValue>
+      <description>Step 3: Enter input value in input priceMax - (Input data variable)</description>
+      <id>22a5d4e9-ce19-4467-815a-bb982f74d055</id>
+      <masked>false</masked>
+      <name>input_priceMax</name>
+   </variable>
+   <variable>
+      <defaultValue>'588'</defaultValue>
+      <description>Step 2: Enter input value in input priceMin - (Input data variable)</description>
+      <id>203dfb6c-053e-441f-a508-500c4e285b22</id>
+      <masked>false</masked>
+      <name>input_priceMin</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>d2b83318-6b3a-40f7-838b-de62b695d825</id>
+      </flow>
+   </customField>
+</TestCaseEntity>

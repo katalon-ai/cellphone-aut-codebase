@@ -1,0 +1,64 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "e6d83cf7-c78c-480a-b984-1f916c066cf2",
+      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "60e1dc24-6256-4e21-9304-a5338cf42a57",
+      "name": "Click on label storageColorOptions (colorWhite)",
+      "action_id": "dba9c6dd-0454-4cfa-a004-a8f9c04c84bf",
+      "timestamp": 1785940460288,
+      "target_name": "label_storageColorOptions",
+      "target_test_object_id": "ce80a175-372e-4407-9dbc-301a8c2e7660",
+      "sub_steps": []
+    },
+    {
+      "id": "c978c63f-2e5f-43e2-8897-2b6ae4acebfa",
+      "name": "Click on label storageColorOptions (storage512Gb)",
+      "action_id": "9f17d6d3-4d18-4ea5-8908-3a672db8026a",
+      "timestamp": 1785940460841,
+      "target_name": "label_storageColorOptions",
+      "target_test_object_id": "394e84da-a0b8-4f2c-9071-c170210c81f7",
+      "sub_steps": []
+    },
+    {
+      "id": "a6fc5224-0531-4e81-9f6b-85c08d45f1d6",
+      "name": "Click on button buy -> Navigate to page '/cart'",
+      "action_id": "3ce2117a-046d-4059-963f-865d15d13edf",
+      "timestamp": 1785940461459,
+      "target_name": "button_buy",
+      "target_test_object_id": "344e93c7-fc99-4a8f-a2d2-56fa9d8f6871",
+      "sub_steps": []
+    },
+    {
+      "id": "c788c77e-abeb-490f-9cff-c690063d483b",
+      "name": "Click on button cartQuantityAdjustment (increase)",
+      "action_id": "cab0deef-3cab-48df-acbc-c4663d764276",
+      "timestamp": 1785940465895,
+      "target_name": "button_cartQuantityAdjustment",
+      "target_test_object_id": "bc7af5e9-b561-4927-835d-554840785a29",
+      "sub_steps": []
+    },
+    {
+      "id": "bde03dce-a174-4965-af19-1ac41e071a3f",
+      "name": "Click on button cartQuantityAdjustment (decrease) -> Navigate to page ''",
+      "action_id": "866e4707-6553-4853-a333-69090f302b03",
+      "timestamp": 1785940466470,
+      "target_name": "button_cartQuantityAdjustment",
+      "target_test_object_id": "e443a54f-07ba-4308-bf66-0f6407ae668d",
+      "sub_steps": []
+    },
+    {
+      "id": "b7549be4-cbb3-408e-be6c-d994f3604d26",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}
