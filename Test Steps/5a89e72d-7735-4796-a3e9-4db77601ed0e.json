@@ -10,27 +10,27 @@
     },
     {
       "id": "ffcd682f-d3db-40ae-875e-c3eeab0dc003",
-      "name": "Click on label storageColorOptions (storage1Tb)",
-      "action_id": "4854c0c7-e4cc-4b85-9d5f-19e96daae007",
-      "timestamp": 1785946112837,
-      "target_name": "label_storageColorOptions",
+      "name": "Click on label colorStorageOptions (storage1Tb)",
+      "action_id": "363e04c7-79ab-4789-81de-33a1a7ca36d8",
+      "timestamp": 1785989911952,
+      "target_name": "label_colorStorageOptions",
       "target_test_object_id": "741f88ab-ed14-47b5-8f3d-015c16987cfd",
       "sub_steps": []
     },
     {
       "id": "1ef776a2-e052-4bc7-82dc-029010788bb9",
-      "name": "Click on label storageColorOptions (colorLavender)",
-      "action_id": "27262572-b716-461b-b1a9-b8e73946cea1",
-      "timestamp": 1785946113387,
-      "target_name": "label_storageColorOptions",
-      "target_test_object_id": "a9668803-3555-4c2e-94d4-092f9f3d1ffd",
+      "name": "Click on label colorStorageOptions (colorPhantomBlack)",
+      "action_id": "a11a353b-1f9e-469a-9514-d80c45ae8fee",
+      "timestamp": 1785989912508,
+      "target_name": "label_colorStorageOptions",
+      "target_test_object_id": "d7879717-5252-4dd6-b77b-fb74c005aa5a",
       "sub_steps": []
     },
     {
       "id": "427a0cc5-4c9d-4b98-86e5-2b890d5ca6bf",
       "name": "Click on button quantityAdjustment (increase) -> Navigate to page ''",
-      "action_id": "e32a75a6-3248-41ad-86fc-576a1acbf9b6",
-      "timestamp": 1785946113930,
+      "action_id": "8139c826-fbb5-4a2a-862a-e05731455e28",
+      "timestamp": 1785989913040,
       "target_name": "button_quantityAdjustment",
       "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
       "sub_steps": []

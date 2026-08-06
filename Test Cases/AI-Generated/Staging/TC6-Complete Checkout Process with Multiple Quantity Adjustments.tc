@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to a product, adjust quantity, proceed to checkout, fill in shipping and payment details, and verify the thank you page.</description>
+   <name>TC6-Complete Checkout Process with Multiple Quantity Adjustments</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0b776ba2-6223-42f5-a00a-f11f869e40aa</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>99b59a5b-c607-4aea-bc55-1e8768f3caf6</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 2: Click on button quantityAdjustment (increase2) - (Dynamic locator variable)</description>
+      <id>8f53f59b-90c7-40b1-a1c2-6896dc942239</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 4: Click on button quantityAdjustment (increase) - (Dynamic locator variable)</description>
+      <id>501f7b7e-c24e-4714-8473-c94c3e92ece5</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 5: Click on button quantityAdjustment (decrease) - (Dynamic locator variable)</description>
+      <id>ab9b012c-1026-4a0a-b719-bd3c578da0a7</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;svg-inline--fa\\\\ fa-plus\\\\ fa-w-14\\\\ \&quot;]'</defaultValue>
+      <description>Step 2: Click on button quantityAdjustment (increase2) - (Dynamic locator variable)</description>
+      <id>190553ae-a23b-4686-b577-f99929bfef60</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'button:nth-of-type(2)'</defaultValue>
+      <description>Step 4: Click on button quantityAdjustment (increase) - (Dynamic locator variable)</description>
+      <id>9cee9ed4-b3ea-47df-a4fa-0f53fd7a46a9</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'.input-group > button:nth-of-type(1)'</defaultValue>
+      <description>Step 5: Click on button quantityAdjustment (decrease) - (Dynamic locator variable)</description>
+      <id>3ce22e4e-b439-4091-8921-eb6eca457359</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'1 Smoke Test Way'</defaultValue>
+      <description>Step 19: Enter input value in input address - (Input data variable)</description>
+      <id>99007121-de6c-4a80-b38d-c78f99c6f73a</id>
+      <masked>false</masked>
+      <name>input_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cupertino'</defaultValue>
+      <description>Step 25: Enter input value in input city - (Input data variable)</description>
+      <id>8c53d962-25a2-41cc-b875-f828c66c038b</id>
+      <masked>false</masked>
+      <name>input_city</name>
+   </variable>
+   <variable>
+      <defaultValue>'qa@test.com'</defaultValue>
+      <description>Step 9: Enter input value in input email - (Input data variable)</description>
+      <id>c13fe4e7-eabb-40af-9399-9b7fc3bb6e07</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'SmokeTest'</defaultValue>
+      <description>Step 13: Enter input value in input firstName - (Input data variable)</description>
+      <id>1177c4a8-c742-47f5-9f88-e6334c89b3e5</id>
+      <masked>false</masked>
+      <name>input_firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Traffic'</defaultValue>
+      <description>Step 16: Enter input value in input lastName - (Input data variable)</description>
+      <id>053db473-35fa-44e2-a674-b29ecb15bfa1</id>
+      <masked>false</masked>
+      <name>input_lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'18005550123'</defaultValue>
+      <description>Step 31: Enter input value in input phone - (Input data variable)</description>
+      <id>533b81e8-2e58-420e-b94d-0f36af5f8d6c</id>
+      <masked>false</masked>
+      <name>input_phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'CA'</defaultValue>
+      <description>Step 28: Enter input value in input state - (Input data variable)</description>
+      <id>b2da194a-df10-4036-993d-a5a00b7d849f</id>
+      <masked>false</masked>
+      <name>input_state</name>
+   </variable>
+   <variable>
+      <defaultValue>'95014'</defaultValue>
+      <description>Step 22: Enter input value in input zipCode - (Input data variable)</description>
+      <id>5f9e7b39-48b4-4c7b-9a09-72f6ae615ffb</id>
+      <masked>false</masked>
+      <name>input_zipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'115'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category) - (Dynamic URL variable)</description>
+      <id>77437a28-e909-4320-beb1-85035cc8c706</id>
+      <masked>false</masked>
+      <name>product_category</name>
+   </variable>
+   <variable>
+      <defaultValue>'apple-airpods-pro-2'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category) - (Dynamic URL variable)</description>
+      <id>9fbd1bca-1ae3-4473-b741-de438d26145f</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>99b59a5b-c607-4aea-bc55-1e8768f3caf6</id>
+      </flow>
+   </customField>
+</TestCaseEntity>

@@ -3,7 +3,7 @@
   "steps": [
     {
       "id": "c3532752-3d60-4943-8af5-a091cf2a07a6",
-      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category)",
+      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/iphone-15-clear-case-with-magsafe",
       "target_name": "",
       "target_test_object_id": "",
       "sub_steps": []
@@ -11,8 +11,8 @@
     {
       "id": "bb917ae4-0c50-44d1-a070-567b676ebbd7",
       "name": "Click on button quantityAdjustment (increase2)",
-      "action_id": "ad2d4534-467f-4a44-ad95-9ff010fa9576",
-      "timestamp": 1785116970171,
+      "action_id": "62eccaa3-4cd7-462f-ab3e-81178efae5d8",
+      "timestamp": 1785990027348,
       "target_name": "button_quantityAdjustment",
       "target_test_object_id": "2cd591e3-d990-4adb-b453-73d4958f5659",
       "sub_steps": []
@@ -20,8 +20,8 @@
     {
       "id": "f6570196-ae59-431e-bbb9-3041f528591f",
       "name": "Click on button quantityAdjustment (decrease2)",
-      "action_id": "a991bfa1-7738-411d-920d-9e0e33e2a55a",
-      "timestamp": 1785116971148,
+      "action_id": "96691d44-3e85-4600-95be-8290eba1a7dc",
+      "timestamp": 1785990027918,
       "target_name": "button_quantityAdjustment",
       "target_test_object_id": "9635f56a-c585-4c87-b378-4f1375ab9501",
       "sub_steps": []
@@ -29,8 +29,8 @@
     {
       "id": "4e9a9edd-7822-40d4-bc87-b280a3608d57",
       "name": "Click on button quantityAdjustment (increase2)",
-      "action_id": "6e60b24f-d709-4638-9721-801c300d7a2a",
-      "timestamp": 1785116974405,
+      "action_id": "d5605edf-7ff5-4ab1-8196-a0fb0071380a",
+      "timestamp": 1785990031139,
       "target_name": "button_quantityAdjustment",
       "target_test_object_id": "2cd591e3-d990-4adb-b453-73d4958f5659",
       "sub_steps": []
@@ -38,8 +38,8 @@
     {
       "id": "a46e6b94-72fc-4e98-bf3f-410f9ceb34b9",
       "name": "Click on button buy -> Navigate to page ''",
-      "action_id": "e6005e0a-218b-48a1-ba5d-691373b30e91",
-      "timestamp": 1785116975367,
+      "action_id": "1b989f34-f2fa-4d27-bc9b-776217472875",
+      "timestamp": 1785990031677,
       "target_name": "button_buy",
       "target_test_object_id": "50fae88a-88f7-4a56-8e30-6c3416e8db33",
       "sub_steps": []
