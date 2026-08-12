@@ -11,8 +11,8 @@
     {
       "id": "0d2431ca-b06b-455f-b444-1ff0ad2a807d",
       "name": "Click on link about -> Navigate to page '/about'",
-      "action_id": "dcea0d8e-5f0a-4e17-8a55-3ad6acf4d251",
-      "timestamp": 1785989873127,
+      "action_id": "816dc69d-4be5-439b-b4af-1f44cb392452",
+      "timestamp": 1786519495378,
       "target_name": "link_about",
       "target_test_object_id": "2367c7f7-e689-4843-a6a2-eef4252097ca",
       "sub_steps": []
@@ -20,8 +20,8 @@
     {
       "id": "f4cd5115-4ae4-4783-ab95-8c730b127d79",
       "name": "Click on link phone -> Navigate to page '/category/phone'",
-      "action_id": "a4ba7178-cd1e-4901-a8aa-61278ce8e4a6",
-      "timestamp": 1785989873749,
+      "action_id": "a178ebe2-6fee-482b-a02b-2d3e70ad9a35",
+      "timestamp": 1786519500191,
       "target_name": "link_phone",
       "target_test_object_id": "3cfefab5-80ba-4841-937b-0b0de9c53e1c",
       "sub_steps": []
@@ -29,8 +29,8 @@
     {
       "id": "94946ed4-e92c-4afe-aeed-51e54c950f35",
       "name": "Click on link apple -> Navigate to page '/category/phone-apple'",
-      "action_id": "63eeb5b4-b290-4135-acb2-0c5d488e2b53",
-      "timestamp": 1785989874367,
+      "action_id": "e60d53e6-992b-47e5-8655-7f5d7e62f4d8",
+      "timestamp": 1786519503991,
       "target_name": "link_apple",
       "target_test_object_id": "36f05f0e-54b7-4e60-b18c-9bfc8f804aa0",
       "sub_steps": []
@@ -38,35 +38,35 @@
     {
       "id": "5d93a83d-8eef-4e9c-8aaa-a8179fa4f7cb",
       "name": "Click on link iphone16e -> Navigate to page '/product/*'",
-      "action_id": "db182b2c-7b97-41cf-bb28-51ea4e4fe7fd",
-      "timestamp": 1785989874986,
+      "action_id": "d71bf90a-83bf-425b-9823-b03f1a392cec",
+      "timestamp": 1786519509278,
       "target_name": "link_iphone16e",
       "target_test_object_id": "113616e0-08e8-436c-9c9e-5c83723e1eed",
       "sub_steps": []
     },
     {
       "id": "9d99e3ab-70de-417f-8cff-1882a3cb4d48",
-      "name": "Click on label colorStorageOptions (colorWhite)",
-      "action_id": "7d977b4b-d15d-4213-9cbe-bad1ddcb07c3",
-      "timestamp": 1785989875593,
-      "target_name": "label_colorStorageOptions",
+      "name": "Click on label colorStorageOption (colorWhite)",
+      "action_id": "b287e811-96f3-4aa4-918c-496efce0d114",
+      "timestamp": 1786519513259,
+      "target_name": "label_colorStorageOption",
       "target_test_object_id": "11b5703b-cb8c-4585-b857-0576d21ed3d4",
       "sub_steps": []
     },
     {
       "id": "c6661eb0-37f7-4a4d-82ea-665bba3584e5",
-      "name": "Click on label colorStorageOptions (storage512Gb)",
-      "action_id": "3436dae5-2760-4c22-b914-8b31672330f6",
-      "timestamp": 1785989876133,
-      "target_name": "label_colorStorageOptions",
-      "target_test_object_id": "5adb4e67-2616-4a23-8006-134db36ec138",
+      "name": "Click on label colorStorageOption ( 128Gb)",
+      "action_id": "c25f4497-5d38-44c9-b696-fd1dd2441724",
+      "timestamp": 1786519519278,
+      "target_name": "label_colorStorageOption",
+      "target_test_object_id": "d6c41ad3-5474-433a-9cc2-3c28c6d195cd",
       "sub_steps": []
     },
     {
       "id": "ebd46ecd-cddb-436f-9429-bef35e5c297e",
       "name": "Click on button quantityAdjustment (increase)",
-      "action_id": "6fc7328d-b68e-4129-bbb7-c1f24e6cf2c8",
-      "timestamp": 1785989876694,
+      "action_id": "f5a76942-8018-43e7-b2c9-294a00d46dba",
+      "timestamp": 1786519523561,
       "target_name": "button_quantityAdjustment",
       "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
       "sub_steps": []
@@ -74,8 +74,8 @@
     {
       "id": "e651d661-b2d3-493f-b4dc-bc928faa6d7a",
       "name": "Click on button quantityAdjustment (decrease) -> Navigate to page ''",
-      "action_id": "e243476e-1e6a-4ba1-9a2f-a7e5990005fd",
-      "timestamp": 1785989877261,
+      "action_id": "529a2eca-24c9-4554-a3b1-c4ad7a0b10b4",
+      "timestamp": 1786519529344,
       "target_name": "button_quantityAdjustment",
       "target_test_object_id": "f1a9e6ba-56b2-40ae-9830-b597f7b1bf23",
       "sub_steps": []
