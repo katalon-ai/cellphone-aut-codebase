@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to the product page, adjust quantity, buy the product, and verify that the user is redirected to the home page.</description>
+   <name>TC7-Add Product to Cart and Return to Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c0a68bdb-14f5-4705-9a25-459846788bda</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>9dd77f62-def7-44bd-ad66-ce6c3ce26ddb</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 2: Click on button quantityControl (increase2) - (Dynamic locator variable)</description>
+      <id>5e8278c9-be74-4ee4-b603-d3627b47e1f9</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 3: Click on button quantityControl (decrease2) - (Dynamic locator variable)</description>
+      <id>2cb37f75-3169-43e1-82de-0d3f324d5aa5</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;svg-inline--fa\\\\ fa-plus\\\\ fa-w-14\\\\ \&quot;]'</defaultValue>
+      <description>Step 2: Click on button quantityControl (increase2) - (Dynamic locator variable)</description>
+      <id>9f6e7762-b698-44d8-bd82-fcb4a0c279b7</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;svg-inline--fa\\\\ fa-minus\\\\ fa-w-14\\\\ \&quot;]'</defaultValue>
+      <description>Step 3: Click on button quantityControl (decrease2) - (Dynamic locator variable)</description>
+      <id>d02f7961-9d8d-4145-8758-5831940f495f</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'iphone-15-clear-case-with-magsafe'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/iphone-15-clear-case-with-magsafe - (Dynamic URL variable)</description>
+      <id>ff4ad90f-d42e-4bf8-b8e7-d72443fe84fa</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>9dd77f62-def7-44bd-ad66-ce6c3ce26ddb</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
