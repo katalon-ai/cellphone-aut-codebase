@@ -10,28 +10,28 @@
     },
     {
       "id": "ffcd682f-d3db-40ae-875e-c3eeab0dc003",
-      "name": "Click on label colorStorageOption (colorPink)",
-      "action_id": "bed31258-da3e-4252-a5f6-b4cbfb8c618f",
-      "timestamp": 1786519576758,
+      "name": "Click on label colorStorageOption (colorWhite2)",
+      "action_id": "eb65b922-c878-4eb8-b402-e7f16da7a191",
+      "timestamp": 1786596842044,
       "target_name": "label_colorStorageOption",
-      "target_test_object_id": "e596fe99-95dc-4401-8d1b-74fba825b767",
+      "target_test_object_id": "ce80a175-372e-4407-9dbc-301a8c2e7660",
       "sub_steps": []
     },
     {
       "id": "1ef776a2-e052-4bc7-82dc-029010788bb9",
       "name": "Click on label colorStorageOption ( 256Gb)",
-      "action_id": "8af147a5-3e19-4a36-ac44-85d5ad9a083f",
-      "timestamp": 1786519581112,
+      "action_id": "a363f6bc-be64-46aa-9213-4d4b503b90dc",
+      "timestamp": 1786596846780,
       "target_name": "label_colorStorageOption",
       "target_test_object_id": "7383b546-f223-4521-a871-49822a1974e9",
       "sub_steps": []
     },
     {
       "id": "427a0cc5-4c9d-4b98-86e5-2b890d5ca6bf",
-      "name": "Click on button quantityAdjustment (increase) -> Navigate to page ''",
-      "action_id": "3c0dbaa5-aa9a-4525-adf3-e00198612423",
-      "timestamp": 1786519584993,
-      "target_name": "button_quantityAdjustment",
+      "name": "Click on button quantityControl (increase) -> Navigate to page ''",
+      "action_id": "fc7213f8-9401-4bfb-8bc0-257b6cc708f8",
+      "timestamp": 1786596849828,
+      "target_name": "button_quantityControl",
       "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
       "sub_steps": []
     },
