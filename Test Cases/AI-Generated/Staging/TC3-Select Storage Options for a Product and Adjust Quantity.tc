@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to a product page, select storage options, adjust the quantity, and return to the home page.</description>
+   <name>TC3-Select Storage Options for a Product and Adjust Quantity</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5ecc1168-ce3b-4071-9c04-607658255b4f</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>5a89e72d-7735-4796-a3e9-4db77601ed0e</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 4: Click on button quantityControl (increase) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>0cbf370a-782b-4c5a-ab0c-91f21ee0adf7</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;svg-inline--fa\\\\ fa-plus\\\\ fa-w-14\\\\ \&quot;]'</defaultValue>
+      <description>Step 4: Click on button quantityControl (increase) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>5d897e18-daf4-4c45-b983-a3abba9ad8ec</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'White'</defaultValue>
+      <description>Step 2: Click on label storageColorOption (colorWhite2) - (Dynamic locator variable)</description>
+      <id>4e1ffe3c-dcb0-464f-8cbf-37168a6b774f</id>
+      <masked>false</masked>
+      <name>label_storageColorOption_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'256 GB'</defaultValue>
+      <description>Step 3: Click on label storageColorOption ( 256Gb) - (Dynamic locator variable)</description>
+      <id>d4cdf2ea-a779-4102-a7ea-2c9b007b2d23</id>
+      <masked>false</masked>
+      <name>label_storageColorOption_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52208-case-759\&quot;]'</defaultValue>
+      <description>Step 2: Click on label storageColorOption (colorWhite2) - (Dynamic locator variable)</description>
+      <id>eb4489c6-5812-4ed3-9f0e-c09ae320b64a</id>
+      <masked>false</masked>
+      <name>label_storageColorOption_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52209-case-762\&quot;]'</defaultValue>
+      <description>Step 3: Click on label storageColorOption ( 256Gb) - (Dynamic locator variable)</description>
+      <id>c92bb639-9645-4d04-975f-94ff2da57c23</id>
+      <masked>false</masked>
+      <name>label_storageColorOption_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'apple-iphone-16'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16 - (Dynamic URL variable)</description>
+      <id>d208a2fb-2442-40ae-bde3-f48b8f910fcf</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>5a89e72d-7735-4796-a3e9-4db77601ed0e</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
