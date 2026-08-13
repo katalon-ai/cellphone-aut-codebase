@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to the product page, adjust quantity, proceed to checkout, enter shipping details, and complete the order to verify the thank you page.</description>
+   <name>TC6-Complete Checkout Process for a Product with Shipping Information</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bcaaf24b-244b-4ee0-85d1-e559ed20a911</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>0ee8678d-0ac1-4a0c-824c-1f8e712c4e4f</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 2: Click on button quantityControl (increase2) - (Dynamic locator variable)</description>
+      <id>cc84d5c7-e2e4-4fff-9163-92bc91b96b27</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 4: Click on button quantityControl (increase) - (Dynamic locator variable)</description>
+      <id>6361e14e-b0b0-490f-a7fd-f3a566a54464</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 5: Click on button quantityControl (decrease) - (Dynamic locator variable)</description>
+      <id>47270d47-2c3e-42c4-8df1-aea0eeab6dc1</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;svg-inline--fa\\\\ fa-plus\\\\ fa-w-14\\\\ \&quot;]'</defaultValue>
+      <description>Step 2: Click on button quantityControl (increase2) - (Dynamic locator variable)</description>
+      <id>d612fafc-e7f5-4ffa-832d-9074acfeb2e1</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'button:nth-of-type(2)'</defaultValue>
+      <description>Step 4: Click on button quantityControl (increase) - (Dynamic locator variable)</description>
+      <id>247df934-8f70-4660-a0d1-f19c2e26c937</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'.input-group > button:nth-of-type(1)'</defaultValue>
+      <description>Step 5: Click on button quantityControl (decrease) - (Dynamic locator variable)</description>
+      <id>fdd4df67-b386-4e58-a665-d60c45e6047b</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'1 Smoke Test Way'</defaultValue>
+      <description>Step 15: Enter input value in input address - (Input data variable)</description>
+      <id>43a53ad9-95ce-40ce-9656-35730575d3fc</id>
+      <masked>false</masked>
+      <name>input_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cupertino'</defaultValue>
+      <description>Step 19: Enter input value in input city - (Input data variable)</description>
+      <id>7c04a12a-feea-4769-bd81-12a27a850d07</id>
+      <masked>false</masked>
+      <name>input_city</name>
+   </variable>
+   <variable>
+      <defaultValue>'qa@test.com'</defaultValue>
+      <description>Step 8: Enter input value in input email - (Input data variable)</description>
+      <id>15a7f754-5625-486f-858a-449212e50d9c</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'SmokeTest'</defaultValue>
+      <description>Step 11: Enter input value in input firstName - (Input data variable)</description>
+      <id>285e0ef7-c743-460e-afdc-de8b7e2f9542</id>
+      <masked>false</masked>
+      <name>input_firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Traffic'</defaultValue>
+      <description>Step 13: Enter input value in input lastName - (Input data variable)</description>
+      <id>e4b5ae97-db03-4936-9969-42cfde1fc508</id>
+      <masked>false</masked>
+      <name>input_lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'18005550123'</defaultValue>
+      <description>Step 23: Enter input value in input phone - (Input data variable)</description>
+      <id>422b9457-6538-4550-923c-286360bc8f6e</id>
+      <masked>false</masked>
+      <name>input_phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'CA'</defaultValue>
+      <description>Step 21: Enter input value in input state - (Input data variable)</description>
+      <id>2cc1b994-706d-499b-93e2-d7f2bd7b655f</id>
+      <masked>false</masked>
+      <name>input_state</name>
+   </variable>
+   <variable>
+      <defaultValue>'95014'</defaultValue>
+      <description>Step 17: Enter input value in input zipCode - (Input data variable)</description>
+      <id>2c93e08c-4545-4632-8e86-2f05471b7095</id>
+      <masked>false</masked>
+      <name>input_zipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'iphone-15-clear-case-with-magsafe'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/iphone-15-clear-case-with-magsafe - (Dynamic URL variable)</description>
+      <id>6878e610-0968-4c6c-8dcd-0470f01daded</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>0ee8678d-0ac1-4a0c-824c-1f8e712c4e4f</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
