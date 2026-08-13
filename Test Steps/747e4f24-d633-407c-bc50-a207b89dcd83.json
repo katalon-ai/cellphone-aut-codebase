@@ -11,8 +11,8 @@
     {
       "id": "0d2431ca-b06b-455f-b444-1ff0ad2a807d",
       "name": "Click on link about -> Navigate to page '/about'",
-      "action_id": "816dc69d-4be5-439b-b4af-1f44cb392452",
-      "timestamp": 1786519495378,
+      "action_id": "1f07d55f-a60c-4c44-b136-ec5ec83837d0",
+      "timestamp": 1786596761730,
       "target_name": "link_about",
       "target_test_object_id": "2367c7f7-e689-4843-a6a2-eef4252097ca",
       "sub_steps": []
@@ -20,8 +20,8 @@
     {
       "id": "f4cd5115-4ae4-4783-ab95-8c730b127d79",
       "name": "Click on link phone -> Navigate to page '/category/phone'",
-      "action_id": "a178ebe2-6fee-482b-a02b-2d3e70ad9a35",
-      "timestamp": 1786519500191,
+      "action_id": "d1556971-375d-4c93-9d90-c18ef9faa62f",
+      "timestamp": 1786596766095,
       "target_name": "link_phone",
       "target_test_object_id": "3cfefab5-80ba-4841-937b-0b0de9c53e1c",
       "sub_steps": []
@@ -29,8 +29,8 @@
     {
       "id": "94946ed4-e92c-4afe-aeed-51e54c950f35",
       "name": "Click on link apple -> Navigate to page '/category/phone-apple'",
-      "action_id": "e60d53e6-992b-47e5-8655-7f5d7e62f4d8",
-      "timestamp": 1786519503991,
+      "action_id": "b1d3e0f0-251e-4dba-8c53-fe4239c41b54",
+      "timestamp": 1786596769660,
       "target_name": "link_apple",
       "target_test_object_id": "36f05f0e-54b7-4e60-b18c-9bfc8f804aa0",
       "sub_steps": []
@@ -38,8 +38,8 @@
     {
       "id": "5d93a83d-8eef-4e9c-8aaa-a8179fa4f7cb",
       "name": "Click on link iphone16e -> Navigate to page '/product/*'",
-      "action_id": "d71bf90a-83bf-425b-9823-b03f1a392cec",
-      "timestamp": 1786519509278,
+      "action_id": "c5c9c50d-73f2-46be-8c11-415749da7912",
+      "timestamp": 1786596775095,
       "target_name": "link_iphone16e",
       "target_test_object_id": "113616e0-08e8-436c-9c9e-5c83723e1eed",
       "sub_steps": []
@@ -47,36 +47,36 @@
     {
       "id": "9d99e3ab-70de-417f-8cff-1882a3cb4d48",
       "name": "Click on label colorStorageOption (colorWhite)",
-      "action_id": "b287e811-96f3-4aa4-918c-496efce0d114",
-      "timestamp": 1786519513259,
+      "action_id": "e4c38b13-7c48-4712-b07b-1bc401152e6e",
+      "timestamp": 1786596778843,
       "target_name": "label_colorStorageOption",
       "target_test_object_id": "11b5703b-cb8c-4585-b857-0576d21ed3d4",
       "sub_steps": []
     },
     {
       "id": "c6661eb0-37f7-4a4d-82ea-665bba3584e5",
-      "name": "Click on label colorStorageOption ( 128Gb)",
-      "action_id": "c25f4497-5d38-44c9-b696-fd1dd2441724",
-      "timestamp": 1786519519278,
+      "name": "Click on label colorStorageOption (storage256Gb)",
+      "action_id": "507fa068-0b0c-471f-a171-15549df4c389",
+      "timestamp": 1786596785210,
       "target_name": "label_colorStorageOption",
-      "target_test_object_id": "d6c41ad3-5474-433a-9cc2-3c28c6d195cd",
+      "target_test_object_id": "1ea94f48-656a-49de-ac3f-9547c63be427",
       "sub_steps": []
     },
     {
       "id": "ebd46ecd-cddb-436f-9429-bef35e5c297e",
-      "name": "Click on button quantityAdjustment (increase)",
-      "action_id": "f5a76942-8018-43e7-b2c9-294a00d46dba",
-      "timestamp": 1786519523561,
-      "target_name": "button_quantityAdjustment",
+      "name": "Click on button quantityControl (increase)",
+      "action_id": "9ba3f988-aa94-4ecb-9d8f-732a2c122a0f",
+      "timestamp": 1786596789295,
+      "target_name": "button_quantityControl",
       "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
       "sub_steps": []
     },
     {
       "id": "e651d661-b2d3-493f-b4dc-bc928faa6d7a",
-      "name": "Click on button quantityAdjustment (decrease) -> Navigate to page ''",
-      "action_id": "529a2eca-24c9-4554-a3b1-c4ad7a0b10b4",
-      "timestamp": 1786519529344,
-      "target_name": "button_quantityAdjustment",
+      "name": "Click on button quantityControl (decrease) -> Navigate to page ''",
+      "action_id": "5c11f5a4-d6fa-476b-a69d-4ffae779e4ce",
+      "timestamp": 1786596795045,
+      "target_name": "button_quantityControl",
       "target_test_object_id": "f1a9e6ba-56b2-40ae-9830-b597f7b1bf23",
       "sub_steps": []
     },

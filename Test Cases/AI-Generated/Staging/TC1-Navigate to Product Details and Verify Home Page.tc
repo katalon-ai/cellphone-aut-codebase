@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate through the application to view product details for iPhone 16e. Select color and storage options, adjust quantity, and return to the home page.</description>
+   <name>TC1-Navigate to Product Details and Verify Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4ab075ac-6d76-4f2f-8075-cbfeb06b19eb</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>747e4f24-d633-407c-bc50-a207b89dcd83</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 8: Click on button quantityControl (increase) - (Dynamic locator variable)</description>
+      <id>22eaed46-22db-48a6-b013-67e28d3d9283</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 9: Click on button quantityControl (decrease) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>97a717e4-4601-427b-9aaa-cc250d3628c6</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;svg-inline--fa\\\\ fa-plus\\\\ fa-w-14\\\\ \&quot;]'</defaultValue>
+      <description>Step 8: Click on button quantityControl (increase) - (Dynamic locator variable)</description>
+      <id>0a7e4116-2a07-4d1d-a472-daa9508129a5</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=\&quot;svg-inline--fa\\\\ fa-minus\\\\ fa-w-14\\\\ \&quot;]'</defaultValue>
+      <description>Step 9: Click on button quantityControl (decrease) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>2cac83b1-3f0e-4122-a5a8-1aee86b032af</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'White'</defaultValue>
+      <description>Step 6: Click on label colorStorageOption (colorWhite) - (Dynamic locator variable)</description>
+      <id>71cb4185-8aec-432f-9beb-73d20905ec65</id>
+      <masked>false</masked>
+      <name>label_colorStorageOption_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'256 GB'</defaultValue>
+      <description>Step 7: Click on label colorStorageOption (storage256Gb) - (Dynamic locator variable)</description>
+      <id>296de668-5e07-480c-a3da-8dbd44d9ad32</id>
+      <masked>false</masked>
+      <name>label_colorStorageOption_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52217-case-789\&quot;]'</defaultValue>
+      <description>Step 6: Click on label colorStorageOption (colorWhite) - (Dynamic locator variable)</description>
+      <id>37438f32-0a54-49db-b571-2b13e008ca83</id>
+      <masked>false</masked>
+      <name>label_colorStorageOption_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52218-case-792\&quot;]'</defaultValue>
+      <description>Step 7: Click on label colorStorageOption (storage256Gb) - (Dynamic locator variable)</description>
+      <id>5260424a-6d71-498b-9c56-dd13021084c2</id>
+      <masked>false</masked>
+      <name>label_colorStorageOption_css_value_1</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>747e4f24-d633-407c-bc50-a207b89dcd83</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
