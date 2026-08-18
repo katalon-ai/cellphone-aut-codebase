@@ -3,35 +3,35 @@
   "steps": [
     {
       "id": "253336ae-b97d-4e30-94cf-d908e6dce5ea",
-      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16",
+      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/samsung-galaxy-s23-ultra",
       "target_name": "",
       "target_test_object_id": "",
       "sub_steps": []
     },
     {
       "id": "ffcd682f-d3db-40ae-875e-c3eeab0dc003",
-      "name": "Click on label storageColorOption (colorWhite2)",
-      "action_id": "eb65b922-c878-4eb8-b402-e7f16da7a191",
-      "timestamp": 1786596842044,
-      "target_name": "label_storageColorOption",
-      "target_test_object_id": "ce80a175-372e-4407-9dbc-301a8c2e7660",
+      "name": "Click on label colorStorageOptions ( 512Gb)",
+      "action_id": "4f2ab3c5-691a-46c5-8824-889db4e1c634",
+      "timestamp": 1787037682171,
+      "target_name": "label_colorStorageOptions",
+      "target_test_object_id": "4833e498-a680-45e2-8a73-027b0bb924f6",
       "sub_steps": []
     },
     {
       "id": "1ef776a2-e052-4bc7-82dc-029010788bb9",
-      "name": "Click on label storageColorOption ( 256Gb)",
-      "action_id": "a363f6bc-be64-46aa-9213-4d4b503b90dc",
-      "timestamp": 1786596846780,
-      "target_name": "label_storageColorOption",
-      "target_test_object_id": "7383b546-f223-4521-a871-49822a1974e9",
+      "name": "Click on label colorStorageOptions (colorPhantomBlack)",
+      "action_id": "572e48fc-69ea-4f79-83ff-14fc52a7171e",
+      "timestamp": 1787037686272,
+      "target_name": "label_colorStorageOptions",
+      "target_test_object_id": "d7879717-5252-4dd6-b77b-fb74c005aa5a",
       "sub_steps": []
     },
     {
       "id": "427a0cc5-4c9d-4b98-86e5-2b890d5ca6bf",
-      "name": "Click on button quantityControl (increase) -> Navigate to page ''",
-      "action_id": "fc7213f8-9401-4bfb-8bc0-257b6cc708f8",
-      "timestamp": 1786596849828,
-      "target_name": "button_quantityControl",
+      "name": "Click on button quantityAdjustment (increase) -> Navigate to page ''",
+      "action_id": "7045991e-db3f-4fb2-91b7-6e0a76022b23",
+      "timestamp": 1787037689705,
+      "target_name": "button_quantityAdjustment",
       "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
       "sub_steps": []
     },
