@@ -11,8 +11,8 @@
     {
       "id": "0d2431ca-b06b-455f-b444-1ff0ad2a807d",
       "name": "Click on link about -> Navigate to page '/about'",
-      "action_id": "1f07d55f-a60c-4c44-b136-ec5ec83837d0",
-      "timestamp": 1786596761730,
+      "action_id": "855e15d9-d552-4b28-a95e-63a962509cbf",
+      "timestamp": 1787037600640,
       "target_name": "link_about",
       "target_test_object_id": "2367c7f7-e689-4843-a6a2-eef4252097ca",
       "sub_steps": []
@@ -20,8 +20,8 @@
     {
       "id": "f4cd5115-4ae4-4783-ab95-8c730b127d79",
       "name": "Click on link phone -> Navigate to page '/category/phone'",
-      "action_id": "d1556971-375d-4c93-9d90-c18ef9faa62f",
-      "timestamp": 1786596766095,
+      "action_id": "16bc8c8d-1343-4513-84aa-eab752f1ffa8",
+      "timestamp": 1787037604621,
       "target_name": "link_phone",
       "target_test_object_id": "3cfefab5-80ba-4841-937b-0b0de9c53e1c",
       "sub_steps": []
@@ -29,8 +29,8 @@
     {
       "id": "94946ed4-e92c-4afe-aeed-51e54c950f35",
       "name": "Click on link apple -> Navigate to page '/category/phone-apple'",
-      "action_id": "b1d3e0f0-251e-4dba-8c53-fe4239c41b54",
-      "timestamp": 1786596769660,
+      "action_id": "42938cc6-4385-4911-b084-0db920998fab",
+      "timestamp": 1787037608621,
       "target_name": "link_apple",
       "target_test_object_id": "36f05f0e-54b7-4e60-b18c-9bfc8f804aa0",
       "sub_steps": []
@@ -38,45 +38,45 @@
     {
       "id": "5d93a83d-8eef-4e9c-8aaa-a8179fa4f7cb",
       "name": "Click on link iphone16e -> Navigate to page '/product/*'",
-      "action_id": "c5c9c50d-73f2-46be-8c11-415749da7912",
-      "timestamp": 1786596775095,
+      "action_id": "2fb8c63b-edc3-4e07-abf2-d5b96e450849",
+      "timestamp": 1787037614090,
       "target_name": "link_iphone16e",
       "target_test_object_id": "113616e0-08e8-436c-9c9e-5c83723e1eed",
       "sub_steps": []
     },
     {
       "id": "9d99e3ab-70de-417f-8cff-1882a3cb4d48",
-      "name": "Click on label storageColorOption (colorWhite)",
-      "action_id": "e4c38b13-7c48-4712-b07b-1bc401152e6e",
-      "timestamp": 1786596778843,
-      "target_name": "label_storageColorOption",
+      "name": "Click on label colorStorageOptions (colorWhite)",
+      "action_id": "9daea23c-fb83-4642-89bc-3eb85b1c0e04",
+      "timestamp": 1787037618054,
+      "target_name": "label_colorStorageOptions",
       "target_test_object_id": "11b5703b-cb8c-4585-b857-0576d21ed3d4",
       "sub_steps": []
     },
     {
       "id": "c6661eb0-37f7-4a4d-82ea-665bba3584e5",
-      "name": "Click on label storageColorOption (storage256Gb)",
-      "action_id": "507fa068-0b0c-471f-a171-15549df4c389",
-      "timestamp": 1786596785210,
-      "target_name": "label_storageColorOption",
-      "target_test_object_id": "1ea94f48-656a-49de-ac3f-9547c63be427",
+      "name": "Click on label colorStorageOptions (storage512Gb)",
+      "action_id": "32811595-a322-4cdf-996a-cc2c57183861",
+      "timestamp": 1787037624270,
+      "target_name": "label_colorStorageOptions",
+      "target_test_object_id": "5adb4e67-2616-4a23-8006-134db36ec138",
       "sub_steps": []
     },
     {
       "id": "ebd46ecd-cddb-436f-9429-bef35e5c297e",
-      "name": "Click on button quantityControl (increase)",
-      "action_id": "9ba3f988-aa94-4ecb-9d8f-732a2c122a0f",
-      "timestamp": 1786596789295,
-      "target_name": "button_quantityControl",
+      "name": "Click on button quantityAdjustment (increase)",
+      "action_id": "1018f9d9-01da-408b-bba0-e20969cadf10",
+      "timestamp": 1787037628339,
+      "target_name": "button_quantityAdjustment",
       "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
       "sub_steps": []
     },
     {
       "id": "e651d661-b2d3-493f-b4dc-bc928faa6d7a",
-      "name": "Click on button quantityControl (decrease) -> Navigate to page ''",
-      "action_id": "5c11f5a4-d6fa-476b-a69d-4ffae779e4ce",
-      "timestamp": 1786596795045,
-      "target_name": "button_quantityControl",
+      "name": "Click on button quantityAdjustment (decrease) -> Navigate to page ''",
+      "action_id": "d7bf07e3-0cca-4042-9c66-140a971fc946",
+      "timestamp": 1787037634123,
+      "target_name": "button_quantityAdjustment",
       "target_test_object_id": "f1a9e6ba-56b2-40ae-9830-b597f7b1bf23",
       "sub_steps": []
     },
