@@ -10,27 +10,27 @@
     },
     {
       "id": "63651db7-686a-4f89-9bdc-af6f567dd7b8",
-      "name": "Click on button quantityControl (increase2)",
-      "action_id": "667b03a2-23af-4847-aded-e7497203554d",
-      "timestamp": 1786597092228,
-      "target_name": "button_quantityControl",
+      "name": "Click on button quantityAdjustment (increase2)",
+      "action_id": "1ce95ed0-cca7-4f18-8b96-fc796ea3eb2b",
+      "timestamp": 1787037933489,
+      "target_name": "button_quantityAdjustment",
       "target_test_object_id": "2cd591e3-d990-4adb-b453-73d4958f5659",
       "sub_steps": []
     },
     {
       "id": "05343898-fe96-4bd8-8bb0-63a7d29fd4e5",
-      "name": "Click on button quantityControl (decrease2)",
-      "action_id": "01000c78-c99a-4618-a478-d8bc92423481",
-      "timestamp": 1786597097330,
-      "target_name": "button_quantityControl",
+      "name": "Click on button quantityAdjustment (decrease2)",
+      "action_id": "715d4f3b-9224-4044-b775-0492a1069c1d",
+      "timestamp": 1787037938209,
+      "target_name": "button_quantityAdjustment",
       "target_test_object_id": "9635f56a-c585-4c87-b378-4f1375ab9501",
       "sub_steps": []
     },
     {
       "id": "47b91385-2f89-4df6-8820-d09e509e9d76",
       "name": "Click on button buy -> Navigate to page ''",
-      "action_id": "4036a386-80f4-4e92-896b-31441c0351bd",
-      "timestamp": 1786597105395,
+      "action_id": "56ed4610-0b3f-4a81-8966-2363d0a71477",
+      "timestamp": 1787037946607,
       "target_name": "button_buy",
       "target_test_object_id": "50fae88a-88f7-4a56-8e30-6c3416e8db33",
       "sub_steps": []
