@@ -1,89 +1,93 @@
 Flow ID,Name,Description,Test Steps,Flow Priority,Status
-2,Search for Accessories within Price Range and Clear Filters,"Navigate to the accessories category, set a price range, filter for in-stock items, perform a search, and clear filters to return to the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/accessories
+2,Filter and Sort Apple Accessories by Price,"Navigate to Apple accessories, set price filters, check stock availability, clear filters, and return to the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/accessories-apple
 Step 2: Enter input value in input priceMin
 Step 3: Enter input value in input priceMax
 Step 4: Click on input inStock
-Step 5: Click on button search
+Step 5: Click on button clear
 Step 6: Click on link sortByTitle
-Step 7: Click on button clear -> Navigate to page ''
+Step 7: Click on button clear2 -> Navigate to page ''
 Step 8: Take full page screenshot as checkpoint
 ",High,NEW
-5,Search for Accessories within Price Range and Verify Products,"Navigate to the accessories category, set a price range, filter for in-stock items, and verify the sorted product page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/accessories
+3,Select Storage and Color Options for a Product,"Navigate to a product page, select storage and color options, adjust quantity, and return to the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16
+Step 2: Click on label storageColorOptions (colorBlack2)
+Step 3: Click on label storageColorOptions ( 128Gb)
+Step 4: Click on button quantityControl (increase) -> Navigate to page ''
+Step 5: Take full page screenshot as checkpoint
+",High,NEW
+5,Search and Filter Accessories by Price and Availability,"Navigate to the accessories category, set price filters, check stock availability, and perform a search. Verify the product listing page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/accessories
 Step 2: Enter input value in input priceMin
 Step 3: Enter input value in input priceMax
 Step 4: Click on input inStock
 Step 5: Click on button search
-Step 6: Click on link sortByPrice -> Navigate to page '/product/*'
+Step 6: Click on link sortByTitle -> Navigate to page '/product/*'
 Step 7: Take full page screenshot as checkpoint
 ",High,NEW
-7,Adjust Product Quantity and Return to Home Page,"Navigate to a product page, adjust the quantity of a product, buy it, and verify the return to the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/iphone-15-clear-case-with-magsafe
-Step 2: Click on button quantityAdjustment (increase2)
-Step 3: Click on button quantityAdjustment (decrease2)
-Step 4: Click on button buy -> Navigate to page ''
-Step 5: Take full page screenshot as checkpoint
-",High,NEW
-3,Adjust Quantity for Selected Product Options,"Navigate to a product page, select color and storage options, adjust the quantity, and return to the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/samsung-galaxy-s23-ultra
-Step 2: Click on label colorStorageOptions ( 512Gb)
-Step 3: Click on label colorStorageOptions (colorPhantomBlack)
-Step 4: Click on button quantityAdjustment (increase) -> Navigate to page ''
-Step 5: Take full page screenshot as checkpoint
-",Medium,NEW
-6,Complete Checkout Process for Adjusted Quantity of Products,"Navigate to a product page, adjust the quantity, proceed to checkout, fill in shipping and payment details, and verify the thank you page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category)
-Step 2: Click on button quantityAdjustment (increase2)
-Step 3: Click on button buy -> Navigate to page '/cart'
-Step 4: Click on button quantityAdjustment (increase)
-Step 5: Click on button quantityAdjustment (decrease)
-Step 6: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
-Step 7: Click on input email
-Step 8: Enter input value in input email
-Step 9: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
-Step 10: Click on input firstName
-Step 11: Enter input value in input firstName
-Step 12: Click on input lastName
-Step 13: Enter input value in input lastName
-Step 14: Click on input address
-Step 15: Enter input value in input address
-Step 16: Click on input zipCode
-Step 17: Enter input value in input zipCode
-Step 18: Click on input city
-Step 19: Enter input value in input city
-Step 20: Click on input state
-Step 21: Enter input value in input state
-Step 22: Click on input phone
-Step 23: Enter input value in input phone
-Step 24: Click on button continueToPayment -> Navigate to page '/checkout/payment'
-Step 25: Click on button completeOrder -> Navigate to page '/thank-you/*'
-Step 26: Take full page screenshot as checkpoint
-",Medium,NEW
-1,Navigate to Product Details and Adjust Quantity for iPhone 16e,"Navigate through the home page to the iPhone 16e product. Select color and storage options, adjust quantity, and return to the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app
+1,Navigate to About Page and Explore Apple Products,"Navigate to the home page, access the About section, explore Apple products, select options, and return to the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app
 Step 2: Click on link about -> Navigate to page '/about'
 Step 3: Click on link phone -> Navigate to page '/category/phone'
 Step 4: Click on link apple -> Navigate to page '/category/phone-apple'
 Step 5: Click on link iphone16e -> Navigate to page '/product/*'
-Step 6: Click on label colorStorageOptions (colorWhite)
-Step 7: Click on label colorStorageOptions (storage512Gb)
-Step 8: Click on button quantityAdjustment (increase)
-Step 9: Click on button quantityAdjustment (decrease) -> Navigate to page ''
+Step 6: Click on label storageColorOptions (colorBlack)
+Step 7: Click on label storageColorOptions ( 256Gb)
+Step 8: Click on button quantityControl (increase)
+Step 9: Click on button quantityControl (decreaseIcon) -> Navigate to page ''
 Step 10: Take full page screenshot as checkpoint
+",Medium,NEW
+6,Purchase Product with Selected Options and Verify Checkout,"Navigate to a product page, select storage and color options, add to cart, adjust quantity, fill shipping details, and complete the checkout. Verify the thank you page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16
+Step 2: Click on label storageColorOptions (colorBlack2)
+Step 3: Click on label storageColorOptions ( 256Gb2)
+Step 4: Click on button buy -> Navigate to page '/cart'
+Step 5: Click on button quantityControl (increase)
+Step 6: Click on button quantityControl (decrease)
+Step 7: Fill in shipping details and complete the checkout process
+	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
+	- Step 2: Click on input email
+	- Step 3: Enter input value in input email
+	- Step 4: Click on button continueToShipping -> Navigate to page '/checkout/shipping-address'
+	- Step 5: Click on input firstName
+	- Step 6: Enter input value in input firstName
+	- Step 7: Click on input lastName
+	- Step 8: Enter input value in input lastName
+	- Step 9: Click on input address
+	- Step 10: Enter input value in input address
+	- Step 11: Click on input zipCode
+	- Step 12: Enter input value in input zipCode
+	- Step 13: Click on input city
+	- Step 14: Enter input value in input city
+	- Step 15: Click on input state
+	- Step 16: Enter input value in input state
+	- Step 17: Click on input phone
+	- Step 18: Enter input value in input phone
+	- Step 19: Click on button continueToPayment -> Navigate to page '/checkout/payment'
+	- Step 20: Click on button completeOrder
+Step 8: Take full page screenshot as checkpoint
 ",Low,NEW
-4,Search for Samsung and Apple Phones with Price Filters,"Navigate to Samsung phones, set price filters, search, and sort results. Repeat for Apple phones, then return to the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/phone-samsung
+7,Quick Purchase of Product with Options and Checkout Verification,"Navigate to a product page, select storage and color options, add to cart, fill shipping details, and complete the checkout. Verify the thank you page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category)
+Step 2: Click on button buy2
+Step 3: Click on label storageColorOptions (colorPink)
+Step 4: Click on label storageColorOptions ( 256Gb2)
+Step 5: Click on button buy
+Step 6: Fill in shipping details and complete the checkout process
+Step 7: Take full page screenshot as checkpoint
+",Low,NEW
+4,Search and Sort Samsung Phones by Price and Title,"Navigate to Samsung phones, filter by price, check stock, search, sort products, select options, and return to the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/phone-samsung
 Step 2: Enter input value in input priceMin
 Step 3: Enter input value in input priceMax
 Step 4: Click on input inStock
 Step 5: Click on button search
 Step 6: Click on link sortByPrice -> Navigate to page '/product/*'
-Step 7: Click on label colorStorageOptions ( 512Gb)
-Step 8: Click on label colorStorageOptions (storageCream)
-Step 9: Click on button quantityAdjustment (increase)
-Step 10: Click on button quantityAdjustment (decrease) -> Navigate to page '/category/phone-apple'
+Step 7: Click on label storageColorOptions ( 512Gb)
+Step 8: Click on label storageColorOptions (colorLavender)
+Step 9: Click on button quantityControl (increase)
+Step 10: Click on button quantityControl (decreaseIcon) -> Navigate to page '/category/phone-apple'
 Step 11: Enter input value in input priceMin
 Step 12: Enter input value in input priceMax
 Step 13: Click on input inStock
 Step 14: Click on button search
 Step 15: Click on link sortByTitle -> Navigate to page '/product/*'
-Step 16: Click on label colorStorageOptions (colorPink)
-Step 17: Click on label colorStorageOptions (storage512Gb2)
-Step 18: Click on button quantityAdjustment (increase)
-Step 19: Click on button quantityAdjustment (decrease) -> Navigate to page ''
+Step 16: Click on label storageColorOptions (colorWhite)
+Step 17: Click on label storageColorOptions ( 128Gb)
+Step 18: Click on button quantityControl (increase)
+Step 19: Click on button quantityControl (decreaseIcon) -> Navigate to page ''
 Step 20: Take full page screenshot as checkpoint
 ",Trivial,NEW

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to a product page, select storage and color options, add to cart, adjust quantity, fill shipping details, and complete the checkout. Verify the thank you page.</description>
+   <name>TC6-Purchase Product with Selected Options and Verify Checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>61eda77e-2ba1-4e88-9cde-158fd4d9eff4</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>7793823c-5503-432a-9414-25623d9dfecf</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 5: Click on button quantityControl (increase) - (Dynamic locator variable)</description>
+      <id>0db44872-6957-4592-a699-df8fde0e3d82</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 6: Click on button quantityControl (decrease) - (Dynamic locator variable)</description>
+      <id>063baced-1007-478e-83c2-5571083131ed</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'button:nth-of-type(2)'</defaultValue>
+      <description>Step 5: Click on button quantityControl (increase) - (Dynamic locator variable)</description>
+      <id>ea31a0a0-8dcf-4792-9d54-ff03a3c83aec</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'.input-group > button:nth-of-type(1)'</defaultValue>
+      <description>Step 6: Click on button quantityControl (decrease) - (Dynamic locator variable)</description>
+      <id>3c949689-b5ed-4fc5-8def-52cba73f80b1</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'1 Smoke Test Way'</defaultValue>
+      <description>Step 7: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>21578238-6c9a-48b1-b9c2-5b543ffdcf3d</id>
+      <masked>false</masked>
+      <name>input_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cupertino'</defaultValue>
+      <description>Step 7: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>de46eb34-2465-4d99-b0a1-b5a692140693</id>
+      <masked>false</masked>
+      <name>input_city</name>
+   </variable>
+   <variable>
+      <defaultValue>'qa@test.com'</defaultValue>
+      <description>Step 7: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>50377fa1-2f48-4bd8-bbd1-b4adf4fbc55d</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'SmokeTest'</defaultValue>
+      <description>Step 7: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>24a68b78-718b-4266-aecb-a65afcdd1784</id>
+      <masked>false</masked>
+      <name>input_firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Traffic'</defaultValue>
+      <description>Step 7: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>e566683f-9628-428f-a57f-202cbeb9e916</id>
+      <masked>false</masked>
+      <name>input_lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'18005550123'</defaultValue>
+      <description>Step 7: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>f8ff996f-d430-4460-a8df-39b389038be9</id>
+      <masked>false</masked>
+      <name>input_phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'CA'</defaultValue>
+      <description>Step 7: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>b029239b-9df7-4baa-949d-60f768eeccef</id>
+      <masked>false</masked>
+      <name>input_state</name>
+   </variable>
+   <variable>
+      <defaultValue>'95014'</defaultValue>
+      <description>Step 7: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>837870ef-672c-4218-a669-d011829ce498</id>
+      <masked>false</masked>
+      <name>input_zipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Black'</defaultValue>
+      <description>Step 2: Click on label storageColorOptions (colorBlack2) - (Dynamic locator variable)</description>
+      <id>ec8d8a3a-7e82-422a-90a1-6906ed7d3963</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'256 GB'</defaultValue>
+      <description>Step 3: Click on label storageColorOptions ( 256Gb2) - (Dynamic locator variable)</description>
+      <id>487dfcd0-1ade-4bc1-bd0a-fe2bb37c8cd5</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52208-case-760\&quot;]'</defaultValue>
+      <description>Step 2: Click on label storageColorOptions (colorBlack2) - (Dynamic locator variable)</description>
+      <id>76a4dd36-58fa-48c5-8a58-adb95c6e35a3</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=\&quot;\\\\31 52209-case-762\&quot;]'</defaultValue>
+      <description>Step 3: Click on label storageColorOptions ( 256Gb2) - (Dynamic locator variable)</description>
+      <id>4775023b-fd10-4006-acf1-456a43600618</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'apple-iphone-16'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16 - (Dynamic URL variable)</description>
+      <id>22a4a600-d56c-468b-88da-d5911ff90453</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>7793823c-5503-432a-9414-25623d9dfecf</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
