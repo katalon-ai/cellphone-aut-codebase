@@ -11,8 +11,8 @@
     {
       "id": "f21f0cf8-ddab-494f-b20f-08d2aacbee76",
       "name": "Enter input value in input priceMin",
-      "action_id": "ba4a4594-b313-4f83-ad0f-cf124d37fb6a",
-      "timestamp": 1787037799350,
+      "action_id": "56365a25-8682-4d66-a2ae-23afdae7084b",
+      "timestamp": 1787641759163,
       "target_name": "input_priceMin",
       "target_test_object_id": "a2a0013b-458c-4b86-b037-cb60fc9b937b",
       "sub_steps": []
@@ -20,8 +20,8 @@
     {
       "id": "daf64656-1ede-413f-8c7d-79b86760183d",
       "name": "Enter input value in input priceMax",
-      "action_id": "5728e36b-bba6-4571-aebd-d2483eb783e8",
-      "timestamp": 1787037799360,
+      "action_id": "e2431b23-a2d3-49b8-90c0-8b72d7df2f8b",
+      "timestamp": 1787641759185,
       "target_name": "input_priceMax",
       "target_test_object_id": "4b2eafbe-cf42-4057-acd6-784592107815",
       "sub_steps": []
@@ -29,8 +29,8 @@
     {
       "id": "95b0e804-9b26-4faf-a213-43c00dd8d346",
       "name": "Click on input inStock",
-      "action_id": "bfa05172-bc41-40b5-8117-11c10cf65eab",
-      "timestamp": 1787037799388,
+      "action_id": "92d5454d-9352-4b7b-ad9a-f1c37b7c6d4e",
+      "timestamp": 1787641759221,
       "target_name": "input_inStock",
       "target_test_object_id": "e4a7df88-8b9f-45ca-921c-7abf43d87375",
       "sub_steps": []
@@ -38,26 +38,26 @@
     {
       "id": "46d573df-5739-4ef6-b443-6a0bbabd0121",
       "name": "Click on button search",
-      "action_id": "49b3831d-22aa-4ca8-b852-06be8229cf66",
-      "timestamp": 1787037799471,
+      "action_id": "7be7b76d-715e-4258-98f2-c70870f6ab67",
+      "timestamp": 1787641759269,
       "target_name": "button_search",
       "target_test_object_id": "f13e6341-b678-4b48-aef5-65165d2f97e4",
       "sub_steps": []
     },
     {
       "id": "ad847117-4f57-4d34-947e-e313271dee3e",
-      "name": "Click on link sortByPrice -> Navigate to page '/product/*'",
-      "action_id": "2104a34e-cac0-4b8c-9428-0640da8e6e03",
-      "timestamp": 1787037804122,
-      "target_name": "link_sortByPrice",
-      "target_test_object_id": "4e03de49-aaa5-46c1-9545-b936ceaa4ea5",
+      "name": "Click on link sortByTitle -> Navigate to page '/product/*'",
+      "action_id": "3206b7c7-c16b-4858-a419-2a7b80a70ca2",
+      "timestamp": 1787641764020,
+      "target_name": "link_sortByTitle",
+      "target_test_object_id": "e147467b-17b6-48b0-9c85-07487d6b735e",
       "sub_steps": []
     },
     {
       "id": "3d17c07e-f472-4d5b-b730-7862c9356ba9",
       "name": "Take full page screenshot as checkpoint",
-      "action_id": "06d2cf08-f733-488b-8ad1-92e79ea81527",
-      "timestamp": 1787037808314,
+      "action_id": "9d8473e6-c27e-4a8d-a45c-7f4e9d910961",
+      "timestamp": 1787641767779,
       "target_name": "",
       "target_test_object_id": "",
       "sub_steps": []
