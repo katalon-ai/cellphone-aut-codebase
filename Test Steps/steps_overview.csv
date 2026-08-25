@@ -40,6 +40,14 @@ Step 4: Click on button buy -> Navigate to page '/cart'
 Step 5: Click on button quantityControl (increase)
 Step 6: Click on button quantityControl (decrease)
 Step 7: Fill in shipping details and complete the checkout process
+Step 8: Take full page screenshot as checkpoint
+",Low,NEW
+7,Quick Purchase of Product with Options and Checkout Verification,"Navigate to a product page, select storage and color options, add to cart, fill shipping details, and complete the checkout. Verify the thank you page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category)
+Step 2: Click on button buy2
+Step 3: Click on label storageColorOptions (colorPink)
+Step 4: Click on label storageColorOptions ( 256Gb2)
+Step 5: Click on button buy
+Step 6: Fill in shipping details and complete the checkout process
 	- Step 1: Click on button proceedToCheckout -> Navigate to page '/checkout/info'
 	- Step 2: Click on input email
 	- Step 3: Enter input value in input email
@@ -60,14 +68,6 @@ Step 7: Fill in shipping details and complete the checkout process
 	- Step 18: Enter input value in input phone
 	- Step 19: Click on button continueToPayment -> Navigate to page '/checkout/payment'
 	- Step 20: Click on button completeOrder
-Step 8: Take full page screenshot as checkpoint
-",Low,NEW
-7,Quick Purchase of Product with Options and Checkout Verification,"Navigate to a product page, select storage and color options, add to cart, fill shipping details, and complete the checkout. Verify the thank you page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category)
-Step 2: Click on button buy2
-Step 3: Click on label storageColorOptions (colorPink)
-Step 4: Click on label storageColorOptions ( 256Gb2)
-Step 5: Click on button buy
-Step 6: Fill in shipping details and complete the checkout process
 Step 7: Take full page screenshot as checkpoint
 ",Low,NEW
 4,Search and Sort Samsung Phones by Price and Title,"Navigate to Samsung phones, filter by price, check stock, search, sort products, select options, and return to the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/phone-samsung
