@@ -11,8 +11,8 @@
     {
       "id": "0d2431ca-b06b-455f-b444-1ff0ad2a807d",
       "name": "Click on link about -> Navigate to page '/about'",
-      "action_id": "323daff9-c25c-45c4-868d-8837c2c945f3",
-      "timestamp": 1787641557339,
+      "action_id": "4edb2760-5edf-43ec-92ca-372796087955",
+      "timestamp": 1787729487486,
       "target_name": "link_about",
       "target_test_object_id": "2367c7f7-e689-4843-a6a2-eef4252097ca",
       "sub_steps": []
@@ -20,8 +20,8 @@
     {
       "id": "f4cd5115-4ae4-4783-ab95-8c730b127d79",
       "name": "Click on link phone -> Navigate to page '/category/phone'",
-      "action_id": "a180cabe-5e18-43cc-b859-f3091890237e",
-      "timestamp": 1787641564753,
+      "action_id": "42c14973-24a8-47d4-a832-43a5c6f8de62",
+      "timestamp": 1787729492282,
       "target_name": "link_phone",
       "target_test_object_id": "3cfefab5-80ba-4841-937b-0b0de9c53e1c",
       "sub_steps": []
@@ -29,8 +29,8 @@
     {
       "id": "94946ed4-e92c-4afe-aeed-51e54c950f35",
       "name": "Click on link apple -> Navigate to page '/category/phone-apple'",
-      "action_id": "0968fb6a-9ba0-4de7-a513-9dbf5ff5b14b",
-      "timestamp": 1787641567704,
+      "action_id": "4ab916a9-d795-476d-ae13-dbe4a5f5631f",
+      "timestamp": 1787729496066,
       "target_name": "link_apple",
       "target_test_object_id": "36f05f0e-54b7-4e60-b18c-9bfc8f804aa0",
       "sub_steps": []
@@ -38,45 +38,45 @@
     {
       "id": "5d93a83d-8eef-4e9c-8aaa-a8179fa4f7cb",
       "name": "Click on link iphone16e -> Navigate to page '/product/*'",
-      "action_id": "2ea5e42e-ae80-4691-9d37-f3a1cbddae5b",
-      "timestamp": 1787641574055,
+      "action_id": "52a4c594-13c8-44a5-a0e1-89b867eee0af",
+      "timestamp": 1787729501752,
       "target_name": "link_iphone16e",
       "target_test_object_id": "113616e0-08e8-436c-9c9e-5c83723e1eed",
       "sub_steps": []
     },
     {
       "id": "9d99e3ab-70de-417f-8cff-1882a3cb4d48",
-      "name": "Click on label storageColorOptions (colorBlack)",
-      "action_id": "2f9f5769-d754-4a09-ae1f-4669967117af",
-      "timestamp": 1787641578038,
-      "target_name": "label_storageColorOptions",
+      "name": "Click on label colorStorageModelOptions (colorBlack)",
+      "action_id": "6082c9de-877f-47cd-817a-e4dae1197c86",
+      "timestamp": 1787729505733,
+      "target_name": "label_colorStorageModelOptions",
       "target_test_object_id": "48b2f2d8-fbac-40a6-9ae1-11bb8e1a231e",
       "sub_steps": []
     },
     {
       "id": "c6661eb0-37f7-4a4d-82ea-665bba3584e5",
-      "name": "Click on label storageColorOptions ( 256Gb)",
-      "action_id": "fac997a3-8366-4c83-900a-9cc0304d6207",
-      "timestamp": 1787641583839,
-      "target_name": "label_storageColorOptions",
-      "target_test_object_id": "1ea94f48-656a-49de-ac3f-9547c63be427",
+      "name": "Click on label colorStorageModelOptions (storage512Gb)",
+      "action_id": "d66ab03c-7e86-4486-a543-e206591ea455",
+      "timestamp": 1787729511519,
+      "target_name": "label_colorStorageModelOptions",
+      "target_test_object_id": "5adb4e67-2616-4a23-8006-134db36ec138",
       "sub_steps": []
     },
     {
       "id": "ebd46ecd-cddb-436f-9429-bef35e5c297e",
-      "name": "Click on button quantityControl (increase)",
-      "action_id": "de033e23-5fe7-476f-9bbf-fdc97689a27e",
-      "timestamp": 1787641588171,
-      "target_name": "button_quantityControl",
+      "name": "Click on button quantityAdjustment (increase)",
+      "action_id": "5df948e9-b22c-4794-939b-991e8873f6e2",
+      "timestamp": 1787729515834,
+      "target_name": "button_quantityAdjustment",
       "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
       "sub_steps": []
     },
     {
       "id": "e651d661-b2d3-493f-b4dc-bc928faa6d7a",
-      "name": "Click on button quantityControl (decreaseIcon) -> Navigate to page ''",
-      "action_id": "f07ff793-b3b8-490e-924a-aa54cfc144eb",
-      "timestamp": 1787641593972,
-      "target_name": "button_quantityControl",
+      "name": "Click on button quantityAdjustment (decreaseIcon) -> Navigate to page ''",
+      "action_id": "df6b6fd8-dd9f-4543-9b26-b69d6a0c3a85",
+      "timestamp": 1787729521618,
+      "target_name": "button_quantityAdjustment",
       "target_test_object_id": "f1a9e6ba-56b2-40ae-9830-b597f7b1bf23",
       "sub_steps": []
     },
