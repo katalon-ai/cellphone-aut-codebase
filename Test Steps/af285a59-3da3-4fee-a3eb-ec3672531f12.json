@@ -11,8 +11,8 @@
     {
       "id": "e73e8aef-b021-44be-92db-1fdee6214453",
       "name": "Enter input value in input priceMin",
-      "action_id": "bacb4831-832f-474f-90f5-1db0bfacdab0",
-      "timestamp": 1785116846225,
+      "action_id": "db516c96-ed62-4988-996c-73ec536b9b41",
+      "timestamp": 1787729544679,
       "target_name": "input_priceMin",
       "target_test_object_id": "48775620-b052-4a62-b329-e3fda7c4a83d",
       "sub_steps": []
@@ -20,8 +20,8 @@
     {
       "id": "8a49dbc9-24d1-4ae3-8f0f-c649861ff96b",
       "name": "Enter input value in input priceMax",
-      "action_id": "bb286293-74ca-4202-8e8f-89f315ebc7a5",
-      "timestamp": 1785116846240,
+      "action_id": "53fc1d77-a6d6-4b96-a4b7-6fdbea820ad4",
+      "timestamp": 1787729544689,
       "target_name": "input_priceMax",
       "target_test_object_id": "78d445cf-ed69-4ad0-8175-3d45298173b3",
       "sub_steps": []
@@ -29,8 +29,8 @@
     {
       "id": "d5b21be5-9d1d-4c45-95ee-09c26d146359",
       "name": "Click on input inStock",
-      "action_id": "64a38419-86ec-4a89-9147-75d02c2b2bcc",
-      "timestamp": 1785116846274,
+      "action_id": "656c6196-394f-479c-874e-134187386e82",
+      "timestamp": 1787729544732,
       "target_name": "input_inStock",
       "target_test_object_id": "c955ccf9-1f13-4c03-ba26-b6f084476cfe",
       "sub_steps": []
@@ -38,26 +38,26 @@
     {
       "id": "b636090f-3ae7-423d-80ff-174bb960d388",
       "name": "Click on button search",
-      "action_id": "833d9653-2e58-4032-991e-9e6dd08ef4cf",
-      "timestamp": 1785116846321,
+      "action_id": "0a81e953-6e63-4d3a-999d-8b04676feed2",
+      "timestamp": 1787729544799,
       "target_name": "button_search",
       "target_test_object_id": "7a7335ef-1131-413f-b17c-5335447abf40",
       "sub_steps": []
     },
     {
       "id": "b4863727-6300-4b97-8ad4-3cf1ab264870",
-      "name": "Click on link sortByTitle",
-      "action_id": "930fa95c-3192-4051-84ef-ee36fb139b97",
-      "timestamp": 1785116847491,
-      "target_name": "link_sortByTitle",
-      "target_test_object_id": "07ce4d95-4fc2-4b62-8bb8-09bd5cf4fdcd",
+      "name": "Click on link sortByPrice",
+      "action_id": "780abc91-7ece-4446-8eab-a62de765b240",
+      "timestamp": 1787729548615,
+      "target_name": "link_sortByPrice",
+      "target_test_object_id": "7f1e6385-8b2d-4ace-a588-b0ac22161502",
       "sub_steps": []
     },
     {
       "id": "d898d7d5-bf9e-4ec8-9c41-7feb6a445594",
       "name": "Click on button clear -> Navigate to page ''",
-      "action_id": "b9f133a3-0a43-4eb9-9557-2fc07c6bbb55",
-      "timestamp": 1785116848464,
+      "action_id": "d5631c26-f501-4ea9-a00d-79ab3f0cb396",
+      "timestamp": 1787729551866,
       "target_name": "button_clear",
       "target_test_object_id": "4ac5296f-3324-4a58-8ca4-44effbb532db",
       "sub_steps": []
