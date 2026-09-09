@@ -1,0 +1,74 @@
+{
+  "version": "3",
+  "steps": [
+    {
+      "id": "f5fcfb0a-1752-4ad6-8edb-4b700dfd17af",
+      "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/phone-apple",
+      "timestamp": 1788926473782,
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    },
+    {
+      "id": "b50a35ec-4eb5-4b02-9e70-74003d0f5ffc",
+      "name": "Enter input value in input priceMin",
+      "action_id": "f3c2a6e3-70df-4c68-a915-d9414382c0b2",
+      "timestamp": 1788926473782,
+      "target_name": "input_priceMin",
+      "target_test_object_id": "cbf0f41a-8847-40c3-8069-a8da6f1f3eb1",
+      "sub_steps": []
+    },
+    {
+      "id": "c1a3d40e-5156-4ce2-b4c8-2b913e1724e3",
+      "name": "Enter input value in input priceMax",
+      "action_id": "9dea0b83-d2da-43c8-8bf9-965febde49ed",
+      "timestamp": 1788926473795,
+      "target_name": "input_priceMax",
+      "target_test_object_id": "a3303a51-61b8-4aaa-8fcd-c4e79080458c",
+      "sub_steps": []
+    },
+    {
+      "id": "e4ff414b-da80-48de-9780-9b1720202b20",
+      "name": "Click on input inStock",
+      "action_id": "2dc0e804-5dde-45a5-87f7-df0ac517a177",
+      "timestamp": 1788926473840,
+      "target_name": "input_inStock",
+      "target_test_object_id": "a8d420ab-23a6-4233-a5f2-c6fd45a3f277",
+      "sub_steps": []
+    },
+    {
+      "id": "11c2da16-4a78-4397-b16c-9a9b6d068a1c",
+      "name": "Click on button search",
+      "action_id": "190ebb65-413a-4094-961f-dea39a502c6b",
+      "timestamp": 1788926473904,
+      "target_name": "button_search",
+      "target_test_object_id": "be22495e-686c-4ee0-9978-68b1f622c152",
+      "sub_steps": []
+    },
+    {
+      "id": "9b863b64-8679-457a-b771-2fc82aeb3fde",
+      "name": "Click on link sortByPrice",
+      "action_id": "8230129f-fc7a-4e47-b21d-d507f77d82d1",
+      "timestamp": 1788926479023,
+      "target_name": "link_sortByPrice",
+      "target_test_object_id": "3be9f6bb-e88a-4ee5-a6b9-c1e8004f4f43",
+      "sub_steps": []
+    },
+    {
+      "id": "3962b005-8657-4304-8e15-0ceee2918c6e",
+      "name": "Click on button clear -> Navigate to page ''",
+      "action_id": "4e7f18de-6c40-4ff4-844b-9e0d081c1b8d",
+      "timestamp": 1788926482073,
+      "target_name": "button_clear",
+      "target_test_object_id": "9e66fc6c-05e3-4697-9633-a2e24d9b9972",
+      "sub_steps": []
+    },
+    {
+      "id": "49b0b721-5dd7-490b-8c86-db31180bca83",
+      "name": "Take full page screenshot as checkpoint",
+      "target_name": "",
+      "target_test_object_id": "",
+      "sub_steps": []
+    }
+  ]
+}
