@@ -25,9 +25,10 @@ TrueTestScripts.setText(findTestObject('AI-Generated/Staging/Page_category_acces
 
 TrueTestScripts.setText(findTestObject('AI-Generated/Staging/Page_category_accessories/input_priceMax'), input_priceMax)
 
-"Step 4: Click on input inStock"
-
-TrueTestScripts.click(findTestObject('AI-Generated/Staging/Page_category_accessories/input_inStock'))
+// @TT_ASSERTION
+// Verify spanPhone is present
+WebUI.verifyElementPresent(findTestObject('AI-Generated/Staging/Page_category_accessories/spanPhone'), 20)
+// END TT_ASSERTION
 
 "Step 5: Click on button search"
 

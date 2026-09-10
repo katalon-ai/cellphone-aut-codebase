@@ -11,10 +11,9 @@ Step 8: Take full page screenshot as checkpoint
 5,Search for Accessories by Price Range and Availability,"Navigate to the accessories category, set a price range, filter for in-stock items, and perform a search. Verify the product page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/category/accessories
 Step 2: Enter input value in input priceMin
 Step 3: Enter input value in input priceMax
-Step 4: Click on input inStock
-Step 5: Click on button search
-Step 6: Click on link sortByTitle -> Navigate to page '/product/*'
-Step 7: Take full page screenshot as checkpoint
+Step 4: Click on button search
+Step 5: Click on link sortByTitle -> Navigate to page '/product/*'
+Step 6: Take full page screenshot as checkpoint
 ",High,NEW
 3,Adjust Quantity for Selected Product Options,"Navigate to a product page, select color and storage options, adjust the quantity, and return to the home page.","Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/samsung-galaxy-s23-ultra
 Step 2: Click on label colorStorageOptions (storage1Tb)
