@@ -4,6 +4,7 @@
     {
       "id": "e5298616-c7d6-401e-91ce-7359a9b08b0e",
       "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app",
+      "timestamp": 1788926418861,
       "target_name": "",
       "target_test_object_id": "",
       "sub_steps": []
@@ -11,8 +12,8 @@
     {
       "id": "0d2431ca-b06b-455f-b444-1ff0ad2a807d",
       "name": "Click on link about -> Navigate to page '/about'",
-      "action_id": "4edb2760-5edf-43ec-92ca-372796087955",
-      "timestamp": 1787729487486,
+      "action_id": "aec76a45-d60f-48b1-b72c-e88499ade319",
+      "timestamp": 1788926418861,
       "target_name": "link_about",
       "target_test_object_id": "2367c7f7-e689-4843-a6a2-eef4252097ca",
       "sub_steps": []
@@ -20,8 +21,8 @@
     {
       "id": "f4cd5115-4ae4-4783-ab95-8c730b127d79",
       "name": "Click on link phone -> Navigate to page '/category/phone'",
-      "action_id": "42c14973-24a8-47d4-a832-43a5c6f8de62",
-      "timestamp": 1787729492282,
+      "action_id": "f62a99e4-35a9-4169-b701-fa1f677303b0",
+      "timestamp": 1788926423256,
       "target_name": "link_phone",
       "target_test_object_id": "3cfefab5-80ba-4841-937b-0b0de9c53e1c",
       "sub_steps": []
@@ -29,8 +30,8 @@
     {
       "id": "94946ed4-e92c-4afe-aeed-51e54c950f35",
       "name": "Click on link apple -> Navigate to page '/category/phone-apple'",
-      "action_id": "4ab916a9-d795-476d-ae13-dbe4a5f5631f",
-      "timestamp": 1787729496066,
+      "action_id": "64679892-cd33-4786-abae-6594801471cf",
+      "timestamp": 1788926427241,
       "target_name": "link_apple",
       "target_test_object_id": "36f05f0e-54b7-4e60-b18c-9bfc8f804aa0",
       "sub_steps": []
@@ -38,35 +39,35 @@
     {
       "id": "5d93a83d-8eef-4e9c-8aaa-a8179fa4f7cb",
       "name": "Click on link iphone16e -> Navigate to page '/product/*'",
-      "action_id": "52a4c594-13c8-44a5-a0e1-89b867eee0af",
-      "timestamp": 1787729501752,
+      "action_id": "95544727-62a3-4fb2-97d8-4aaf76e5f5ac",
+      "timestamp": 1788926432092,
       "target_name": "link_iphone16e",
       "target_test_object_id": "113616e0-08e8-436c-9c9e-5c83723e1eed",
       "sub_steps": []
     },
     {
       "id": "9d99e3ab-70de-417f-8cff-1882a3cb4d48",
-      "name": "Click on label colorStorageModelOptions (colorBlack)",
-      "action_id": "6082c9de-877f-47cd-817a-e4dae1197c86",
-      "timestamp": 1787729505733,
-      "target_name": "label_colorStorageModelOptions",
-      "target_test_object_id": "48b2f2d8-fbac-40a6-9ae1-11bb8e1a231e",
+      "name": "Click on label colorStorageOptions (colorWhite)",
+      "action_id": "0aaab9ab-d122-4344-bfcc-01dc5b2a2fe0",
+      "timestamp": 1788926435624,
+      "target_name": "label_colorStorageOptions",
+      "target_test_object_id": "11b5703b-cb8c-4585-b857-0576d21ed3d4",
       "sub_steps": []
     },
     {
       "id": "c6661eb0-37f7-4a4d-82ea-665bba3584e5",
-      "name": "Click on label colorStorageModelOptions (storage512Gb)",
-      "action_id": "d66ab03c-7e86-4486-a543-e206591ea455",
-      "timestamp": 1787729511519,
-      "target_name": "label_colorStorageModelOptions",
+      "name": "Click on label colorStorageOptions (storage512Gb)",
+      "action_id": "1ee3e020-2c14-40e7-bc49-7fd3778f84d5",
+      "timestamp": 1788926442090,
+      "target_name": "label_colorStorageOptions",
       "target_test_object_id": "5adb4e67-2616-4a23-8006-134db36ec138",
       "sub_steps": []
     },
     {
       "id": "ebd46ecd-cddb-436f-9429-bef35e5c297e",
       "name": "Click on button quantityAdjustment (increase)",
-      "action_id": "5df948e9-b22c-4794-939b-991e8873f6e2",
-      "timestamp": 1787729515834,
+      "action_id": "32e51776-bdf2-4f1d-a77a-c7d3d586dd6c",
+      "timestamp": 1788926447109,
       "target_name": "button_quantityAdjustment",
       "target_test_object_id": "cac496e6-46ba-43a2-acdc-806a00f9f100",
       "sub_steps": []
@@ -74,8 +75,8 @@
     {
       "id": "e651d661-b2d3-493f-b4dc-bc928faa6d7a",
       "name": "Click on button quantityAdjustment (decreaseIcon) -> Navigate to page ''",
-      "action_id": "df6b6fd8-dd9f-4543-9b26-b69d6a0c3a85",
-      "timestamp": 1787729521618,
+      "action_id": "4742ceb0-42a8-4741-81a3-284cb1a2d1cf",
+      "timestamp": 1788926452092,
       "target_name": "button_quantityAdjustment",
       "target_test_object_id": "f1a9e6ba-56b2-40ae-9830-b597f7b1bf23",
       "sub_steps": []
