@@ -4,6 +4,7 @@
     {
       "id": "5c7aa62c-2f0a-482d-b2eb-4ddcf24ddcec",
       "name": "Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/iphone-15-clear-case-with-magsafe",
+      "timestamp": 1788926745865,
       "target_name": "",
       "target_test_object_id": "",
       "sub_steps": []
@@ -11,8 +12,8 @@
     {
       "id": "63651db7-686a-4f89-9bdc-af6f567dd7b8",
       "name": "Click on button quantityAdjustment (increase2)",
-      "action_id": "7a91aba4-2a85-4b83-995e-63ddcf874fd2",
-      "timestamp": 1787729845832,
+      "action_id": "7ee508d1-24bf-4065-8da3-b16e1fb88d46",
+      "timestamp": 1788926745865,
       "target_name": "button_quantityAdjustment",
       "target_test_object_id": "2cd591e3-d990-4adb-b453-73d4958f5659",
       "sub_steps": []
@@ -20,8 +21,8 @@
     {
       "id": "05343898-fe96-4bd8-8bb0-63a7d29fd4e5",
       "name": "Click on button quantityAdjustment (decreaseIcon2)",
-      "action_id": "64e9e5a3-deff-44d7-b387-124f58ef54d5",
-      "timestamp": 1787729851533,
+      "action_id": "b4788f22-7b54-406b-8e72-04e5bc80c002",
+      "timestamp": 1788926749168,
       "target_name": "button_quantityAdjustment",
       "target_test_object_id": "9635f56a-c585-4c87-b378-4f1375ab9501",
       "sub_steps": []
@@ -29,8 +30,8 @@
     {
       "id": "47b91385-2f89-4df6-8820-d09e509e9d76",
       "name": "Click on button buy -> Navigate to page ''",
-      "action_id": "4664f6c5-0c6e-4ace-9050-1eebc5c0b762",
-      "timestamp": 1787729859431,
+      "action_id": "65f42a19-c660-4191-9faa-8ded51ada836",
+      "timestamp": 1788926757897,
       "target_name": "button_buy",
       "target_test_object_id": "50fae88a-88f7-4a56-8e30-6c3416e8db33",
       "sub_steps": []
