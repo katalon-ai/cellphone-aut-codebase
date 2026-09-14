@@ -54,7 +54,7 @@ completeCheckoutProcessWithShippingDetails.execute(input_address, input_city, in
 
 "Step 9: Take full page screenshot as checkpoint"
 
-WebUI.takeFullPageScreenshotAsCheckpoint('TC7-Select Storage and Color Options for Product Purchase_visual_checkpoint')
+WebUI.takeFullPageScreenshotAsCheckpoint('Select Storage and Color Options for Product Purchase_visual_checkpoint')
 
 'Terminate test session: Close browser'
 
