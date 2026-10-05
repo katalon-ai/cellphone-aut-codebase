@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Select a product, customize its attributes, add it to the cart, and complete the checkout process with shipping details.</description>
+   <name>TC7-Quick Purchase of Product with Attributes and Checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>46336775-c56c-46ad-907c-150d2919e89f</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>a7e7255b-03e4-4512-b037-85cb07b8a776</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Buy'</defaultValue>
+      <description>Step 2: Click on button buy2 - (Dynamic locator variable)</description>
+      <id>a8ef0dcb-10de-4c40-a4ab-6232960a864f</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Buy'</defaultValue>
+      <description>Step 5: Click on button buy - (Dynamic locator variable)</description>
+      <id>af03311a-206f-43af-ac3e-8d94b1aa82cf</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="btn\\ btn-action\\ btn-anim\\ btn-lg"]'</defaultValue>
+      <description>Step 2: Click on button buy2 - (Dynamic locator variable)</description>
+      <id>5795ad51-d623-4ad7-8c08-6988d075c08d</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="btn\\ btn-action\\ btn-anim\\ btn-lg"]'</defaultValue>
+      <description>Step 5: Click on button buy - (Dynamic locator variable)</description>
+      <id>53184d5b-4fbe-436a-8e6a-0e901bf5236a</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'1 Smoke Test Way'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>3c6966f0-295d-4340-9b8b-524c74f679a3</id>
+      <masked>false</masked>
+      <name>input_address</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cupertino'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>0ecfee38-78d8-404d-8c69-4a417d4506e2</id>
+      <masked>false</masked>
+      <name>input_city</name>
+   </variable>
+   <variable>
+      <defaultValue>'qa@test.com'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>24b9df42-77a0-46dd-a7cd-379b6c01dce9</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'SmokeTest'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>cca7252d-e42a-43db-887d-85c80a53e737</id>
+      <masked>false</masked>
+      <name>input_firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Traffic'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>f08d03ab-603f-4a98-b610-a67754b88f6f</id>
+      <masked>false</masked>
+      <name>input_lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'18005550123'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>874ad424-1607-4412-9947-6ddf6c2c0b5e</id>
+      <masked>false</masked>
+      <name>input_phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'CA'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>4e18810d-62c7-431f-9348-7e93a692edac</id>
+      <masked>false</masked>
+      <name>input_state</name>
+   </variable>
+   <variable>
+      <defaultValue>'95014'</defaultValue>
+      <description>Step 6: Fill in shipping details and complete the checkout process - (Input data variable)</description>
+      <id>c97e1284-b92e-4ec1-b542-05f02bf27401</id>
+      <masked>false</masked>
+      <name>input_zipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ultramarine'</defaultValue>
+      <description>Step 3: Click on label productAttributes (ultramarine) - (Dynamic locator variable)</description>
+      <id>23986f79-8afd-4ef2-9fce-fffd6c23a26d</id>
+      <masked>false</masked>
+      <name>label_productAttributes_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'128 GB'</defaultValue>
+      <description>Step 4: Click on label productAttributes ( 128Gb) - (Dynamic locator variable)</description>
+      <id>f61c9908-1250-4894-a8a5-fb64b6bc310c</id>
+      <masked>false</masked>
+      <name>label_productAttributes_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52208-case-756"]'</defaultValue>
+      <description>Step 3: Click on label productAttributes (ultramarine) - (Dynamic locator variable)</description>
+      <id>90228707-d393-4f3d-a89a-b4ff77170d0e</id>
+      <masked>false</masked>
+      <name>label_productAttributes_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52209-case-761"]'</defaultValue>
+      <description>Step 4: Click on label productAttributes ( 128Gb) - (Dynamic locator variable)</description>
+      <id>a0737c53-accf-4726-acc7-d76fbb29d508</id>
+      <masked>false</masked>
+      <name>label_productAttributes_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'iphone-15-clear-case-with-magsafe'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/iphone-15-clear-case-with-magsafe - (Dynamic URL variable)</description>
+      <id>d7e7d7d2-23b9-43f5-a609-07fe0f7e83c8</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>a7e7255b-03e4-4512-b037-85cb07b8a776</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
