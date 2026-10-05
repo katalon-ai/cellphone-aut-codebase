@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate through the application to view product details for iPhone 16e, check attributes, adjust quantity, and return to the home page.</description>
+   <name>TC1-Explore Product Details and Return to Home Page</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc1b5813-fc48-4f8f-ba8a-dfea45b42795</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>747e4f24-d633-407c-bc50-a207b89dcd83</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 8: Click on button quantityControl (increaseIcon) - (Dynamic locator variable)</description>
+      <id>6fcbcf32-2ef1-4cba-9682-9a49f3066d03</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 9: Click on button quantityControl (decreaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>1594ffdc-aa74-44d0-a231-35c5464887de</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-plus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 8: Click on button quantityControl (increaseIcon) - (Dynamic locator variable)</description>
+      <id>1aa58f3a-627b-427d-8d15-2b02f69f6fa6</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-minus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 9: Click on button quantityControl (decreaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>0420f338-24b2-45d4-9a2e-08c1bbe3e519</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Black'</defaultValue>
+      <description>Step 6: Click on label productAttributes (colorBlack) - (Dynamic locator variable)</description>
+      <id>386e23e8-0515-4e16-8dd2-00749cb58d6b</id>
+      <masked>false</masked>
+      <name>label_productAttributes_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'256 GB'</defaultValue>
+      <description>Step 7: Click on label productAttributes (storage256Gb) - (Dynamic locator variable)</description>
+      <id>201dae7a-8fc1-4cee-8116-8e2b4cc0bf6e</id>
+      <masked>false</masked>
+      <name>label_productAttributes_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52217-case-790"]'</defaultValue>
+      <description>Step 6: Click on label productAttributes (colorBlack) - (Dynamic locator variable)</description>
+      <id>2c1585cf-1c81-4fe7-bf62-dcaca1c9592f</id>
+      <masked>false</masked>
+      <name>label_productAttributes_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52218-case-792"]'</defaultValue>
+      <description>Step 7: Click on label productAttributes (storage256Gb) - (Dynamic locator variable)</description>
+      <id>fde89004-1460-4747-8d55-e928de0dc123</id>
+      <masked>false</masked>
+      <name>label_productAttributes_css_value_1</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>747e4f24-d633-407c-bc50-a207b89dcd83</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
