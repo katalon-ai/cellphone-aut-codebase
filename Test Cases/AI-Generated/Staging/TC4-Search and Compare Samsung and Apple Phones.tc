@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search for Samsung and Apple phones by price range and stock availability. Sort results and adjust product options before returning to the home page.</description>
+   <name>TC4-Search and Compare Samsung and Apple Phones</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ad307b06-834a-40f4-b4b6-e75a2be0c604</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>7dcceea7-c81b-4b7b-9f93-aaa402f13ba4</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 9: Click on button quantityControl (increaseIcon) - (Dynamic locator variable)</description>
+      <id>c19eb744-f997-4080-8fec-79a3b2ae918a</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 10: Click on button quantityControl (decreaseIcon) -> Navigate to page '/category/phone-apple' - (Dynamic locator variable)</description>
+      <id>22c08019-0330-4eeb-8fd7-9cf20b4aebfc</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 18: Click on button quantityControl (increaseIcon) - (Dynamic locator variable)</description>
+      <id>5b9ded40-bfc3-4661-9219-fcb184460d26</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 19: Click on button quantityControl (decreaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>16698bfd-0636-40e4-9540-77bc4d93c2a7</id>
+      <masked>false</masked>
+      <name>button_quantityControl_ButtonTitle_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-plus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 9: Click on button quantityControl (increaseIcon) - (Dynamic locator variable)</description>
+      <id>5d02e6ad-4a17-4c9a-8d69-f6052c3e3ff5</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-minus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 10: Click on button quantityControl (decreaseIcon) -> Navigate to page '/category/phone-apple' - (Dynamic locator variable)</description>
+      <id>84998a04-a3f3-46aa-aa91-ff68bbc4c927</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-plus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 18: Click on button quantityControl (increaseIcon) - (Dynamic locator variable)</description>
+      <id>402a864e-58df-4973-8319-659b702ab768</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-minus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 19: Click on button quantityControl (decreaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>42885760-9447-4913-9fb7-3118bcd4b6f5</id>
+      <masked>false</masked>
+      <name>button_quantityControl_css_value_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'1600'</defaultValue>
+      <description>Step 3: Enter input value in input priceMax - (Input data variable)</description>
+      <id>aee834e2-f173-4ff6-a34c-1da4e0e89c02</id>
+      <masked>false</masked>
+      <name>input_priceMax</name>
+   </variable>
+   <variable>
+      <defaultValue>'1600'</defaultValue>
+      <description>Step 12: Enter input value in input priceMax - (Input data variable)</description>
+      <id>4303ba83-4ded-4cc8-b757-bb9c84eeda8c</id>
+      <masked>false</masked>
+      <name>input_priceMax_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description>Step 2: Enter input value in input priceMin - (Input data variable)</description>
+      <id>bd0fef57-33ff-4ae9-ada7-00d4e9f55058</id>
+      <masked>false</masked>
+      <name>input_priceMin</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description>Step 11: Enter input value in input priceMin - (Input data variable)</description>
+      <id>ca9bc590-a0e8-43cf-8785-bdb2491b6e08</id>
+      <masked>false</masked>
+      <name>input_priceMin_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'1TB'</defaultValue>
+      <description>Step 7: Click on label storageColorOptions ( 1Tb) - (Dynamic locator variable)</description>
+      <id>a5b36261-12c4-4095-abce-58b4a66302fb</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cream'</defaultValue>
+      <description>Step 8: Click on label storageColorOptions (selectCream2) - (Dynamic locator variable)</description>
+      <id>5853b763-cd8e-4a5a-b780-49b1b1bc2b72</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Black'</defaultValue>
+      <description>Step 16: Click on label storageColorOptions (black) - (Dynamic locator variable)</description>
+      <id>5894587c-e6cc-438c-8929-00dcda750238</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_LabelInternalText_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'128 GB'</defaultValue>
+      <description>Step 17: Click on label storageColorOptions ( 128Gb2) - (Dynamic locator variable)</description>
+      <id>5695a5e8-b2e5-4830-9e1a-e8e6b059fbb6</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_LabelInternalText_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52194-case-716"]'</defaultValue>
+      <description>Step 7: Click on label storageColorOptions ( 1Tb) - (Dynamic locator variable)</description>
+      <id>b562f0a3-5fd8-4234-a8ce-c29867d37a23</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52195-case-720"]'</defaultValue>
+      <description>Step 8: Click on label storageColorOptions (selectCream2) - (Dynamic locator variable)</description>
+      <id>5993cdf5-d41a-40f5-a4ca-e5b478aa33f8</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52208-case-760"]'</defaultValue>
+      <description>Step 16: Click on label storageColorOptions (black) - (Dynamic locator variable)</description>
+      <id>72955781-242a-4ecc-a744-1cb8d705d33a</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52209-case-761"]'</defaultValue>
+      <description>Step 17: Click on label storageColorOptions ( 128Gb2) - (Dynamic locator variable)</description>
+      <id>2e0144f7-e3c7-4d6d-9446-1c8e10c68bbc</id>
+      <masked>false</masked>
+      <name>label_storageColorOptions_css_value_3</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>7dcceea7-c81b-4b7b-9f93-aaa402f13ba4</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
