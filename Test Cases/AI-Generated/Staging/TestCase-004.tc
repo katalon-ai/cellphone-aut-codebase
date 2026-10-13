@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCase-004</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cde32387-6e2e-4a95-9f46-abdac348e683</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>7dcceea7-c81b-4b7b-9f93-aaa402f13ba4</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 9: Click on div dynamicObject (increaseIcon) - (Dynamic locator variable)</description>
+      <id>3223e2b1-58f4-4e62-b772-42254325d9e5</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 10: Click on div dynamicObject (decreaseIcon) -> Navigate to page '/category/phone-apple' - (Dynamic locator variable)</description>
+      <id>373c21f9-83f0-4b76-8558-51e7297a88d4</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 18: Click on div dynamicObject (increaseIcon) - (Dynamic locator variable)</description>
+      <id>7257a276-a22f-4b5f-8182-fafd74e230ed</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_ButtonTitle_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 19: Click on div dynamicObject (decreaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>08d30b36-f2ea-4708-b614-0062651ec7ad</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_ButtonTitle_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'512 GB'</defaultValue>
+      <description>Step 7: Click on div dynamicObject ( 512Gb) - (Dynamic locator variable)</description>
+      <id>da46ef95-22b4-41e3-ba6c-5737097c0753</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Green'</defaultValue>
+      <description>Step 8: Click on div dynamicObject (green) - (Dynamic locator variable)</description>
+      <id>f6a6aac9-a9b7-43c4-b8f5-b55905d571e4</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pink'</defaultValue>
+      <description>Step 16: Click on div dynamicObject (pink) - (Dynamic locator variable)</description>
+      <id>f5e6da9d-55a1-4368-be99-365065d087ca</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_LabelInternalText_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'512 GB'</defaultValue>
+      <description>Step 17: Click on div dynamicObject ( 512Gb2) - (Dynamic locator variable)</description>
+      <id>29ecb460-b532-47e1-8dd7-90398e3912fe</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_LabelInternalText_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52194-case-714"]'</defaultValue>
+      <description>Step 7: Click on div dynamicObject ( 512Gb) - (Dynamic locator variable)</description>
+      <id>89e81b5f-83b2-401a-b70f-ff7398a18863</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52195-case-718"]'</defaultValue>
+      <description>Step 8: Click on div dynamicObject (green) - (Dynamic locator variable)</description>
+      <id>426fc92b-3d55-4a8d-a810-3d0fee9aaea7</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52208-case-758"]'</defaultValue>
+      <description>Step 16: Click on div dynamicObject (pink) - (Dynamic locator variable)</description>
+      <id>4c6714bb-103c-4535-b23f-f0c1b2523983</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52209-case-763"]'</defaultValue>
+      <description>Step 17: Click on div dynamicObject ( 512Gb2) - (Dynamic locator variable)</description>
+      <id>dc055e2e-6ad3-4fc8-8b0b-28c3030f6f92</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-plus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 9: Click on div dynamicObject (increaseIcon) - (Dynamic locator variable)</description>
+      <id>526c28a0-87f4-417f-ade9-5a6f62d7f145</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-minus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 10: Click on div dynamicObject (decreaseIcon) -> Navigate to page '/category/phone-apple' - (Dynamic locator variable)</description>
+      <id>33719b58-6b45-49a3-a4d2-b4838920c1cf</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-plus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 18: Click on div dynamicObject (increaseIcon) - (Dynamic locator variable)</description>
+      <id>dcb98b23-a868-4e21-8e82-ee2a7b5a0d0f</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value_6</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-minus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 19: Click on div dynamicObject (decreaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>742fa99e-548e-4167-933e-7a3c8dddfd2d</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value_7</name>
+   </variable>
+   <variable>
+      <defaultValue>'1600'</defaultValue>
+      <description>Step 3: Enter input value in input priceMax - (Input data variable)</description>
+      <id>f9e5b836-f9ed-4901-a85e-6658f55b6f07</id>
+      <masked>false</masked>
+      <name>input_priceMax</name>
+   </variable>
+   <variable>
+      <defaultValue>'1600'</defaultValue>
+      <description>Step 12: Enter input value in input priceMax - (Input data variable)</description>
+      <id>86c90282-1065-433b-b556-10a518b496dc</id>
+      <masked>false</masked>
+      <name>input_priceMax_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description>Step 2: Enter input value in input priceMin - (Input data variable)</description>
+      <id>c217d41a-3971-4755-900d-1e9e678f9514</id>
+      <masked>false</masked>
+      <name>input_priceMin</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description>Step 11: Enter input value in input priceMin - (Input data variable)</description>
+      <id>a5afe768-9631-404f-8e47-2f09c3e0cda1</id>
+      <masked>false</masked>
+      <name>input_priceMin_1</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>7dcceea7-c81b-4b7b-9f93-aaa402f13ba4</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
