@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCase-002</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc211397-3db4-4e17-9d0a-af6589368d76</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>dd0cbcb4-589c-4ff9-bb4d-b4b333cd563a</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'1008'</defaultValue>
+      <description>Step 3: Enter input value in input priceMax - (Input data variable)</description>
+      <id>0be0c649-598b-4079-9859-8fa6fcac167e</id>
+      <masked>false</masked>
+      <name>input_priceMax</name>
+   </variable>
+   <variable>
+      <defaultValue>'650'</defaultValue>
+      <description>Step 2: Enter input value in input priceMin - (Input data variable)</description>
+      <id>d93d1c89-5c5f-4c9a-bd6d-cd0f35dbbd99</id>
+      <masked>false</masked>
+      <name>input_priceMin</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>dd0cbcb4-589c-4ff9-bb4d-b4b333cd563a</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
