@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCase-003</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ed9e8837-6219-4b8b-a0d2-84678b8901dc</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>5a89e72d-7735-4796-a3e9-4db77601ed0e</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 4: Click on div dynamicObject (increaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>04818c7c-a81b-4dc0-83f1-b644c20e3d87</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'512 GB'</defaultValue>
+      <description>Step 2: Click on div dynamicObject ( 512Gb) - (Dynamic locator variable)</description>
+      <id>5482e2da-50fa-40a4-8735-2ebc9bd4d324</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Lavender'</defaultValue>
+      <description>Step 3: Click on div dynamicObject (lavender) - (Dynamic locator variable)</description>
+      <id>532e805d-c42d-45ce-872b-72238f6d5396</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52194-case-714"]'</defaultValue>
+      <description>Step 2: Click on div dynamicObject ( 512Gb) - (Dynamic locator variable)</description>
+      <id>dd6f274e-7e31-4bdb-89cb-26e8a14a4e10</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52195-case-719"]'</defaultValue>
+      <description>Step 3: Click on div dynamicObject (lavender) - (Dynamic locator variable)</description>
+      <id>44fe2fe4-28fa-4dea-8341-6824f3d08834</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-plus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 4: Click on div dynamicObject (increaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>d0d4e1eb-cccc-4516-93ec-de8ede52de7c</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'samsung-galaxy-s23-ultra'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/samsung-galaxy-s23-ultra - (Dynamic URL variable)</description>
+      <id>6379aa1d-743e-4f2a-990e-d8b921e47c7d</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>5a89e72d-7735-4796-a3e9-4db77601ed0e</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
