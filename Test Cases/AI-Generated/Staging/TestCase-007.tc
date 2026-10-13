@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TestCase-007</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>49b15cc1-d919-4938-bcbf-c7b88f9c0105</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>9dd77f62-def7-44bd-ad66-ce6c3ce26ddb</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 2: Click on div dynamicObject (increaseIcon2) - (Dynamic locator variable)</description>
+      <id>4dc1aa5e-4941-41db-9028-c1e2f35438be</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 3: Click on div dynamicObject (decreaseIcon2) - (Dynamic locator variable)</description>
+      <id>d452c391-9c46-4ec0-8cc7-79cd3b2017af</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Buy'</defaultValue>
+      <description>Step 4: Click on button buy2 -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>984c2efb-6184-4946-b322-13adbba0341e</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_ButtonTitle_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-plus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 2: Click on div dynamicObject (increaseIcon2) - (Dynamic locator variable)</description>
+      <id>6cc415bd-d752-470e-b8ab-2586454ed155</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-minus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 3: Click on div dynamicObject (decreaseIcon2) - (Dynamic locator variable)</description>
+      <id>ef6d9c5f-5192-4b64-9a59-d0b11bdfe4d2</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="btn\\ btn-action\\ btn-anim\\ btn-lg"]'</defaultValue>
+      <description>Step 4: Click on button buy2 -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>7b8f9fe6-fbdd-42a2-9145-057db31b8991</id>
+      <masked>false</masked>
+      <name>div_dynamicObject_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'115'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category) - (Dynamic URL variable)</description>
+      <id>b3207765-a160-4126-81b5-90171965dfec</id>
+      <masked>false</masked>
+      <name>product_category</name>
+   </variable>
+   <variable>
+      <defaultValue>'apple-airpods-pro-2'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category) - (Dynamic URL variable)</description>
+      <id>026c460e-7efe-43cb-a757-112993f043f8</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>9dd77f62-def7-44bd-ad66-ce6c3ce26ddb</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
