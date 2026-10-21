@@ -421,17 +421,61 @@ public class TrueTestScripts {
 
     public static void setTinyMCEContent(TestObject to, String content) {
         int editorTimeout = timeout("waitForEditorReadyTimeOut")
-        WebUI.waitForElementClickable(to, editorTimeout)
-        WebUI.executeJavaScript(
-            """
-                const mceInstance = window.tinyMCE?.activeEditor;
-                if (!mceInstance) {
-                    return "No TinyMCE instance found";
-                }
-                return mceInstance.setContent(arguments[0]);
-            """,
-            [content]
-        )
+        def driver = com.kms.katalon.core.webui.driver.DriverFactory.getWebDriver()
+        driver.switchTo().defaultContent()
+        WebUI.waitForElementPresent(to, editorTimeout)
+        long deadline = System.currentTimeMillis() + editorTimeout * 1000L
+        boolean applied = false
+        while (!applied && System.currentTimeMillis() < deadline) {
+            try {
+                com.kms.katalon.core.webui.common.WebUiCommonHelper.switchToParentFrame(to, editorTimeout)
+                def target = com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(to, editorTimeout)
+                applied = WebUI.executeJavaScript(
+                    """
+                        const target = arguments[0];
+                        let owner = target.ownerDocument.defaultView;
+                        const candidates = [];
+                        const visited = new Set();
+                        // A classic editor body lives in a child document; its manager lives on the host.
+                        while (owner && !visited.has(owner)) {
+                            visited.add(owner);
+                            try {
+                                const manager = owner.tinymce || owner.tinyMCE;
+                                candidates.push(...(manager?.get?.() || []));
+                                const parent = owner.parent;
+                                if (!parent || parent === owner) break;
+                                owner = parent;
+                            } catch (error) {
+                                // Stop at a cross-origin frame boundary without targeting another editor.
+                                break;
+                            }
+                        }
+                        const editor = candidates.find(instance => {
+                            const container = instance.getContainer?.();
+                            const body = instance.getBody?.();
+                            return !instance.removed && instance.initialized !== false &&
+                                ((container && (container === target || container.contains(target))) ||
+                                 target === instance.getElement?.() || target === body || body?.contains?.(target));
+                        });
+                        if (!editor) return false;
+                        editor.focus();
+                        editor.setContent(arguments[1]);
+                        editor.save();
+                        const emit = typeof editor.dispatch === 'function'
+                            ? editor.dispatch.bind(editor) : editor.fire.bind(editor);
+                        ['input', 'change', 'blur'].forEach(name => emit(name));
+                        return true;
+                    """,
+                    [target, content]
+                ) == true
+            } finally {
+                driver.switchTo().defaultContent()
+            }
+            if (!applied) Thread.sleep(100)
+        }
+        if (!applied) {
+            throw new IllegalStateException('TinyMCE editor for the requested Test Object is not ready')
+        }
     }
 
     public static void dragAndDropToTargetByDirection(TestObject sourceTo, TestObject targetTo, String direction = "CENTER", int padding = 10) {

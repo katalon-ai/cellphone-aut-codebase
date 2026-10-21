@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open a product, interact with its options, and adjust the quantity.</description>
+   <name>TC3-Interact with a product and adjust quantity</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>362f2e82-d8f6-4b73-acea-cc93850b0eee</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>5a89e72d-7735-4796-a3e9-4db77601ed0e</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 4: Click on button increaseDecrease (increaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>099f36f6-e2d4-4c22-84a7-5bbd16d27553</id>
+      <masked>false</masked>
+      <name>button_increaseDecrease_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-plus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 4: Click on button increaseDecrease (increaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>ccd591fc-89a8-4ef2-b522-3220111cfd71</id>
+      <masked>false</masked>
+      <name>button_increaseDecrease_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'256 GB'</defaultValue>
+      <description>Step 2: Click on label object (storage256Gb) - (Dynamic locator variable)</description>
+      <id>ac5f8ac9-a2a7-4612-ae15-77e6ec76e443</id>
+      <masked>false</masked>
+      <name>label_object_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Phantom Black'</defaultValue>
+      <description>Step 3: Click on label object (phantomBlack) - (Dynamic locator variable)</description>
+      <id>03563c02-1398-4f4b-9876-50a15a00f179</id>
+      <masked>false</masked>
+      <name>label_object_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52200-case-735"]'</defaultValue>
+      <description>Step 2: Click on label object (storage256Gb) - (Dynamic locator variable)</description>
+      <id>cf272950-2d26-41e9-bd51-d7f72c948fa1</id>
+      <masked>false</masked>
+      <name>label_object_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52201-case-736"]'</defaultValue>
+      <description>Step 3: Click on label object (phantomBlack) - (Dynamic locator variable)</description>
+      <id>7e681a1c-ab91-4827-ab96-02a63da468cf</id>
+      <masked>false</masked>
+      <name>label_object_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'samsung-galaxys23-ultra'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/samsung-galaxys23-ultra - (Dynamic URL variable)</description>
+      <id>644bb15d-d1dc-4cb3-a8d0-5a84a34ca011</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>5a89e72d-7735-4796-a3e9-4db77601ed0e</id>
+      </flow>
+   </customField>
+</TestCaseEntity>

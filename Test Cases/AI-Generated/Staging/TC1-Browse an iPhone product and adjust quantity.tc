@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Browse to the iPhone 16e product, interact with its options, and adjust the quantity.</description>
+   <name>TC1-Browse an iPhone product and adjust quantity</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c476351c-da0a-497d-b31f-cb57d3fee000</testCaseGuid>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>747e4f24-d633-407c-bc50-a207b89dcd83</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <origin>TRUETEST</origin>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 8: Click on button increaseDecrease (increaseIcon) - (Dynamic locator variable)</description>
+      <id>72de6a98-6475-48f2-8519-fcf4bb03db40</id>
+      <masked>false</masked>
+      <name>button_increaseDecrease_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 9: Click on button increaseDecrease (decreaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>b97af692-0126-4517-a6a8-dd66e2963910</id>
+      <masked>false</masked>
+      <name>button_increaseDecrease_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-plus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 8: Click on button increaseDecrease (increaseIcon) - (Dynamic locator variable)</description>
+      <id>f6261c6d-aa53-43f7-a396-85f8562edfc4</id>
+      <masked>false</masked>
+      <name>button_increaseDecrease_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class="svg-inline--fa\\ fa-minus\\ fa-w-14\\ "]'</defaultValue>
+      <description>Step 9: Click on button increaseDecrease (decreaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>092fba3a-7992-40dc-92f9-bb199c618d90</id>
+      <masked>false</masked>
+      <name>button_increaseDecrease_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'White'</defaultValue>
+      <description>Step 6: Click on label object (white) - (Dynamic locator variable)</description>
+      <id>cb9ab8b4-9e05-4c15-9a5d-9f4029832d57</id>
+      <masked>false</masked>
+      <name>label_object_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'128 GB'</defaultValue>
+      <description>Step 7: Click on label object ( 128Gb) - (Dynamic locator variable)</description>
+      <id>8fdb9d62-0258-4604-b732-aa06d8ade775</id>
+      <masked>false</masked>
+      <name>label_object_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52217-case-789"]'</defaultValue>
+      <description>Step 6: Click on label object (white) - (Dynamic locator variable)</description>
+      <id>d60ce42d-44ee-4bfe-b0cd-203ffeb39296</id>
+      <masked>false</masked>
+      <name>label_object_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for="\\31 52218-case-791"]'</defaultValue>
+      <description>Step 7: Click on label object ( 128Gb) - (Dynamic locator variable)</description>
+      <id>9e244260-69f0-4f63-a6a1-f0ccf427168e</id>
+      <masked>false</masked>
+      <name>label_object_css_value_1</name>
+   </variable>
+   <customField>
+      <flow>
+         <id>747e4f24-d633-407c-bc50-a207b89dcd83</id>
+      </flow>
+   </customField>
+</TestCaseEntity>
