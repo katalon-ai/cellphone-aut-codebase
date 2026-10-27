@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open the iPhone 16 listing, change its storage and quantity options, and return home.</description>
+   <name>TC1-Browse an iPhone listing and adjust its options</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>747e4f24-d633-407c-bc50-a207b89dcd83</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4584a6a0-6249-45da-9f10-9429bf88f6cc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a908542-6546-485e-ae55-96c3f09ccdd3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b94b49fd-fa64-4d51-88dd-d20d496f0d5d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cb7d3978-6bc1-49fc-a09b-23dc6177893d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1d682ec1-9725-493a-860c-a4113f26e1ef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>29f8fae8-f0b7-4398-815c-bed958fae1a4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5e86fefa-ea44-44e3-b4aa-018f955ae8b7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ecfbcff2-f838-4261-8529-b73a490e0d5d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>32d7f837-7c3a-4ad3-82a3-5904ee5feafa</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 8: Click on button quantityAdjustment (increaseIcon) - (Dynamic locator variable)</description>
+      <id>5a908542-6546-485e-ae55-96c3f09ccdd3</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 9: Click on button quantityAdjustment (decreaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>b94b49fd-fa64-4d51-88dd-d20d496f0d5d</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=&quot;svg-inline--fa\\ fa-plus\\ fa-w-14\\ &quot;]'</defaultValue>
+      <description>Step 8: Click on button quantityAdjustment (increaseIcon) - (Dynamic locator variable)</description>
+      <id>cb7d3978-6bc1-49fc-a09b-23dc6177893d</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=&quot;svg-inline--fa\\ fa-minus\\ fa-w-14\\ &quot;]'</defaultValue>
+      <description>Step 9: Click on button quantityAdjustment (decreaseIcon) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>1d682ec1-9725-493a-860c-a4113f26e1ef</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'White'</defaultValue>
+      <description>Step 6: Click on label storageOption (white) - (Dynamic locator variable)</description>
+      <id>29f8fae8-f0b7-4398-815c-bed958fae1a4</id>
+      <masked>false</masked>
+      <name>label_storageOption_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'128 GB'</defaultValue>
+      <description>Step 7: Click on label storageOption ( 128Gb) - (Dynamic locator variable)</description>
+      <id>5e86fefa-ea44-44e3-b4aa-018f955ae8b7</id>
+      <masked>false</masked>
+      <name>label_storageOption_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=&quot;\\31 52217-case-789&quot;]'</defaultValue>
+      <description>Step 6: Click on label storageOption (white) - (Dynamic locator variable)</description>
+      <id>ecfbcff2-f838-4261-8529-b73a490e0d5d</id>
+      <masked>false</masked>
+      <name>label_storageOption_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=&quot;\\31 52218-case-791&quot;]'</defaultValue>
+      <description>Step 7: Click on label storageOption ( 128Gb) - (Dynamic locator variable)</description>
+      <id>32d7f837-7c3a-4ad3-82a3-5904ee5feafa</id>
+      <masked>false</masked>
+      <name>label_storageOption_css_value_1</name>
+   </variable>
+</TestCaseEntity>
