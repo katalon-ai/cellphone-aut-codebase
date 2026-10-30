@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Open the checkbox page and repeatedly click the first checkbox before returning home.</description>
+   <name>TC6-Open the checkbox page and click the first checkbox repeatedly</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>2f82992e-a3ea-4d18-b565-34965f32b1fa</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>39953836-70ff-42f1-a985-1b4e8c783fdc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>408faf53-5d09-4f8a-a44f-4cdce441e354</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8397bf09-70f8-4551-ab04-128b97f192b8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'{{driver_id}}'</defaultValue>
+      <description>Step 1: Navigate to https://base-component.aut.katalon.com with params (clientCode, env) - (Dynamic URL variable)</description>
+      <id>408faf53-5d09-4f8a-a44f-4cdce441e354</id>
+      <masked>false</masked>
+      <name>var_clientCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'staging'</defaultValue>
+      <description>Step 1: Navigate to https://base-component.aut.katalon.com with params (clientCode, env) - (Dynamic URL variable)</description>
+      <id>8397bf09-70f8-4551-ab04-128b97f192b8</id>
+      <masked>false</masked>
+      <name>var_env</name>
+   </variable>
+</TestCaseEntity>
