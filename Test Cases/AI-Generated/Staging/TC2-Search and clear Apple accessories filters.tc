@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Search Apple accessories using price and stock filters, sort by title, and clear the filters.</description>
+   <name>TC2-Search and clear Apple accessories filters</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>312035c4-3a7c-4dd6-91f9-6da4e91946e7</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>23c12956-3620-4dee-ab07-e46413a45d87</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3a4edce9-9937-4c5b-a088-85aefcb00e9c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6c63966c-d5f2-4e6e-95d5-0ba8588b8630</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'80'</defaultValue>
+      <description>Step 2: Enter input value in input priceFrom - (Input data variable)</description>
+      <id>3a4edce9-9937-4c5b-a088-85aefcb00e9c</id>
+      <masked>false</masked>
+      <name>input_priceFrom</name>
+   </variable>
+   <variable>
+      <defaultValue>'290'</defaultValue>
+      <description>Step 3: Enter input value in input priceTo - (Input data variable)</description>
+      <id>6c63966c-d5f2-4e6e-95d5-0ba8588b8630</id>
+      <masked>false</masked>
+      <name>input_priceTo</name>
+   </variable>
+</TestCaseEntity>
