@@ -646,6 +646,50 @@ public class TrueTestScripts {
         return newHandle
     }
 
+
+    // Recorded tab IDs are stable; Selenium window handles and their iteration order are not.
+    public static Map<String, String> recordedWindows = [:]
+    public static Set<String> recordedBeforeHandles = null
+
+    public static void captureRecordedWindows() {
+        recordedBeforeHandles = new HashSet<>(DriverFactory.getWebDriver().getWindowHandles())
+    }
+
+    public static void switchToRecordedWindow(String tabId, boolean reset, int timeout = 10) {
+        WebDriver driver = DriverFactory.getWebDriver()
+        if (reset) {
+            recordedWindows = [(tabId): driver.getWindowHandle()]
+            recordedBeforeHandles = null
+            return
+        }
+        String handle = recordedWindows[tabId]
+        if (handle == null) {
+            if (recordedBeforeHandles == null) {
+                throw new IllegalStateException("No window snapshot for recorded tab " + tabId)
+            }
+            new WebDriverWait(driver, Duration.ofSeconds(timeout)).until {
+                Set<String> opened = new HashSet<>(driver.getWindowHandles())
+                opened.removeAll(recordedBeforeHandles)
+                return !opened.isEmpty()
+            }
+            Set<String> opened = new HashSet<>(driver.getWindowHandles())
+            opened.removeAll(recordedBeforeHandles)
+            if (opened.size() != 1) {
+                throw new IllegalStateException("Cannot uniquely identify recorded tab " + tabId)
+            }
+            handle = opened.iterator().next()
+            recordedWindows[tabId] = handle
+            recordedBeforeHandles = null
+        }
+        if (!driver.getWindowHandles().contains(handle)) {
+            throw new IllegalStateException("Recorded tab is no longer open: " + tabId)
+        }
+        // The previously selected window may already have closed itself.
+        driver.switchTo().window(handle)
+        WebUI.waitForPageLoad(timeout)
+        WebUI.waitForAngularLoad(timeout)
+    }
+
     public static void acceptAlert() {
         WebUI.waitForAlert(timeout("waitForAlertTimeOut"))
         WebUI.acceptAlert()
