@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Filter and sort phone results, change product options and quantities, and return to the home page.</description>
+   <name>TC4-Filter phone categories and adjust product quantities</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>7dcceea7-c81b-4b7b-9f93-aaa402f13ba4</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6da8b7d3-c8c5-43f7-b4f8-2ccd842d6692</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ad8bb8fe-d200-444b-b887-fcab74790a3c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>39319b8f-1e84-4a64-909a-646de5095732</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb7b736c-743d-4e0a-9031-1c2d902acaa5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>950ad456-e5a9-4b16-893f-4c5a7963d06f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>330037fe-a7d2-44a5-8158-b438ac93c0e6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>45c3633e-64fc-4e02-ba86-e6466a95e9ad</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e9c575df-5fc0-4069-be2a-28b988f15a80</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4b690f70-79a4-4729-812a-52ba3a5807aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>06494279-c7bd-46e4-a0c1-2976cfb43935</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5d12bdf6-e6ab-44a1-bcfc-05ab562368f5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bed97f0f-f14d-48ad-9b94-4f81496c2faf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b77fc1ce-6ccd-4943-864f-a482aa9b5526</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>214bf6c3-125e-4f41-9b95-7025c10d5c9b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d7ffd6b5-4b74-458b-977e-ebb979ddf6a5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>426ae893-63d1-4233-9e32-43d43a5296eb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>093253fb-49d2-43fa-9e2a-70459a93ab8d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dbb4b9cf-4113-4ba8-83d3-e02d65fa7b3e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31dc59b3-a93d-4c15-a28a-e55001f7fa4e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>64db92d1-0026-41cd-ac71-b5b662de7b75</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2815d4b1-f46e-4c61-ad9e-e4b7c5ee7e28</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 9: Click on button quantityAdjustment (increase) - (Dynamic locator variable)</description>
+      <id>ad8bb8fe-d200-444b-b887-fcab74790a3c</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 10: Click on button quantityAdjustment (decrease) -> Navigate to page '/category/phone-apple' - (Dynamic locator variable)</description>
+      <id>39319b8f-1e84-4a64-909a-646de5095732</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 18: Click on button quantityAdjustment (increase) - (Dynamic locator variable)</description>
+      <id>fb7b736c-743d-4e0a-9031-1c2d902acaa5</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 19: Click on button quantityAdjustment (decrease) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>950ad456-e5a9-4b16-893f-4c5a7963d06f</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_ButtonTitle_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=&quot;svg-inline--fa\\ fa-plus\\ fa-w-14\\ &quot;]'</defaultValue>
+      <description>Step 9: Click on button quantityAdjustment (increase) - (Dynamic locator variable)</description>
+      <id>330037fe-a7d2-44a5-8158-b438ac93c0e6</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=&quot;svg-inline--fa\\ fa-minus\\ fa-w-14\\ &quot;]'</defaultValue>
+      <description>Step 10: Click on button quantityAdjustment (decrease) -> Navigate to page '/category/phone-apple' - (Dynamic locator variable)</description>
+      <id>45c3633e-64fc-4e02-ba86-e6466a95e9ad</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=&quot;svg-inline--fa\\ fa-plus\\ fa-w-14\\ &quot;]'</defaultValue>
+      <description>Step 18: Click on button quantityAdjustment (increase) - (Dynamic locator variable)</description>
+      <id>e9c575df-5fc0-4069-be2a-28b988f15a80</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=&quot;svg-inline--fa\\ fa-minus\\ fa-w-14\\ &quot;]'</defaultValue>
+      <description>Step 19: Click on button quantityAdjustment (decrease) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>4b690f70-79a4-4729-812a-52ba3a5807aa</id>
+      <masked>false</masked>
+      <name>button_quantityAdjustment_css_value_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description>Step 2: Enter input value in input priceFrom - (Input data variable)</description>
+      <id>06494279-c7bd-46e4-a0c1-2976cfb43935</id>
+      <masked>false</masked>
+      <name>input_priceFrom</name>
+   </variable>
+   <variable>
+      <defaultValue>'0'</defaultValue>
+      <description>Step 11: Enter input value in input priceFrom - (Input data variable)</description>
+      <id>5d12bdf6-e6ab-44a1-bcfc-05ab562368f5</id>
+      <masked>false</masked>
+      <name>input_priceFrom_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'1600'</defaultValue>
+      <description>Step 3: Enter input value in input priceTo - (Input data variable)</description>
+      <id>bed97f0f-f14d-48ad-9b94-4f81496c2faf</id>
+      <masked>false</masked>
+      <name>input_priceTo</name>
+   </variable>
+   <variable>
+      <defaultValue>'1600'</defaultValue>
+      <description>Step 12: Enter input value in input priceTo - (Input data variable)</description>
+      <id>b77fc1ce-6ccd-4943-864f-a482aa9b5526</id>
+      <masked>false</masked>
+      <name>input_priceTo_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'1TB'</defaultValue>
+      <description>Step 7: Click on label productOption (storageOneTb) - (Dynamic locator variable)</description>
+      <id>214bf6c3-125e-4f41-9b95-7025c10d5c9b</id>
+      <masked>false</masked>
+      <name>label_productOption_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'Phantom Black'</defaultValue>
+      <description>Step 8: Click on label productOption (phantomBlack) - (Dynamic locator variable)</description>
+      <id>d7ffd6b5-4b74-458b-977e-ebb979ddf6a5</id>
+      <masked>false</masked>
+      <name>label_productOption_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ultramarine'</defaultValue>
+      <description>Step 16: Click on label productOption (ultramarine) - (Dynamic locator variable)</description>
+      <id>426ae893-63d1-4233-9e32-43d43a5296eb</id>
+      <masked>false</masked>
+      <name>label_productOption_LabelInternalText_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'256 GB'</defaultValue>
+      <description>Step 17: Click on label productOption (storageTwoHundredFiftySixGb) - (Dynamic locator variable)</description>
+      <id>093253fb-49d2-43fa-9e2a-70459a93ab8d</id>
+      <masked>false</masked>
+      <name>label_productOption_LabelInternalText_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=&quot;\\31 52194-case-716&quot;]'</defaultValue>
+      <description>Step 7: Click on label productOption (storageOneTb) - (Dynamic locator variable)</description>
+      <id>dbb4b9cf-4113-4ba8-83d3-e02d65fa7b3e</id>
+      <masked>false</masked>
+      <name>label_productOption_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=&quot;\\31 52195-case-717&quot;]'</defaultValue>
+      <description>Step 8: Click on label productOption (phantomBlack) - (Dynamic locator variable)</description>
+      <id>31dc59b3-a93d-4c15-a28a-e55001f7fa4e</id>
+      <masked>false</masked>
+      <name>label_productOption_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=&quot;\\31 52208-case-756&quot;]'</defaultValue>
+      <description>Step 16: Click on label productOption (ultramarine) - (Dynamic locator variable)</description>
+      <id>64db92d1-0026-41cd-ac71-b5b662de7b75</id>
+      <masked>false</masked>
+      <name>label_productOption_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=&quot;\\31 52209-case-762&quot;]'</defaultValue>
+      <description>Step 17: Click on label productOption (storageTwoHundredFiftySixGb) - (Dynamic locator variable)</description>
+      <id>2815d4b1-f46e-4c61-ad9e-e4b7c5ee7e28</id>
+      <masked>false</masked>
+      <name>label_productOption_css_value_3</name>
+   </variable>
+</TestCaseEntity>
