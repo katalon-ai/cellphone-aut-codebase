@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Select product options, adjust the quantity, and complete checkout to place the order.</description>
+   <name>TC7-Choose product options and place an order</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>d192078f-422a-4965-a682-1d693575046b</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f140d6fa-3492-4c76-9732-ca1e3298b1b8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>77a49d59-db26-4434-aeeb-5050f3b15548</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0e36c764-d7ba-42fe-93e4-0dc085cd4beb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2d74e166-3017-43dd-a7a1-1ca012cc8a8e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f623fb1d-a2e3-4d6d-b5d2-5355e5309b19</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>32e102d9-db26-4be9-a811-583dcdd5c12b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>90643867-7393-45ad-82c6-cb9b73341033</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>feaf6ff8-eff4-40f2-8917-9a11807c15ca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a16cd090-8839-4cfb-8b9f-9f92ad6297c0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5a7697d3-b0fd-445a-bb46-c4fd48470d58</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cf2ccdde-de00-471c-b4e8-297cf9f40a67</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>04711bbd-cb98-45d4-9481-2789757eb9fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b7d6ee9-f662-4a57-bc12-6b6d93746a52</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>867265e6-9394-4194-a416-8d45b283659e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>314a78a0-0023-48a6-8c33-b47c9b2ade58</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e0d36685-2bbc-4f9c-a770-609bcdd1e6d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e23d162a-ae80-4d27-a5b9-300fb65bb835</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>10c1c4fc-0ea5-4881-b385-b59730427a1a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4fe28d4f-0b23-4f5d-85a8-5318d2d0f88c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5346e844-c4ba-49a5-8921-8d64f56f4ea6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>55951902-79b0-4c25-ae0b-a2ac56b5f447</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Buy'</defaultValue>
+      <description>Step 2: Click on button buy - (Dynamic locator variable)</description>
+      <id>77a49d59-db26-4434-aeeb-5050f3b15548</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 5: Click on button adjustQuantity (increase) - (Dynamic locator variable)</description>
+      <id>0e36c764-d7ba-42fe-93e4-0dc085cd4beb</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Buy'</defaultValue>
+      <description>Step 6: Click on button buy - (Dynamic locator variable)</description>
+      <id>2d74e166-3017-43dd-a7a1-1ca012cc8a8e</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_ButtonTitle_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=&quot;btn\\ btn-action\\ btn-anim\\ btn-lg&quot;]'</defaultValue>
+      <description>Step 2: Click on button buy - (Dynamic locator variable)</description>
+      <id>f623fb1d-a2e3-4d6d-b5d2-5355e5309b19</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=&quot;svg-inline--fa\\ fa-plus\\ fa-w-14\\ &quot;]'</defaultValue>
+      <description>Step 5: Click on button adjustQuantity (increase) - (Dynamic locator variable)</description>
+      <id>32e102d9-db26-4be9-a811-583dcdd5c12b</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=&quot;btn\\ btn-action\\ btn-anim\\ btn-lg&quot;]'</defaultValue>
+      <description>Step 6: Click on button buy - (Dynamic locator variable)</description>
+      <id>90643867-7393-45ad-82c6-cb9b73341033</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'1 Smoke Test Way'</defaultValue>
+      <description>Step 7: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>feaf6ff8-eff4-40f2-8917-9a11807c15ca</id>
+      <masked>false</masked>
+      <name>input_addressLineOne</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cupertino'</defaultValue>
+      <description>Step 7: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>a16cd090-8839-4cfb-8b9f-9f92ad6297c0</id>
+      <masked>false</masked>
+      <name>input_city</name>
+   </variable>
+   <variable>
+      <defaultValue>'qa@test.com'</defaultValue>
+      <description>Step 7: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>5a7697d3-b0fd-445a-bb46-c4fd48470d58</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'SmokeTest'</defaultValue>
+      <description>Step 7: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>cf2ccdde-de00-471c-b4e8-297cf9f40a67</id>
+      <masked>false</masked>
+      <name>input_firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Traffic'</defaultValue>
+      <description>Step 7: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>04711bbd-cb98-45d4-9481-2789757eb9fc</id>
+      <masked>false</masked>
+      <name>input_lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'18005550123'</defaultValue>
+      <description>Step 7: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>6b7d6ee9-f662-4a57-bc12-6b6d93746a52</id>
+      <masked>false</masked>
+      <name>input_phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'CA'</defaultValue>
+      <description>Step 7: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>867265e6-9394-4194-a416-8d45b283659e</id>
+      <masked>false</masked>
+      <name>input_state</name>
+   </variable>
+   <variable>
+      <defaultValue>'95014'</defaultValue>
+      <description>Step 7: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>314a78a0-0023-48a6-8c33-b47c9b2ade58</id>
+      <masked>false</masked>
+      <name>input_zipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'Pink'</defaultValue>
+      <description>Step 3: Click on label productOption (pink) - (Dynamic locator variable)</description>
+      <id>e0d36685-2bbc-4f9c-a770-609bcdd1e6d9</id>
+      <masked>false</masked>
+      <name>label_productOption_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'256 GB'</defaultValue>
+      <description>Step 4: Click on label productOption (storageTwoHundredFiftySixGb) - (Dynamic locator variable)</description>
+      <id>e23d162a-ae80-4d27-a5b9-300fb65bb835</id>
+      <masked>false</masked>
+      <name>label_productOption_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=&quot;\\31 52208-case-758&quot;]'</defaultValue>
+      <description>Step 3: Click on label productOption (pink) - (Dynamic locator variable)</description>
+      <id>10c1c4fc-0ea5-4881-b385-b59730427a1a</id>
+      <masked>false</masked>
+      <name>label_productOption_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=&quot;\\31 52209-case-762&quot;]'</defaultValue>
+      <description>Step 4: Click on label productOption (storageTwoHundredFiftySixGb) - (Dynamic locator variable)</description>
+      <id>4fe28d4f-0b23-4f5d-85a8-5318d2d0f88c</id>
+      <masked>false</masked>
+      <name>label_productOption_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'115'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category) - (Dynamic URL variable)</description>
+      <id>5346e844-c4ba-49a5-8921-8d64f56f4ea6</id>
+      <masked>false</masked>
+      <name>product_category</name>
+   </variable>
+   <variable>
+      <defaultValue>'apple-airpods-pro-2'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-airpods-pro-2 with params (category) - (Dynamic URL variable)</description>
+      <id>55951902-79b0-4c25-ae0b-a2ac56b5f447</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+</TestCaseEntity>
