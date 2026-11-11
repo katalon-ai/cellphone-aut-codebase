@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Adjust the quantity of a product in the cart and complete checkout to place the order.</description>
+   <name>TC6-Adjust cart quantity and place an order</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>85b08882-d859-4d9e-827a-16522c5c2e0f</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7998a3d4-6e70-4df2-9d6f-0e647c02310b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>575881a4-1ba7-48db-9fa0-8df7806e518c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>55bca22d-0fa9-4850-ad67-2557ee974da7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98daf5b5-db3a-4258-af32-661dace41de8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d0c82d48-8582-4f52-9b66-db3c4a795401</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a847727-452c-419b-9728-c6f09ef132c3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cde893f5-b0de-4fd8-a1b3-14fd54b6cc97</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d5af8a3d-4bda-4c9c-8cdd-8643285a75a4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6e73bc3c-4ab1-4b9b-9a0a-63c384104b94</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1c1609af-4a6c-49f0-99b3-748a2b794471</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4949dd2a-652c-4ccd-aae9-ef41290513e7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa17ce0e-a68c-4351-860a-afd470132e74</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5661941b-fc79-4fda-a992-2d915b69ca26</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>99fbc357-ea1a-49a6-9be2-8c01eed40176</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a43a1b0d-7eeb-4295-a5df-cc977a4edaa6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>71d41a02-01ad-45b7-b178-c9686f31bf0e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Buy'</defaultValue>
+      <description>Step 2: Click on button buy -> Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>575881a4-1ba7-48db-9fa0-8df7806e518c</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 3: Click on button adjustQuantity (increase) - (Dynamic locator variable)</description>
+      <id>55bca22d-0fa9-4850-ad67-2557ee974da7</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_ButtonTitle_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Decreased'</defaultValue>
+      <description>Step 4: Click on button adjustQuantity (decrease) - (Dynamic locator variable)</description>
+      <id>98daf5b5-db3a-4258-af32-661dace41de8</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_ButtonTitle_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=&quot;btn\\ btn-action\\ btn-anim\\ btn-lg&quot;]'</defaultValue>
+      <description>Step 2: Click on button buy -> Navigate to page '/cart' - (Dynamic locator variable)</description>
+      <id>d0c82d48-8582-4f52-9b66-db3c4a795401</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'button:nth-of-type(2)'</defaultValue>
+      <description>Step 3: Click on button adjustQuantity (increase) - (Dynamic locator variable)</description>
+      <id>1a847727-452c-419b-9728-c6f09ef132c3</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'.input-group > button:nth-of-type(1)'</defaultValue>
+      <description>Step 4: Click on button adjustQuantity (decrease) - (Dynamic locator variable)</description>
+      <id>cde893f5-b0de-4fd8-a1b3-14fd54b6cc97</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_css_value_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'1 Smoke Test Way'</defaultValue>
+      <description>Step 5: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>d5af8a3d-4bda-4c9c-8cdd-8643285a75a4</id>
+      <masked>false</masked>
+      <name>input_addressLineOne</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cupertino'</defaultValue>
+      <description>Step 5: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>6e73bc3c-4ab1-4b9b-9a0a-63c384104b94</id>
+      <masked>false</masked>
+      <name>input_city</name>
+   </variable>
+   <variable>
+      <defaultValue>'qa@test.com'</defaultValue>
+      <description>Step 5: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>1c1609af-4a6c-49f0-99b3-748a2b794471</id>
+      <masked>false</masked>
+      <name>input_email</name>
+   </variable>
+   <variable>
+      <defaultValue>'SmokeTest'</defaultValue>
+      <description>Step 5: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>4949dd2a-652c-4ccd-aae9-ef41290513e7</id>
+      <masked>false</masked>
+      <name>input_firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Traffic'</defaultValue>
+      <description>Step 5: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>aa17ce0e-a68c-4351-860a-afd470132e74</id>
+      <masked>false</masked>
+      <name>input_lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'18005550123'</defaultValue>
+      <description>Step 5: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>5661941b-fc79-4fda-a992-2d915b69ca26</id>
+      <masked>false</masked>
+      <name>input_phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'CA'</defaultValue>
+      <description>Step 5: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>99fbc357-ea1a-49a6-9be2-8c01eed40176</id>
+      <masked>false</masked>
+      <name>input_state</name>
+   </variable>
+   <variable>
+      <defaultValue>'95014'</defaultValue>
+      <description>Step 5: Enter checkout contact and shipping details, then complete the order. - (Input data variable)</description>
+      <id>a43a1b0d-7eeb-4295-a5df-cc977a4edaa6</id>
+      <masked>false</masked>
+      <name>input_zipCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'iphone-15-clear-case-with-magsafe'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/iphone-15-clear-case-with-magsafe - (Dynamic URL variable)</description>
+      <id>71d41a02-01ad-45b7-b178-c9686f31bf0e</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+</TestCaseEntity>
