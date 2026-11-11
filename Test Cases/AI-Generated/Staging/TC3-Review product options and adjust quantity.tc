@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Review a product's options and adjust its quantity.</description>
+   <name>TC3-Review product options and adjust quantity</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>5a89e72d-7735-4796-a3e9-4db77601ed0e</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0654ff24-f6cb-40ed-abec-ce48a970b734</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>436c6990-2f91-43c9-aca0-9936237a8e62</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cc341ab0-c433-448c-88d5-691de85565fa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bbe3d9df-f737-4e80-b7b0-8ffd6e83a6fd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d69e66b2-68dc-49e7-8b8d-68b17ba6716f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>27f1bea3-2f71-45ec-9b0a-c491b6fd95e5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c851e797-bf52-4ee9-95ad-923094f5783d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b43bcbf8-6ed4-40f2-889d-4909164de1c6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 4: Click on button adjustQuantity (increase) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>436c6990-2f91-43c9-aca0-9936237a8e62</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=&quot;svg-inline--fa\\ fa-plus\\ fa-w-14\\ &quot;]'</defaultValue>
+      <description>Step 4: Click on button adjustQuantity (increase) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>cc341ab0-c433-448c-88d5-691de85565fa</id>
+      <masked>false</masked>
+      <name>button_adjustQuantity_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'Ultramarine'</defaultValue>
+      <description>Step 2: Click on label productOption (ultramarine) - (Dynamic locator variable)</description>
+      <id>bbe3d9df-f737-4e80-b7b0-8ffd6e83a6fd</id>
+      <masked>false</masked>
+      <name>label_productOption_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'128 GB'</defaultValue>
+      <description>Step 3: Click on label productOption (storageOneHundredTwentyEightGb2) - (Dynamic locator variable)</description>
+      <id>d69e66b2-68dc-49e7-8b8d-68b17ba6716f</id>
+      <masked>false</masked>
+      <name>label_productOption_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=&quot;\\31 52208-case-756&quot;]'</defaultValue>
+      <description>Step 2: Click on label productOption (ultramarine) - (Dynamic locator variable)</description>
+      <id>27f1bea3-2f71-45ec-9b0a-c491b6fd95e5</id>
+      <masked>false</masked>
+      <name>label_productOption_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=&quot;\\31 52209-case-761&quot;]'</defaultValue>
+      <description>Step 3: Click on label productOption (storageOneHundredTwentyEightGb2) - (Dynamic locator variable)</description>
+      <id>c851e797-bf52-4ee9-95ad-923094f5783d</id>
+      <masked>false</masked>
+      <name>label_productOption_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'apple-iphone-16'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/apple-iphone-16 - (Dynamic URL variable)</description>
+      <id>b43bcbf8-6ed4-40f2-889d-4909164de1c6</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+</TestCaseEntity>
