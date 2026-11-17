@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Select options on a product and adjust its quantity.</description>
+   <name>TC3-Select product options and adjust quantity</name>
+   <tag></tag>
+   <integratedEntity>
+      <productName>TESTOPS</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;status&quot;: &quot;DRAFT&quot;, &quot;source&quot;: &quot;User Session&quot;}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>TRUETEST</productName>
+      <properties>
+         <entry>
+            <key>flowId</key>
+            <value>5a89e72d-7735-4796-a3e9-4db77601ed0e</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <origin>TRUETEST</origin>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de4eee1b-0987-476e-87d0-4696b99a25fb</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0d20363c-ac53-43a9-afaf-86c287789ab2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4961726-541f-4471-ae50-bce27b4b9347</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f5ea31a3-bd9a-432e-b44b-5f59fd04e04f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c8eb559c-227f-44be-9075-f492e2a8b7fd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1fe0acd7-01a5-4a90-b69e-3b9a9f795882</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3ca028b9-bf78-4266-bf43-66283cff6442</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>36963c4c-2942-4494-9f6f-1b9a7aec961b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Increased'</defaultValue>
+      <description>Step 4: Click on button quantityAdjust (increase) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>0d20363c-ac53-43a9-afaf-86c287789ab2</id>
+      <masked>false</masked>
+      <name>button_quantityAdjust_ButtonTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>'[class=&quot;svg-inline--fa\\ fa-plus\\ fa-w-14\\ &quot;]'</defaultValue>
+      <description>Step 4: Click on button quantityAdjust (increase) -> Navigate to page '' - (Dynamic locator variable)</description>
+      <id>c4961726-541f-4471-ae50-bce27b4b9347</id>
+      <masked>false</masked>
+      <name>button_quantityAdjust_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'128 GB'</defaultValue>
+      <description>Step 2: Click on label productOption (storageOneHundredTwentyEightGb) - (Dynamic locator variable)</description>
+      <id>f5ea31a3-bd9a-432e-b44b-5f59fd04e04f</id>
+      <masked>false</masked>
+      <name>label_productOption_LabelInternalText</name>
+   </variable>
+   <variable>
+      <defaultValue>'BMW M Edition'</defaultValue>
+      <description>Step 3: Click on label productOption (bmwMEdition) - (Dynamic locator variable)</description>
+      <id>c8eb559c-227f-44be-9075-f492e2a8b7fd</id>
+      <masked>false</masked>
+      <name>label_productOption_LabelInternalText_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=&quot;\\31 52200-case-734&quot;]'</defaultValue>
+      <description>Step 2: Click on label productOption (storageOneHundredTwentyEightGb) - (Dynamic locator variable)</description>
+      <id>1fe0acd7-01a5-4a90-b69e-3b9a9f795882</id>
+      <masked>false</masked>
+      <name>label_productOption_css_value</name>
+   </variable>
+   <variable>
+      <defaultValue>'[for=&quot;\\31 52201-case-738&quot;]'</defaultValue>
+      <description>Step 3: Click on label productOption (bmwMEdition) - (Dynamic locator variable)</description>
+      <id>3ca028b9-bf78-4266-bf43-66283cff6442</id>
+      <masked>false</masked>
+      <name>label_productOption_css_value_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'samsung-galaxys23-ultra'</defaultValue>
+      <description>Step 1: Navigate to https://cellphoneshop-truetest-auto-staging.netlify.app/product/samsung-galaxys23-ultra - (Dynamic URL variable)</description>
+      <id>36963c4c-2942-4494-9f6f-1b9a7aec961b</id>
+      <masked>false</masked>
+      <name>product_id</name>
+   </variable>
+</TestCaseEntity>
